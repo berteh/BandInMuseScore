@@ -29,7 +29,10 @@ MuseScore {
     return(res);
   }
   
-  
+  function isMMAdirective(text) {
+    //TODO detect the text elements that should not be fed to MMA
+    return(true);
+  }
   
   function exportElement(elt) {
   
@@ -71,9 +74,14 @@ MuseScore {
           case Element.TIMESIG:
             result = '\nTimeSig '+elt.numerator+' '+elt.denominator;
             break;
+          case Element.STAFF_TEXT:
+            if(isMMAdirective(elt.text))
+              result = '\n'+elt.text;
+            else
+              result = '\n/* '+elt.text+' */';
+            break;
           //case Element.DYNAMIC:
           //case Element.CHORD:
-          //TODO include some generic text support to allow for other custom grooves codes.
           default:
             console.log(" - skipped " + elt._name());               
         } // end switch

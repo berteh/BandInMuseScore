@@ -1,0 +1,24 @@
+//MMA Midi Accompaniment generated from MuseScore
+//Roman Rock, Berteh
+
+TEMPO 120
+Groove Folk
+
+TimeSig 4 4
+KeySig Eb Maj
+Groove Metronome2-4
+z * 2
+groove BasicRock
+1  I
+2 
+3  V
+4 
+groove BasicRockSus
+5  iv
+6 
+7  IV
+8 
+groove BasicRockEnd
+9  I
+10 
+cut 
