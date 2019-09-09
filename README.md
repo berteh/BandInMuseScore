@@ -21,9 +21,9 @@ Then (for now) generate the mid (MIDI) file of the accompaniment from the comman
     musescore ./MMAtemp.mid
     
 ## Features
-MuseScore Chords, Tempo and Repeat Bars elements are natively supported.
+MuseScore __Chords__, __Tempo__ and (simple) __Repeat Bars__ elements are natively supported.
 
-Any __Staff Text__ element (shortcut crtl+T) in your score will be considered as a MMA directive and provided as such to the accompaniment generator. You can therewith change the groove, the instruments, add metronome clicks and do much more, such as in the Roman Rock in our  [example](https://github.com/berteh/BandInMuseScore/tree/master/example) directory: [MSCz](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock.mscz) > [MMA](https://github.com/berteh/BandInMuseScore/blob/master/example/Roman_Rock.mma) > [MIDI](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock.mid) > [MP3](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock_MMA.mp3) + [PDF](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock_MMA.pdf)
+Any __Staff Text__ element (shortcut ``CTRL+T``) in your score will be considered as a MMA directive and provided as such to the accompaniment generator. You can therewith change the groove, the instruments, add metronome clicks and do much more, such as in the Roman Rock in our  [example](https://github.com/berteh/BandInMuseScore/tree/master/example) directory: [MSCz](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock.mscz) > [MMA](https://github.com/berteh/BandInMuseScore/blob/master/example/Roman_Rock.mma) > [MIDI](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock.mid) > [MP3](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock_MMA.mp3) + [PDF](https://gitcdn.xyz/repo/berteh/BandInMuseScore/master/example/Roman_Rock_MMA.pdf)
 
 ![Illustration: Score with Roman chords and directive annotations](example/Roman_Rock.png)
 
