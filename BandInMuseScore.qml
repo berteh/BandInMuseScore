@@ -6,9 +6,17 @@ MuseScore {
   description: "Generate a band-like accompaniment on the basis of Chords and Grooves, using MMA Midi Accompaniment."
   version: "1.0"
   
+  //change default settings to your liking here.
+  //************************************************************
+  
+  property string defaultGroove : "Folk";
+  property int defaultTempo : 120;
+  property bool discardRepeats: false; //set to true for enabling copy-paste of generated midi into leadsheet despite repeat bars.
+  property string tempMMAfile : "./MMAtemp.mma";
+  // ********* thank you that's all for the settings ***********
+  
   property int measureIndex: 1;
   property var measureChords : [];
-  property bool discardRepeats: false; //set to true for enabling copy-paste of generated midi into leadsheet with repeat bars.
   //property int measureTick: 0; // provision for handling chords position in the measure
   
   QProcess {
@@ -25,7 +33,7 @@ MuseScore {
            res += ' '+chord["txt"];              
            chord = measureChords.shift();
     }
-    console.log("MMA chords: "+res);
+    console.log("MMA chords buffer is: "+res);
     return(res);
   }
   
@@ -42,15 +50,17 @@ MuseScore {
         switch(elt.type){
           case Element.HARMONY:
             if (! elt.text) {
-              console.log('ERROR parsing Harmony: Chord symbol is not yet parsed by MuseScore, please parse them all by transposing the whole score to Unison and run the plugin again. ');
-              Qt.quit();
+              console.log('Chord symbol is not yet parsed by MuseScore, forcing transpose to force parsing. Ugly workaround, you got better?');
+              //transpose up and back down to make sure harmony.text property is initialized.
+              cmd("transpose-up");
+              cmd("transpose-down");
             }
             console.log('buffering Harmony '+elt.text+" at " + elt.parent.tick);
             measureChords.push({ txt : elt.text, tick: elt.parent.tick })
             break;
           case Element.BAR_LINE:
           case Element.BARLINE: //saw this alternative syntax elsewhere, seems useless.
-            if (elt.parent.tick > 0) //in case a repeatbar is the first symbol)
+            if (elt.parent.tick > 0) //skip printing chords buffer when the Bar line is the first symbol of the track.
                   result = '\n'+ measureIndex++ +' '+ chordsToMMA() ;            
             if (elt.subtypeName() === "end") {
                   result += '\ncut ';
@@ -60,12 +70,10 @@ MuseScore {
                   result += '\nRepeatEnd';
             } else if (!discardRepeats && elt.subtypeName() === "end-start-repeat") {
                   result += '\nRepeatEnd\nRepeat';
-            } else {
-                  //
-            }
+            } 
             break;
           case Element.TEMPO_TEXT:
-            result = '\nTEMPO '+elt.tempo*60;
+            result = '\nTempo '+elt.tempo*60;
             break;
 /*          case Element.KEYSIG:
             result = '\nKeySig '+elt.key(); //todo can't read content of key from API?
@@ -98,13 +106,13 @@ MuseScore {
     request.open("PUT", fileUrl, false);
     request.send(text);
     console.log("MMA file written to "+fileUrl);
-          
+    //TODO give users feedback if failure to write
     return request.status;
   }
   
   function runMMA(file){
       //TODO fix error: "No data created. Did you remember to set a groove/sequence?"
-      console.log("running MMA is not automatic yet. Groove and styles likely not found. Kindly run the following command directly:\n  $ mma ./MMAtemp.mma  & musescore ./MMAtemp.mid");
+      console.log("running MMA is not automatic yet. Groove and styles likely not found. Kindly run the following command directly:\n  $ mma "+tempMMAfile+"  & musescore ./MMAtemp.mid");
       proc.start("mma "+file);
       var val = proc.waitForFinished(30000);
       if (val)
@@ -114,18 +122,13 @@ MuseScore {
   onRun: {
       if (typeof curScore === 'undefined')
          Qt.quit();
-      //TODO quit if no Harmony in score
-      
-      //transpose up and back down to make sure all chords are parsed 
-      //by MuseScore and their text property is set.
-      cmd("transpose-up");
-      cmd("transpose-down");
+      //TODO quit if no Harmony in score... or not to allow generation from only Staff Texts ?
       
       //init
       measureIndex = 1;
       var mmaTxt = "//MMA Midi Accompaniment generated from MuseScore\n"+
                    "//"+curScore.title+", "+curScore.composer+"\n"+
-                   "\nTEMPO 120\nGroove Folk\n";
+                   "\nTempo "+defaultTempo+"\nGroove "+defaultGroove+"\n"; //default values for mandatory, likely overriden later in Score.
                       
            
 /*
@@ -185,11 +188,11 @@ MuseScore {
       
       console.log("\nMMA:\n\n" + mmaTxt);
       
-      writeMMA("./MMAtemp.mma",mmaTxt);
-      runMMA("./MMAtemp.mma");
+      writeMMA(tempMMAfile,mmaTxt);
+      runMMA(tempMMAfile);
       //TODO generate mid, import mid in musescore and add original tracks to imported score. set its title, composer and more.
       
+      Qt.quit();
    } // end onRun
-   
-  	
+ 	
 }
