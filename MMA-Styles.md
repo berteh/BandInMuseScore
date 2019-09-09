@@ -1,5 +1,5 @@
 # Grooves from standard librairy
-By Bob van der Poel. These library files are presented as a proof-of-concept. A number
+By [Bob van der Poel](https://www.mellowood.ca/mma/). These library files are presented as a proof-of-concept. A number
 are sounding quite good, but many still need much more work to make
 them "musical".
 
@@ -19,7 +19,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/slowblues.mma | SlowBluesFill  | Full chord plus argeggio for fills. |
 | ./stdlib/slowblues.mma | SlowBluesFill1 |  Same as Fill but with straight 8ths. |
 | ./stdlib/slowblues.mma | SlowBluesFill2  | Full chord plus scale for fills. |
-| ./stdlib/slowblues.mma | SlowBluesFill3  |  | Same as fill2 but with straight 8ths. |
+| ./stdlib/slowblues.mma | SlowBluesFill3  |  Same as fill2 but with straight 8ths. |
 | ./stdlib/slowblues.mma | SlowBluesSus  | Our simple blues with the choir added. |
 | ./stdlib/slowblues.mma | SlowBluesWalk4 | Same as SlowBlues but with \ |
 | ./stdlib/slowblues.mma | SlowBluesWalk4Sus  | Choir added to Walk4. |
