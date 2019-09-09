@@ -26,10 +26,13 @@ __3.__ Create a new file named ``mma.bat`` in this last directory, with the foll
     cd %~dp0
     ..\python-3.7.4.amd64\python.exe mma.py %1 %2 %3 %5 %6
 
+__4.__ Initialize the database of all available grooves and sequences by running the following command in the MMA directory (via file explorer > go to MMA diretory (C:\WPython64\mma-bin-19.08) > File > Open Command Prompt:
 
-__4.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
+    mma -G
 
-__5.__ Edit the properties at the beginning of file ``BandInMuseScore.qml``to match your preferences: default groove name, tempo, and various files locations.
+__5.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
+
+__6.__ Edit the properties at the beginning of file ``BandInMuseScore.qml``to match your preferences: default groove name, tempo, and various files locations.
 
 ## Mac OS/X
 Likely very similar to the Linux install, at the beginning of this document. Please provide feedback & guidance if you have any experience.
