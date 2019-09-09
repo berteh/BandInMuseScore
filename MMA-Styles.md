@@ -7,7 +7,7 @@ Many of them were developed by listening carefully to the auto-accomp
 on his Casio keyboard and then manually re-creating.
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./stdlib/mellowjazz.mma | MellowJazz | A slow, steady beat. |
 | ./stdlib/mellowjazz.mma | MellowJazzPlus | Add in some random piano notes. |
 | ./stdlib/mellowjazz.mma | MellowJazzSus | Add strings to the mix. |
@@ -1040,7 +1040,7 @@ should be usable by MMA, with something like the following MMA directives:
 
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./yamaha/jazzswing.mma | JazzSwingMainA | 12 bar main A |
 | ./yamaha/jazzswing.mma | JazzSwingFillAA | 1 bar fill AA |
 | ./yamaha/jazzswing.mma | JazzSwingIntroA | 2 bar intro A |
@@ -1176,7 +1176,7 @@ files ... for much more [Kara-Moon style files](http://www.kara-moon.com/index.p
 please visit [their website](http://www.kara-moon.com).
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./kara/happyshuffle.mma | HappyshuffleA | Main A - piano, organ, drums, bass |
 | ./kara/happyshuffle.mma | HappyshuffleB | Main B add a accordion |
 | ./kara/happyshuffle.mma | HappyshuffleC | Main C more busy then Main B |
@@ -1298,16 +1298,18 @@ please visit [their website](http://www.kara-moon.com).
 # Other grooves
 See the README files in each directory for informations on authors and usage.
 
+| file | groove | description |
+| ---- | ---- | ---- |
 | ./alexis/hiphop.mma | HipHop | Rythmic line and off-beat pads |
 | ./alexis/hiphop.mma | HipHopSus | HipHop groove + basic strings |
 | ./alexis/hiphop.mma | HipHopPlus1 | Adds piano arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlus1 Piano arpeggios and strings |
-| ./alexis/hiphop.mma | HipHopPlus2 Adds sawtooth arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlus2 Sawtooth arpeggios and strings |
-| ./alexis/hiphop.mma | HipHopPlusPlus Sawtooth and piano arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlusPlus Sawtooth and piano arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopSusPlus1 |  Piano arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopPlus2 |  Adds sawtooth arpeggios |
+| ./alexis/hiphop.mma | HipHopSusPlus2  |  | Sawtooth arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopPlusPlus |  Sawtooth and piano arpeggios |
+| ./alexis/hiphop.mma | HipHopSusPlusPlus  | Sawtooth and piano arpeggios and strings |
 | ./alexis/hiphop.mma | HipHopIntro | Only drums and bass |
-| ./alexis/hiphop.mma | HipHopEnd Removes basses |
+| ./alexis/hiphop.mma | HipHopEnd  | Removes basses |
 | ./alexis/teamtechno.mma | TeamTechno A basic Techno groove. |
 | ./alexis/teamtechno.mma | TeamTechnoSus Add sustained strings. |
 | ./alexis/teamtechno.mma | TeamTechnoIntro Simple 1 bar intro. |
@@ -1358,8 +1360,8 @@ See the README files in each directory for informations on authors and usage.
 | ./pflib/16beat2.mma | 16beat2FA | 16 Beat 2, Section A Fill-in |
 | ./pflib/16beat2.mma | 16beat2FB | 16 Beat 2, Section B Fill-in |
 | ./pflib/16beat2.mma | 16beat2E | 16 Beat 2, Ending |
-| ./casio/oldieballad.mma | OldieBallad Main pattern, a 2 bar sequence. |
-| ./casio/oldieballad.mma | OldieBalladIntro A 4 bar introduction |
+| ./casio/oldieballad.mma | OldieBallad  | Main pattern, a 2 bar sequence. |
+| ./casio/oldieballad.mma | OldieBalladIntro  | A 4 bar introduction |
 | ./casio/oldieballad.mma | OldieBalladEnd | A 2 bar ending. |
 | ./casio/mellowrb.mma | MellowRB | Interesting rhythm. |
 | ./casio/mellowrb.mma | MellowRBIntro | A 4 bar intro |
@@ -1374,7 +1376,7 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/funk2.mma | Funk2Intro | A funky 4 bar introdution |
 | ./casio/funk2.mma | Funk2End | A funky 4 bar introdution |
 | ./casio/80spop.mma | 80sPop | Remember the 80s? |
-| ./casio/80spop.mma | 80sPopIntro A 4 bar intro |
+| ./casio/80spop.mma | 80sPopIntro  | A 4 bar intro |
 | ./casio/80spop.mma | 80sPopEnd | A 2 bar ending |
 | ./casio/16beatballad1.mma | 16BeatBallad1 | Our basic 2 bar pattern |
 | ./casio/16beatballad1.mma | 16BeatBallad1Intro A 4 bar intro |
@@ -1385,136 +1387,136 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/68ballad.mma | 68Ballad | A 4 bar pattern. |
 | ./casio/68ballad.mma | 68BalladIntro | A 4 bar introduction |
 | ./casio/68ballad.mma | 68BalladEnd | A 2 bar ending. |
-| ./casio/trance2.mma | Trance2 |
-| ./casio/trance2.mma | Trance2Intro |
-| ./casio/trance2.mma | Trance2End |
-| ./casio/quickstep.mma | QuickStep Basic 4 bar pattern |
-| ./casio/quickstep.mma | QuickStepIntro |
-| ./casio/quickstep.mma | QuickStepEnd |
+| ./casio/trance2.mma | Trance2 | | 
+| ./casio/trance2.mma | Trance2Intro | |  | 
+| ./casio/trance2.mma | Trance2End | | 
+| ./casio/quickstep.mma | QuickStep  | Basic 4 bar pattern |
+| ./casio/quickstep.mma | QuickStepIntro | | 
+| ./casio/quickstep.mma | QuickStepEnd | | 
 | ./casio/60spop.mma | 60sPop | A decent pop/rock rhythm. |
 | ./casio/60spop.mma | 60sPopIntro | A 4 bar intro |
 | ./casio/60spop.mma | 60sPopEnd | 2 bar ending |
-| ./casio/digitalrock.mma | DigitalRock Main pattern. |
-| ./casio/digitalrock.mma | DigitalRockIntro 4 bar introduction. |
+| ./casio/digitalrock.mma | DigitalRock  | Main pattern. |
+| ./casio/digitalrock.mma | DigitalRockIntro  | 4 bar introduction. |
 | ./casio/digitalrock.mma | DigitalRockEnd | 2 bar ending. |
-| ./casio/slowbigband.mma | SlowBigBand 4 bar pattern |
-| ./casio/slowbigband.mma | SlowBigBandIntro 4 bar introduction |
+| ./casio/slowbigband.mma | SlowBigBand  | 4 bar pattern |
+| ./casio/slowbigband.mma | SlowBigBandIntro  | 4 bar introduction |
 | ./casio/slowbigband.mma | SlowBigBandEnd | 2 bar endingxd |
-| ./casio/jazzcombo.mma | JazzCombo Basic 4 bar pattern |
-| ./casio/jazzcombo.mma | JazzComboIntro 4 bar introduction |
+| ./casio/jazzcombo.mma | JazzCombo Basic  | 4 bar pattern |
+| ./casio/jazzcombo.mma | JazzComboIntro  | 4 bar introduction |
 | ./casio/jazzcombo.mma | JazzComboEnd | 2 bar ending |
 | ./casio/heavymetal.mma | HeavyMetal | Basic pattern in 4. |
 | ./casio/heavymetal.mma | HeavyMetalIntro | A 4 bar intro. |
-| ./casio/heavymetal.mma | HeavyMetalEnd 2 bar ending. |
+| ./casio/heavymetal.mma | HeavyMetalEnd  | 2 bar ending. |
 | ./casio/popshuffle2.mma | PopShuffle2 | The main mover |
 | ./casio/popshuffle2.mma | PopShuffle2Intro | A 4 bar introduction |
-| ./casio/popshuffle2.mma | PopShuffle2End 2 bar ending |
+| ./casio/popshuffle2.mma | PopShuffle2End  | 2 bar ending |
 | ./casio/rave.mma | Rave | A repetitive beat to keep you dancing |
 | ./casio/rave.mma | RaveIntro | 4 bar intro. |
 | ./casio/rave.mma | RaveEnd | 2 bar ending |
-| ./casio/jazzwaltz.mma | JazzWaltz Basic 4 bar pattern |
-| ./casio/jazzwaltz.mma | JazzWaltzIntro 4 bar introduction |
-| ./casio/jazzwaltz.mma | JazzWaltzEnd 2 bar ending |
-| ./casio/poprock1.mma | PopRock1 A 70s style pop rock. |
+| ./casio/jazzwaltz.mma | JazzWaltz  |  | Basic 4 bar pattern |
+| ./casio/jazzwaltz.mma | JazzWaltzIntro  | 4 bar introduction |
+| ./casio/jazzwaltz.mma | JazzWaltzEnd  | 2 bar ending |
+| ./casio/poprock1.mma | PopRock1  | A 70s style pop rock. |
 | ./casio/poprock1.mma | PopRock1Intro | A 4 bar intro. |
 | ./casio/poprock1.mma | PopRock1End | A 2 bar ending. |
-| ./casio/foxtrot.mma | Foxtrot Basic 4 bar pattern |
-| ./casio/foxtrot.mma | FoxtrotIntro 4 bar introduction |
-| ./casio/foxtrot.mma | FoxtrotEnd |
-| ./casio/shuffleboogie.mma | ShuffleBoogie Main pattern |
-| ./casio/shuffleboogie.mma | ShuffleBoogieIntro 4 bar intro |
-| ./casio/shuffleboogie.mma | ShuffleBoogieEnd 2 bar ending |
-| ./casio/triphop.mma | TripHop Electronic dance beat. |
-| ./casio/triphop.mma | TripHopEnd A 2 bar ending. |
-| ./casio/triphop.mma | TripHopIntro A 4 bar intro |
+| ./casio/foxtrot.mma | Foxtrot Basic  |  | 4 bar pattern |
+| ./casio/foxtrot.mma | FoxtrotIntro  | 4 bar introduction |
+| ./casio/foxtrot.mma | FoxtrotEnd | | 
+| ./casio/shuffleboogie.mma | ShuffleBoogie  | Main pattern |
+| ./casio/shuffleboogie.mma | ShuffleBoogieIntro |  4 bar intro |
+| ./casio/shuffleboogie.mma | ShuffleBoogieEnd |  2 bar ending |
+| ./casio/triphop.mma | TripHop |  Electronic dance beat. |
+| ./casio/triphop.mma | TripHopEnd |  A 2 bar ending. |
+| ./casio/triphop.mma | TripHopIntro  | A 4 bar intro |
 | ./casio/16beatballad2.mma | 16BeatBallad2 | Basic 4 bar pattern. |
 | ./casio/16beatballad2.mma | 16BeatBallad2Intro | 4 bar introduction. |
-| ./casio/16beatballad2.mma | 16BeatBallad2End 2 bar ending |
+| ./casio/16beatballad2.mma | 16BeatBallad2End  | 2 bar ending |
 | ./casio/8beatpop2.mma | 8BeatPop2 | A latin-ish sounding pop rock. |
-| ./casio/8beatpop2.mma | 8BeatPop2End A 2 bar ending. |
+| ./casio/8beatpop2.mma | 8BeatPop2End |  A 2 bar ending. |
 | ./casio/8beatpop2.mma | 8BeatPop2Intro | It's a 4 bar intro, but not too great. |
-| ./casio/16beat1.mma | 16Beat1 Simple dance beat. |
-| ./casio/16beat1.mma | 16beat1End A 2 bar ending. |
-| ./casio/16beat1.mma | 16beat1Intro A 4 bar intro. |
+| ./casio/16beat1.mma | 16Beat1 |  Simple dance beat. |
+| ./casio/16beat1.mma | 16beat1End  | A 2 bar ending. |
+| ./casio/16beat1.mma | 16beat1Intro  | A 4 bar intro. |
 | ./casio/techno.mma | Techno | Main pattern |
-| ./casio/techno.mma | TechnoIntro 4 bar introduction |
+| ./casio/techno.mma | TechnoIntro  | 4 bar introduction |
 | ./casio/techno.mma | TechnoEnd | 2 bar ending |
 | ./casio/latinhouse.mma | LatinHouse | Basic rhythm. |
-| ./casio/latinhouse.mma | LatinHouseIntro 4 bar introduction |
-| ./casio/latinhouse.mma | LatinHouseEnd 2 bar ending |
+| ./casio/latinhouse.mma | LatinHouseIntro  |  | 4 bar introduction |
+| ./casio/latinhouse.mma | LatinHouseEnd  | 2 bar ending |
 | ./casio/fusion.mma | Fusion | Main fusion rhythm with horns. |
 | ./casio/fusion.mma | FusionIntro | A 4 bar intro with lots of horns |
 | ./casio/fusion.mma | FusionEnd | A 2 bar ending |
 | ./casio/dancepop2.mma | DancePop2 | Electronic dance beat |
-| ./casio/dancepop2.mma | DancePop2Intro 4 bar introduction |
-| ./casio/dancepop2.mma | DancePop2End 2 bar ending |
+| ./casio/dancepop2.mma | DancePop2Intro |  4 bar introduction |
+| ./casio/dancepop2.mma | DancePop2End  | 2 bar ending |
 | ./casio/8beatpop3.mma | 8BeatPop3 | A more driving 8 beat rhythm. |
 | ./casio/8beatpop3.mma | 8BeatPop3Intro | 4 bar intro. |
 | ./casio/8beatpop3.mma | 8BeatPop3End | 2 bar ending. |
-| ./casio/poprock2.mma | PopRock2 A cheery version. |
+| ./casio/poprock2.mma | PopRock2  | A cheery version. |
 | ./casio/poprock2.mma | PopRock2Intro | A 4 bar intro. |
 | ./casio/poprock2.mma | PopRock2End | A 2 bar ending. |
 | ./casio/pop.mma | Pop | A basic pop beat |
 | ./casio/pop.mma | PopEnd | A 2 bar ending |
 | ./casio/pop.mma | PopIntro | A 4 bar intro. |
-| ./casio/popwaltz.mma | PopWaltz |
-| ./casio/popwaltz.mma | PopWaltzIntro |
+| ./casio/popwaltz.mma | PopWaltz | | 
+| ./casio/popwaltz.mma | PopWaltzIntro | | 
 | ./casio/popwaltz.mma | PopWaltzEnd | A 2 bar ending |
 | ./casio/discosoul.mma | DiscoSoulIntro | 4 bar introduction |
 | ./casio/discosoul.mma | DiscoSoulEnd | 2 bar ending |
-| ./casio/modernjazz.mma | ModernJazz |
-| ./casio/modernjazz.mma | ModernJazzIntro |
-| ./casio/modernjazz.mma | ModernJazzEnd |
-| ./casio/ambient3.mma | Ambient3 |
-| ./casio/ambient3.mma | Ambient3Intro |
-| ./casio/ambient3.mma | Ambient3End |
+| ./casio/modernjazz.mma | ModernJazz | | 
+| ./casio/modernjazz.mma | ModernJazzIntro | | 
+| ./casio/modernjazz.mma | ModernJazzEnd | | 
+| ./casio/ambient3.mma | Ambient3 | | 
+| ./casio/ambient3.mma | Ambient3Intro | | 
+| ./casio/ambient3.mma | Ambient3End | | 
 | ./casio/slowswing.mma | SlowSwing | Basic 4 bar pattern |
 | ./casio/slowswing.mma | SlowSwingIntro 4 bar introduction |
-| ./casio/slowswing.mma | SlowSwingEnd |
+| ./casio/slowswing.mma | SlowSwingEnd | | 
 | ./casio/16shuffle2.mma | 16Shuffle2 | A goofy 16 beat shuffle. |
 | ./casio/16shuffle2.mma | 16Shuffle2Intro | A 4 bar introduction |
 | ./casio/16shuffle2.mma | 16Shuffle2End | A 2 bar ending |
 | ./casio/modernrb.mma | ModernR&B | Basic pattern |
-| ./casio/modernrb.mma | ModernR&BIntro 4 bar intro |
-| ./casio/modernrb.mma | ModernR&BEnd 2 bar ending |
-| ./casio/8beatballad3.mma | 8BeatBallad3 Basic track. |
+| ./casio/modernrb.mma | ModernR&BIntro  |  | 4 bar intro |
+| ./casio/modernrb.mma | ModernR&BEnd  | 2 bar ending |
+| ./casio/8beatballad3.mma | 8BeatBallad3  | Basic track. |
 | ./casio/8beatballad3.mma | 8BeatBallad3Intro | 4 bar intro |
-| ./casio/8beatballad3.mma | 8BeatBallad3End 2 bar end |
+| ./casio/8beatballad3.mma | 8BeatBallad3End  | 2 bar end |
 | ./casio/worldpop.mma | WorldPop | A percusion heavy beat |
 | ./casio/worldpop.mma | WorldPopIntro | 4 bar intro |
 | ./casio/worldpop.mma | WorldPopEnd | 2 bar ending |
-| ./casio/ambient1.mma | Ambient1 Basic 4 bar pattern |
-| ./casio/ambient1.mma | Ambient1Intro A 4 bar intro |
-| ./casio/ambient1.mma | Ambient1End A 2 bar ending |
+| ./casio/ambient1.mma | Ambient1  | Basic 4 bar pattern |
+| ./casio/ambient1.mma | Ambient1Intro  | A 4 bar intro |
+| ./casio/ambient1.mma | Ambient1End  | A 2 bar ending |
 | ./casio/soul.mma | Soul | A busy soul-like beat |
 | ./casio/soul.mma | SoulIntro | A busy 4 bar intro |
 | ./casio/soul.mma | SoulEnd | 2 bar ending |
 | ./casio/slow16beat.mma | Slow16Beat | For techno huggers. |
-| ./casio/slow16beat.mma | Slow16BeatIntro 4 bar introduction |
+| ./casio/slow16beat.mma | Slow16BeatIntro  | 4 bar introduction |
 | ./casio/slow16beat.mma | Slow16BeatEnd | 2 bar ending |
 | ./casio/serenade.mma | Serenade | Basic 1 bar pattern |
 | ./casio/serenade.mma | SerenadeIntro | 4 bar introduction |
 | ./casio/serenade.mma | SerenadeEnd | 2 bar ending. |
-| ./casio/8beat2.mma | 8Beat2 Harder version of the 8beat1 rhythm. |
+| ./casio/8beat2.mma | 8Beat2  | Harder version of the 8beat1 rhythm. |
 | ./casio/8beat2.mma | 8Beat2End | 2 bar ending. |
 | ./casio/8beat2.mma | 8Beat2Intro | 4 bar introduction. |
 | ./casio/fastbigband.mma | FastBigBand | Basic pattern |
-| ./casio/fastbigband.mma | FastBigBandIntro 4 bar introduction |
+| ./casio/fastbigband.mma | FastBigBandIntro  | 4 bar introduction |
 | ./casio/fastbigband.mma | FastBigBandEnd | 2 bar ending |
-| ./casio/60srock.mma | 60sRock Nice 4 bar main pattern |
+| ./casio/60srock.mma | 60sRock |  Nice 4 bar main pattern |
 | ./casio/60srock.mma | 60sRockIntro | 4 bar intro |
 | ./casio/60srock.mma | 60sRockEnd A 2 bar ending. |
-| ./casio/popballad.mma | PopBallad A basic rhythm |
-| ./casio/popballad.mma | PopBalladIntro A 4 bar introduction. |
+| ./casio/popballad.mma | PopBallad  | A basic rhythm |
+| ./casio/popballad.mma | PopBalladIntro  | A 4 bar introduction. |
 | ./casio/popballad.mma | PopBalladEnd | A 2 bar ending |
 | ./casio/rock2.mma | Rock2 | Main pattern |
-| ./casio/rock2.mma | Rock2Intro 4 bar introduction |
+| ./casio/rock2.mma | Rock2Intro  | 4 bar introduction |
 | ./casio/rock2.mma | Rock2End | 2 bar ending |
-| ./casio/blues.mma | Blues Main 4 bar pattern |
+| ./casio/blues.mma | Blues Main  | 4 bar pattern |
 | ./casio/blues.mma | BluesIntro | 4 bar intro |
 | ./casio/blues.mma | BluesEnd | 2 bar ending |
 | ./casio/r+b.mma | R&B | Main rhythm & blues groove |
-| ./casio/r+b.mma | R&BIntro 4 bar introduction |
+| ./casio/r+b.mma | R&BIntro  | 4 bar introduction |
 | ./casio/r+b.mma | R&BEnd | 2 bar ending |
 | ./casio/8beat1.mma | 8Beat1 | Basic 8beat pop-rock. |
 | ./casio/8beat1.mma | 8Beat1End | 2 bar ending. |
@@ -1525,66 +1527,66 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/60ssoul.mma | 60sSoul | A Supreme ryhthm. |
 | ./casio/60ssoul.mma | 60sSoulIntro | A 4 bar intro. |
 | ./casio/60ssoul.mma | 60sSoulEnd | A 2 bar ending. |
-| ./casio/slowrock.mma | SlowRock A boring 4 bar sequence |
+| ./casio/slowrock.mma | SlowRock  | A boring 4 bar sequence |
 | ./casio/slowrock.mma | SlowRockIntro | A 4 bar introduction |
-| ./casio/slowrock.mma | SlowRockEnd A 2 bar ending. |
+| ./casio/slowrock.mma | SlowRockEnd  | A 2 bar ending. |
 | ./casio/8beatpop1.mma | 8BeatPop1 | Good for old time rock and roll. |
-| ./casio/8beatpop1.mma | 8BeatPop1End A nice little 2 bar ending. |
-| ./casio/8beatpop1.mma | 8BeatPop1Intro A 4 bar introduction. |
+| ./casio/8beatpop1.mma | 8BeatPop1End  | A nice little 2 bar ending. |
+| ./casio/8beatpop1.mma | 8BeatPop1Intro | A 4 bar introduction. |
 | ./casio/trance1.mma | Trance1 | The basic pattern |
-| ./casio/trance1.mma | Trance1Intro |
-| ./casio/trance1.mma | Trance1End |
-| ./casio/dancepop3.mma | DancePop3 Basic electronic pop beat |
+| ./casio/trance1.mma | Trance1Intro | | 
+| ./casio/trance1.mma | Trance1End | | 
+| ./casio/dancepop3.mma | DancePop3  | Basic electronic pop beat |
 | ./casio/dancepop3.mma | DancePop3Intro | 4 bar introduction |
 | ./casio/dancepop3.mma | DancePop3End | 2 bar ending |
-| ./casio/rock1.mma | Rock1 |
+| ./casio/rock1.mma | Rock1 | | 
 | ./casio/rock1.mma | Rock1Intro | 4 bar introduction |
-| ./casio/rock1.mma | Rock1End 2 bar ending |
+| ./casio/rock1.mma | Rock1End  | 2 bar ending |
 | ./casio/16shuffle1.mma | 16Shuffle1 | 16 beat with shuffle |
 | ./casio/16shuffle1.mma | 16Shuffle1Intro | 4 bar introduction |
 | ./casio/16shuffle1.mma | 16Shuffle1End | 4 bar ending |
 | ./casio/house.mma | House | Main beat |
-| ./casio/house.mma | HouseIntro 4 bar introduction |
-| ./casio/house.mma | HouseEnd 2 bar ending |
+| ./casio/house.mma | HouseIntro |  4 bar introduction |
+| ./casio/house.mma | HouseEnd  | 2 bar ending |
 | ./casio/twist.mma | Twist | Basic pattern |
-| ./casio/twist.mma | TwistIntro A 4 bar introduction |
+| ./casio/twist.mma | TwistIntro  | A 4 bar introduction |
 | ./casio/twist.mma | TwistEnd | A 2 bar ending |
 | ./casio/16beatballad3.mma | 16BeatBallad3 | Basic pattern |
 | ./casio/16beatballad3.mma | 16BeatBallad3Intro | 4 bar introduction |
-| ./casio/16beatballad3.mma | 16BeatBallad3End 2 bar ending |
+| ./casio/16beatballad3.mma | 16BeatBallad3End  | 2 bar ending |
 | ./casio/hip-hop.mma | Hip-Hop | Our main pattern |
-| ./casio/hip-hop.mma | Hip-HopIntro A 4 bar introduction |
+| ./casio/hip-hop.mma | Hip-HopIntro  | A 4 bar introduction |
 | ./casio/hip-hop.mma | Hip-HopEnd | A 2 bar ending |
-| ./casio/dance1.mma | Dance1 Basic pattern |
-| ./casio/dance1.mma | Dance1Intro 4 bar introduction |
+| ./casio/dance1.mma | Dance1  | Basic pattern |
+| ./casio/dance1.mma | Dance1Intro  | 4 bar introduction |
 | ./casio/dance1.mma | Dance1End | 2 bar ending |
-| ./casio/8beatballad1.mma | 8BeatBallad1 A strumming minstrel. |
+| ./casio/8beatballad1.mma | 8BeatBallad1  | A strumming minstrel. |
 | ./casio/8beatballad1.mma | 8BeatBallad1Intro | 4 bar intro. |
-| ./casio/8beatballad1.mma | 8BeatBallad1End |
+| ./casio/8beatballad1.mma | 8BeatBallad1End | | 
 | ./casio/dance2.mma | Dance2 | Main pattern |
-| ./casio/dance2.mma | Dance2Intro 4 bar intro |
-| ./casio/dance2.mma | Dance2End 2 bar ending |
+| ./casio/dance2.mma | Dance2Intro  | 4 bar intro |
+| ./casio/dance2.mma | Dance2End  | 2 bar ending |
 | ./casio/8beatballad2.mma | 8BeatBallad2 | A 2 bar ballad. |
 | ./casio/8beatballad2.mma | 8BeatBallad2Intro | A 4 bar introduction |
 | ./casio/8beatballad2.mma | 8BeatBallad2End | A 2 bar ballad. |
 | ./casio/latinfusion.mma | LatinFusion | Busy latin rhythm. |
-| ./casio/latinfusion.mma | LatinFusionIntro 4 bar introduction |
-| ./casio/latinfusion.mma | LatinFusionEnd |
-| ./casio/ambient2.mma | Ambient2 Main pattern |
-| ./casio/ambient2.mma | Ambient2Intro A 4 bar introduction |
+| ./casio/latinfusion.mma | LatinFusionIntro  | 4 bar introduction |
+| ./casio/latinfusion.mma | LatinFusionEnd | | 
+| ./casio/ambient2.mma | Ambient2  | Main pattern |
+| ./casio/ambient2.mma | Ambient2Intro  | A 4 bar introduction |
 | ./casio/ambient2.mma | Ambient2End | A 2 bar ending |
 | ./casio/electricpop.mma | ElectricPop | Electronic Pop Dance Beat |
-| ./casio/electricpop.mma | ElectricPopIntro Electronic Pop |
-| ./casio/electricpop.mma | ElectricPopEnd Electronic Pop Ending |
+| ./casio/electricpop.mma | ElectricPopIntro  | Electronic Pop |
+| ./casio/electricpop.mma | ElectricPopEnd  | Electronic Pop Ending |
 | ./casio/16beat3.mma | 16Beat3 | A techno-sounding dance beat. |
 | ./casio/16beat3.mma | 16Beat3End | 2 Bar ending |
 | ./casio/16beat3.mma | 16Beat3Intro | 4 bar introduction |
 | ./casio/soulpop.mma | SoulPop | A basic pop, not too soulfull. |
-| ./casio/soulpop.mma | SoulPopIntro 4 bar intro |
-| ./casio/soulpop.mma | SoulPopEnd 2 bar ending |
-| ./casio/swing.mma | Swing Basic 4 bar pattern |
-| ./casio/swing.mma | SwingIntro |
-| ./casio/swing.mma | SwingEnd |
+| ./casio/soulpop.mma | SoulPopIntro  | 4 bar intro |
+| ./casio/soulpop.mma | SoulPopEnd  | 2 bar ending |
+| ./casio/swing.mma | Swing Basic  | 4 bar pattern |
+| ./casio/swing.mma | SwingIntro | | 
+| ./casio/swing.mma | SwingEnd | | 
 | ./casio/8beatdance.mma | 8BeatDance | Good if you are young. |
 | ./casio/8beatdance.mma | 8BeatDanceIntro | A 4 bar intro to the dance. |
 | ./casio/8beatdance.mma | 8BeatDanceEnd | A 2 bar end of dancing. |
@@ -1594,7 +1596,7 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/dancepop1.mma | DancePop1 | Electronic Dance beat. |
 | ./casio/dancepop1.mma | DancePop1Intro | Electronic Dance beat 4 bar intro. |
 | ./casio/dancepop1.mma | DancePop1End | Electronic Dance beat 2 bar ending. |
-| ./casio/16beat2.mma | 16Beat2 A light, arpeggiated dance. |
-| ./casio/16beat2.mma | 16Beat2Intro A 4 bar introduction. |
-| ./casio/16beat2.mma | 16Beat2End A 4 bar introduction. |
+| ./casio/16beat2.mma | 16Beat2  | A light, arpeggiated dance. |
+| ./casio/16beat2.mma | 16Beat2Intro  | A 4 bar introduction. |
+| ./casio/16beat2.mma | 16Beat2End  | A 4 bar introduction. |
 
