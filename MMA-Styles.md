@@ -1,5 +1,5 @@
 # Grooves from standard librairy
-By Bob van der Poel. These library files are presented as a proof-of-concept. A number
+By [Bob van der Poel](https://www.mellowood.ca/mma/). These library files are presented as a proof-of-concept. A number
 are sounding quite good, but many still need much more work to make
 them "musical".
 
@@ -7,33 +7,33 @@ Many of them were developed by listening carefully to the auto-accomp
 on his Casio keyboard and then manually re-creating.
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./stdlib/mellowjazz.mma | MellowJazz | A slow, steady beat. |
 | ./stdlib/mellowjazz.mma | MellowJazzPlus | Add in some random piano notes. |
 | ./stdlib/mellowjazz.mma | MellowJazzSus | Add strings to the mix. |
 | ./stdlib/mellowjazz.mma | MellowJazzSusPlus | Solo piano and strings. |
-| ./stdlib/mellowjazz.mma | MellowJazzFill A one bar fill. |
+| ./stdlib/mellowjazz.mma | MellowJazzFill |  A one bar fill. |
 | ./stdlib/mellowjazz.mma | MellowJazzIntro | Simple 4 bar intro. |
-| ./stdlib/mellowjazz.mma | MellowJazzEnd Simple 2 bar ending. |
+| ./stdlib/mellowjazz.mma | MellowJazzEnd  | Simple 2 bar ending. |
 | ./stdlib/slowblues.mma | SlowBlues | Simple guitar chords. |
-| ./stdlib/slowblues.mma | SlowBluesFill Full chord plus argeggio for fills. |
-| ./stdlib/slowblues.mma | SlowBluesFill1 Same as Fill but with straight 8ths. |
-| ./stdlib/slowblues.mma | SlowBluesFill2 Full chord plus scale for fills. |
-| ./stdlib/slowblues.mma | SlowBluesFill3 Same as fill2 but with straight 8ths. |
-| ./stdlib/slowblues.mma | SlowBluesSus Our simple blues with the choir added. |
+| ./stdlib/slowblues.mma | SlowBluesFill  | Full chord plus argeggio for fills. |
+| ./stdlib/slowblues.mma | SlowBluesFill1 |  Same as Fill but with straight 8ths. |
+| ./stdlib/slowblues.mma | SlowBluesFill2  | Full chord plus scale for fills. |
+| ./stdlib/slowblues.mma | SlowBluesFill3  |  Same as fill2 but with straight 8ths. |
+| ./stdlib/slowblues.mma | SlowBluesSus  | Our simple blues with the choir added. |
 | ./stdlib/slowblues.mma | SlowBluesWalk4 | Same as SlowBlues but with \ |
-| ./stdlib/slowblues.mma | SlowBluesWalk4Sus Choir added to Walk4. |
+| ./stdlib/slowblues.mma | SlowBluesWalk4Sus  | Choir added to Walk4. |
 | ./stdlib/slowblues.mma | SlowBluesWalk8 | Same as SlowBlues but with a strong eight \ |
-| ./stdlib/slowblues.mma | SlowBluesWalk8Sus Choir added to Walk8. |
+| ./stdlib/slowblues.mma | SlowBluesWalk8Sus  | Choir added to Walk8. |
 | ./stdlib/slowblues.mma | SlowBlues12Triple | Triplets on beats 1,2. |
 | ./stdlib/slowblues.mma | SlowBlues34Triple | Triplets on beats 3,4. |
 | ./stdlib/slowblues.mma | SlowBlues4Triple | Triplets on beats 1,2,3 and 4. |
-| ./stdlib/slowblues.mma | SlowBluesIntro Standard 4 bar introduction with walking bass on 4th bar. |
-| ./stdlib/slowblues.mma | SlowBluesEnd Quite a dull ending. The High Hats play 16 \ |
+| ./stdlib/slowblues.mma | SlowBluesIntro  | Standard 4 bar introduction with walking bass on 4th bar. |
+| ./stdlib/slowblues.mma | SlowBluesEnd  | Quite a dull ending. The High Hats play 16 \ |
 | ./stdlib/jive.mma | Jive | A simple jive-dance beat. |
 | ./stdlib/jive.mma | JiveClap | Adds a handclap to the Jive beat, mostly on 2 and 4. |
 | ./stdlib/jive.mma | JiveSus | Harmonic strings added. |
-| ./stdlib/jive.mma | JiveClapSus Sustained strings with handclaps. |
+| ./stdlib/jive.mma | JiveClapSus  | Sustained strings with handclaps. |
 | ./stdlib/jive.mma | JivePlus | Add some additional arpeggios. |
 | ./stdlib/jive.mma | JiveSusPlus | Arpeggios plus strings. |
 | ./stdlib/jive.mma | Jive1 | Our jive-dance with less shuffle. |
@@ -51,27 +51,27 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/folkrock.mma | FolkRockSus | Add in some synthesized voices. |
 | ./stdlib/folkrock.mma | FolkRockSusPlus | Piano fills and voices. |
 | ./stdlib/folkrock.mma | FolkRockFill | A noisy, one bar fill. |
-| ./stdlib/folkrock.mma | FolkRockIntro Simple four bar intro. |
-| ./stdlib/folkrock.mma | FolkRockEnd A 2 bar ending |
-| ./stdlib/softshoe.mma | Softshoe Nice little dance beat with _shuffles_ on bar 3 and 4. |
+| ./stdlib/folkrock.mma | FolkRockIntro  | Simple four bar intro. |
+| ./stdlib/folkrock.mma | FolkRockEnd  | A 2 bar ending |
+| ./stdlib/softshoe.mma | Softshoe  | Nice little dance beat with _shuffles_ on bar 3 and 4. |
 | ./stdlib/softshoe.mma | SoftShoePlus | Add a cool clarinet. |
 | ./stdlib/softshoe.mma | SoftShoeSus | Add sustained strings. |
 | ./stdlib/softshoe.mma | SoftShoeSusPlus | Add the cool clarinet and strings. |
 | ./stdlib/softshoe.mma | SoftShoeIntro | A 4 bar introduction. |
 | ./stdlib/softshoe.mma | SoftShoeIntro8 | Same intro over 8 bars. |
 | ./stdlib/softshoe.mma | SoftShoeEnd | 2 bar ending with nice walk on first bar. |
-| ./stdlib/nitejazz.mma | NiteJazz Our basic sultry beat. |
+| ./stdlib/nitejazz.mma | NiteJazz  | Our basic sultry beat. |
 | ./stdlib/nitejazz.mma | NiteJazzSus | Add in some strings |
 | ./stdlib/nitejazz.mma | NiteJazzPlus | Add in some jazz guitar picking. |
 | ./stdlib/nitejazz.mma | NiteJazzSusPlus | Guitar picking and sustained low strings. |
 | ./stdlib/nitejazz.mma | NiteJazzIntro | Simple 4 bar intro with bass walk on 4. |
-| ./stdlib/nitejazz.mma | NiteJazzEnd 2 bar ending. |
+| ./stdlib/nitejazz.mma | NiteJazzEnd  | 2 bar ending. |
 | ./stdlib/countryswing.mma | CountrySwing | Marty Robbins might like this. |
 | ./stdlib/countryswing.mma | CountrySwingSus | Adds a sustained fiddle to the hoedown. |
 | ./stdlib/countryswing.mma | CountrySwing1 | Adds an annoying fiddle. |
-| ./stdlib/countryswing.mma | CountrySwing1Sus Now we have 2 fiddlers, one off in wonderland \ |
+| ./stdlib/countryswing.mma | CountrySwing1Sus  | Now we have 2 fiddlers, one off in wonderland \ |
 | ./stdlib/countryswing.mma | CountrySwing2 | Same fiddle, but a more sane pattern. |
-| ./stdlib/countryswing.mma | CountrySwing2Sus A sustained and a random fiddler. Great dance! |
+| ./stdlib/countryswing.mma | CountrySwing2Sus  | A sustained and a random fiddler. Great dance! |
 | ./stdlib/countryswing.mma | CountrySwingIntro | Simple 4 bar introduction. |
 | ./stdlib/countryswing.mma | CountrySwingEnd | Simple ending. Hits on each beat on bar 1, \ |
 | ./stdlib/jazzguitar.mma | JazzGuitar | A very basic 4 to the bar accompaniment. |
@@ -79,13 +79,13 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/jazzguitar.mma | JazzGuitar1 | Our basic pattern with arpeggios every 4th bar. |
 | ./stdlib/jazzguitar.mma | JazzGuitar1Walk | Walking bass with arpeggios every 4th bar. |
 | ./stdlib/jazzguitar.mma | JazzGuitar2 | Basic pattern with more strum and syncopation. |
-| ./stdlib/jazzguitar.mma | JazzGuitar2Walk The strum pattern with walking bass |
+| ./stdlib/jazzguitar.mma | JazzGuitar2Walk | The strum pattern with walking bass |
 | ./stdlib/jazzguitar.mma | JazzGuitar3 | Add arpeggios every 4 bars to the syncopated strumming. |
-| ./stdlib/jazzguitar.mma | JazzGuitar3Walk Aprpeggios and walking bass. |
+| ./stdlib/jazzguitar.mma | JazzGuitar3Walk  | Aprpeggios and walking bass. |
 | ./stdlib/jazzguitar.mma | JazzGuitarSus | Sustained strings added to basic pattern. |
 | ./stdlib/jazzguitar.mma | JazzGuitar1Sus | Sustained strings added to JazzGuitar1. |
 | ./stdlib/jazzguitar.mma | JazzGuitar2Sus | Sustained strings added to JazzGuitar2. |
-| ./stdlib/jazzguitar.mma | JazzGuitar3 |
+| ./stdlib/jazzguitar.mma | JazzGuitar3 | | 
 | ./stdlib/jazzguitar.mma | JazzGuitar3Sus | Sustained strings added to JazzGuitar3 |
 | ./stdlib/jazzguitar.mma | JazzGuitarWalkSus | Sustained strings added to JazzGuitarWalk. |
 | ./stdlib/jazzguitar.mma | JazzGuitar1WalkSus | Sustained strings added to JazzGuitarWalk1. |
@@ -98,36 +98,36 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/jazzguitar.mma | JazzGuitarSusPlus | Basic with strings and random notes. |
 | ./stdlib/jazzguitar.mma | JazzGuitarWalkSusPlus | Walking version with strings and random notes. |
 | ./stdlib/jazzguitar.mma | JazzGuitar2WalkSusPlus | Syncopated walking version with strings and random notes. |
-| ./stdlib/jazzguitar.mma | JazzGuitarFill Changes the guitar strum and walk to 2 \ |
+| ./stdlib/jazzguitar.mma | JazzGuitarFill  | Changes the guitar strum and walk to 2 \ |
 | ./stdlib/jazzguitar.mma | JazzGuitarFill1 | Guitar stums eight note tripets on 1 and 2. |
-| ./stdlib/jazzguitar.mma | JazzGuitarIntro A 4 bar, arpeggiating introduction. |
+| ./stdlib/jazzguitar.mma | JazzGuitarIntro | A 4 bar, arpeggiating introduction. |
 | ./stdlib/jazzguitar.mma | JazzGuitar1Intro | A 4 bar intro with a bass run on bar 4. |
-| ./stdlib/jazzguitar.mma | JazzGuitarEnd Soft, 2 bar ending. |
-| ./stdlib/jazzguitar.mma | JazzGuitarEnd1 Soft, 1 bar ending. |
+| ./stdlib/jazzguitar.mma | JazzGuitarEnd  | Soft, 2 bar ending. |
+| ./stdlib/jazzguitar.mma | JazzGuitarEnd1  | Soft, 1 bar ending. |
 | ./stdlib/slowbroadway.mma | SlowBroadway | A corny Broadway tune rhythm. |
 | ./stdlib/slowbroadway.mma | SlowBroadway1 | Add in arpegiating flute. |
 | ./stdlib/slowbroadway.mma | SlowBroadwaySus | Add sustained strings. |
 | ./stdlib/slowbroadway.mma | SlowBroadway1Sus | Sustained strings and apregiating flute. |
 | ./stdlib/slowbroadway.mma | SlowBroadwayIntro | Simple 4 bar intro. |
-| ./stdlib/quickstep.mma | QuickStep Snappy quickstep, good for showtunes. |
+| ./stdlib/quickstep.mma | QuickStep  | Snappy quickstep, good for showtunes. |
 | ./stdlib/quickstep.mma | QuickStepHit | Brass hits on 1, 4 and 4.5. |
 | ./stdlib/quickstep.mma | QuickStepSus | Sustained version with strings. |
 | ./stdlib/quickstep.mma | QuickStepHitSus | Sustains with hits. |
 | ./stdlib/quickstep.mma | QuickStepDuh | Some vocalization over the basic beat. |
 | ./stdlib/quickstep.mma | QuickStepDuhSus | Sustains with vocalization. |
 | ./stdlib/quickstep.mma | QuickStepWalk | Basic pattern with walking bass. |
-| ./stdlib/quickstep.mma | QuickStepIntro8 The 4 bar intro stretched to 8. |
-| ./stdlib/quickstep.mma | QuickStepEnd Two bar ending. |
+| ./stdlib/quickstep.mma | QuickStepIntro8  | The 4 bar intro stretched to 8. |
+| ./stdlib/quickstep.mma | QuickStepEnd | 2 bar ending. |
 | ./stdlib/rockballad.mma | RockBallad | Basic beat with triplet Hi-Hats. |
 | ./stdlib/rockballad.mma | RockBallad1 | Same as the basic pattern, but skips the chord triplet on bar 4. |
 | ./stdlib/rockballad.mma | RockBalladFill | Add guitar arpeggios. |
 | ./stdlib/rockballad.mma | RockBallad1Fill | Guitar apreggio fills without 4th bar triplets. |
 | ./stdlib/rockballad.mma | RockBalladVoice | Adds some cheese with choir voices. |
 | ./stdlib/rockballad.mma | RockBallad1Voice | Cheese without 4th bar triplets. |
-| ./stdlib/rockballad.mma | RockBalladIntro 4 bar intro. |
-| ./stdlib/rockballad.mma | RockBalladSusIntro 4 bar intro with mostly strings. |
+| ./stdlib/rockballad.mma | RockBalladIntro  | 4 bar intro. |
+| ./stdlib/rockballad.mma | RockBalladSusIntro  |  4 bar intro with mostly strings. |
 | ./stdlib/rockballad.mma | RockBalladEnd | Ending with a scaling tenor sax. Use Seq 1 \ |
-| ./stdlib/rockballad.mma | RockBalladEnd1 Simple 2 bar ending. |
+| ./stdlib/rockballad.mma | RockBalladEnd1  | Simple 2 bar ending. |
 | ./stdlib/frenchwaltz.mma | FrenchWaltz | Accordion umm-pa-pa. Ya either love it or hate it! |
 | ./stdlib/frenchwaltz.mma | FrenchWaltzSus | Add sustained strings to basic pattern. |
 | ./stdlib/frenchwaltz.mma | FrenchWaltz1 | FrenchWaltz with with accordion apreggios. |
@@ -146,11 +146,11 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/frenchwaltz.mma | FrenchWaltzEnd | A scale with the strings to end \ |
 | ./stdlib/frenchwaltz.mma | FrenchWaltz1End | Same ending as FrenchWaltzEnd but with \ |
 | ./stdlib/jazzcombo.mma | JazzCombo | A driving, straight-ahead jazz beat. |
-| ./stdlib/jazzcombo.mma | JazzCombo1 Basic beat with straighter piano |
+| ./stdlib/jazzcombo.mma | JazzCombo1 |  Basic beat with straighter piano |
 | ./stdlib/jazzcombo.mma | JazzCombo2 | The basic beat with added drums. |
 | ./stdlib/jazzcombo.mma | JazzComboSus | Add some string players to the quartet. |
-| ./stdlib/jazzcombo.mma | JazzCombo1Sus Strings and straighter piano. |
-| ./stdlib/jazzcombo.mma | JazzCombo2Sus Strings plus added drums. |
+| ./stdlib/jazzcombo.mma | JazzCombo1Sus  | Strings and straighter piano. |
+| ./stdlib/jazzcombo.mma | JazzCombo2Sus  | Strings plus added drums. |
 | ./stdlib/jazzcombo.mma | JazzComboPlus | Guitar plays pseudo melody instead of rhythm. |
 | ./stdlib/jazzcombo.mma | JazzCombo1Plus | Guitar melody with staighter piano. |
 | ./stdlib/jazzcombo.mma | JazzCombo2Plus | More drums with guitar melody. |
@@ -158,15 +158,15 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/jazzcombo.mma | JazzCombo1SusPlus | Strings, straight chords and guitar. |
 | ./stdlib/jazzcombo.mma | JazzCombo2SusPlus | Strings, drums and guitar. |
 | ./stdlib/jazzcombo.mma | JazzComboIntro | A 4 bar introduction. |
-| ./stdlib/jazzcombo.mma | JazzComboIntro2 Same intro with less stuff going on. |
+| ./stdlib/jazzcombo.mma | JazzComboIntro2  | Same intro with less stuff going on. |
 | ./stdlib/jazzcombo.mma | JazzComboEnd | Simple 2 bar ending. |
 | ./stdlib/fastblues.mma | FastBlues | Fast blues with a bit of R&B. |
 | ./stdlib/fastblues.mma | FastBluesSus | Adds sustained strings to FastBlues |
-| ./stdlib/fastblues.mma | FastBluesWalk Change bass line from 1/5 to walking. |
+| ./stdlib/fastblues.mma | FastBluesWalk  | Change bass line from 1/5 to walking. |
 | ./stdlib/fastblues.mma | FastBluesWalkSus | Walking bass version with sustained strings. |
 | ./stdlib/fastblues.mma | FastBlues1 | A more rowdy version, with alternating bars of \ |
 | ./stdlib/fastblues.mma | FastBlues1Sus | Who invited the violin guys to the blues party? |
-| ./stdlib/none.mma | None A silent groove. |
+| ./stdlib/none.mma | None  | A silent groove. |
 | ./stdlib/slowjazz.mma | SlowJazz | Slow, basic jazz backup track. |
 | ./stdlib/slowjazz.mma | SlowJazzSus | Bring in the orchestra. |
 | ./stdlib/slowjazz.mma | SlowJazzWalk | Change bass to walk on 1/2/3/4. |
@@ -176,15 +176,15 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/slowjazz.mma | SlowJazz1 | Slow jazz piano with a straight rhythm. |
 | ./stdlib/slowjazz.mma | SlowJazz1Sus | Add sustained strings to straight slow jazz. |
 | ./stdlib/slowjazz.mma | SlowJazz1Walk | Slow, straight piano jazz with walking bass. |
-| ./stdlib/slowjazz.mma | SlowJazz1WalkSus Slow, straight walking with strings. |
+| ./stdlib/slowjazz.mma | SlowJazz1WalkSus | Slow, straight walking with strings. |
 | ./stdlib/slowjazz.mma | SlowJazz1Plus | Straight chords with plucked background melody. |
 | ./stdlib/slowjazz.mma | SlowJazz1SusPlus | Straight chords, strings and plucked background melody. |
 | ./stdlib/slowjazz.mma | SlowJazz2 | A pretty straight, guitar strum for slow tunes. |
 | ./stdlib/slowjazz.mma | SlowJazz2Sus | Straight guitar with sustained Hammond-like organ. |
 | ./stdlib/slowjazz.mma | SlowJazzFill | One bar fill with a decending bass walk. |
-| ./stdlib/slowjazz.mma | SlowJazzIntro A 4 bar introduction. |
-| ./stdlib/slowjazz.mma | SlowJazz1Intro 4 bar intro without push chords. |
-| ./stdlib/slowjazz.mma | SlowJazz2Intro A 4 bar intro with organ |
+| ./stdlib/slowjazz.mma | SlowJazzIntro  | A 4 bar introduction. |
+| ./stdlib/slowjazz.mma | SlowJazz1Intro  |  | 4 bar intro without push chords. |
+| ./stdlib/slowjazz.mma | SlowJazz2Intro  | A 4 bar intro with organ |
 | ./stdlib/slowjazz.mma | SlowJazzEnd | An easy, 2 bar ending. |
 | ./stdlib/slowjazz.mma | SlowJazz2End | Substitute organ for Piano. |
 | ./stdlib/descendingjazz.mma | DescendingJazz | A walking style with decending chords. |
@@ -208,19 +208,19 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/vienesewaltz.mma | VieneseWaltz1 | Our VieneseWaltz with light, eight note arpeggios. |
 | ./stdlib/vienesewaltz.mma | VieneseWaltz1Sus | Waltz with arpeggios and strings. |
 | ./stdlib/vienesewaltz.mma | VieneseWaltz2 | Musicbox sounds with piano. |
-| ./stdlib/vienesewaltz.mma | VieneseWaltz2Sus Musicbox with piano and strings. |
+| ./stdlib/vienesewaltz.mma | VieneseWaltz2Sus | Musicbox with piano and strings. |
 | ./stdlib/vienesewaltz.mma | VieneseWaltzIntro | Simple 4 bar introduction. |
 | ./stdlib/vienesewaltz.mma | VieneseWaltzEnd | A 4 bar ending. Set SEQ so that the \ |
 | ./stdlib/8beat.mma | 8Beat | Good for oldish rock stuff. |
 | ./stdlib/8beat.mma | 8BeatSus | Adds sustained string to 8Beat. |
 | ./stdlib/8beat.mma | 8Beat1 | Adds interest to bass line with alternate walking bars. |
-| ./stdlib/8beat.mma | 8Beat1Sus Adds sustained string to 8Beat1. |
+| ./stdlib/8beat.mma | 8Beat1Sus | Adds sustained string to 8Beat1. |
 | ./stdlib/8beat.mma | 8BeatPlus | Adds a bit of random piano. |
-| ./stdlib/8beat.mma | 8BeatSusPlus Strings and random piano. |
-| ./stdlib/8beat.mma | 8Beat1Plus Interesting bass line and piano. |
-| ./stdlib/8beat.mma | 8Beat1SusPlus Interesting bass, piano and strings. |
+| ./stdlib/8beat.mma | 8BeatSusPlus  | Strings and random piano. |
+| ./stdlib/8beat.mma | 8Beat1Plus  | Interesting bass line and piano. |
+| ./stdlib/8beat.mma | 8Beat1SusPlus  | Interesting bass, piano and strings. |
 | ./stdlib/8beat.mma | 8BeatIntro | Straight-ahead four bar introduction. |
-| ./stdlib/8beat.mma | 8BeatFill A single bar fill, mostly drums. |
+| ./stdlib/8beat.mma | 8BeatFill  | A single bar fill, mostly drums. |
 | ./stdlib/8beat.mma | 8BeatEnd | Simple ending. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltz | Basic fast jazz waltz. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltzSus | Strings added to our waltz. |
@@ -229,8 +229,8 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltz2 | Add VoiceOohs. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltz2Sus | Sustained strings and DUH voices. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltzIntro | 4 bar intro. |
-| ./stdlib/fastjazzwaltz.mma | FastJazzWaltzIntro8 8 bar intro. |
-| ./stdlib/fastjazzwaltz.mma | FastJazzWaltzFill Single bar fill, can be used in endings. |
+| ./stdlib/fastjazzwaltz.mma | FastJazzWaltzIntro8  | 8 bar intro. |
+| ./stdlib/fastjazzwaltz.mma | FastJazzWaltzFill  | Single bar fill, can be used in endings. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltzEnd | Simple ending. |
 | ./stdlib/fastjazzwaltz.mma | FastJazzWaltz1End | Ending with arpeggio eights and quarters. |
 | ./stdlib/afro-cuban.mma | Afro-Cuban | Basic 6/8 Afro-Cuban style. |
@@ -238,13 +238,13 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/hillcountry.mma | HillCountryPlus | Adds in another banjo. |
 | ./stdlib/hillcountry.mma | HillCountrySus | Why not strings in the hills? |
 | ./stdlib/hillcountry.mma | HillCountrySusPlus | Strings and banjos! |
-| ./stdlib/hillcountry.mma | HillCountryFill Single bar fill with walking bass, good for repeats. |
-| ./stdlib/hillcountry.mma | HillCountryIntro A basic 4 bar intro. |
-| ./stdlib/hillcountry.mma | HillCountryEnd An abrupt 2 bar ending. |
+| ./stdlib/hillcountry.mma | HillCountryFill  | Single bar fill with walking bass, good for repeats. |
+| ./stdlib/hillcountry.mma | HillCountryIntro | A basic 4 bar intro. |
+| ./stdlib/hillcountry.mma | HillCountryEnd  | An abrupt 2 bar ending. |
 | ./stdlib/rb.mma | R&B | Basic Rythmn and Blues. |
 | ./stdlib/rb.mma | R&BSus | Change rhythmic organ to sustained chords. |
 | ./stdlib/rb.mma | R&BPlus | Our basic rhythm with some nice picking. |
-| ./stdlib/rb.mma | R&BSusPlus Sustained with picking. |
+| ./stdlib/rb.mma | R&BSusPlus | Sustained with picking. |
 | ./stdlib/rb.mma | R&BIntro | A bit laid-back, 4 bar intro. |
 | ./stdlib/rb.mma | R&BEnd | Ending for R&B. |
 | ./stdlib/foxtrot.mma | Foxtrot | Basic Foxtrot. |
@@ -254,31 +254,31 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/foxtrot.mma | FoxTrot1Sus | TremoloStrings added to FoxTrot1. |
 | ./stdlib/foxtrot.mma | FoxTrot1Plus | Add arpeggio piano to FoxTrot1 |
 | ./stdlib/foxtrot.mma | FoxTrot1SusPlus | Add arpeggio and sustained strings. |
-| ./stdlib/foxtrot.mma | FoxTrotIntro Walking bass intro. |
-| ./stdlib/foxtrot.mma | FoxTrot1Intro Intro based on FoxTrot1 (with saxes). |
+| ./stdlib/foxtrot.mma | FoxTrotIntro | Walking bass intro. |
+| ./stdlib/foxtrot.mma | FoxTrot1Intro | Intro based on FoxTrot1 (with saxes). |
 | ./stdlib/foxtrot.mma | FoxtrotFill | A 2 bar fill with a rather heavy walking bass. |
 | ./stdlib/foxtrot.mma | FoxTrotEnd | Simple ending, 4 beats on first bar and 2 \ |
 | ./stdlib/foxtrot.mma | FoxTrot1End | Ending based on Foxtrot1. |
 | ./stdlib/hymn.mma | Hymn | A simple hymn accompaniment. |
-| ./stdlib/hymn.mma | HymnRoot The same hymn with chords in root position. |
-| ./stdlib/hymn.mma | HymnWalk Basic hymn with walking bass. |
-| ./stdlib/hymn.mma | HymnRootWalk Hymn in root position with walking bass. |
+| ./stdlib/hymn.mma | HymnRoot  | The same hymn with chords in root position. |
+| ./stdlib/hymn.mma | HymnWalk  | Basic hymn with walking bass. |
+| ./stdlib/hymn.mma | HymnRootWalk |  Hymn in root position with walking bass. |
 | ./stdlib/hymn.mma | HymnPlus | Some heavenly voices added in. |
 | ./stdlib/hymn.mma | HymnWalkPlus | Walking bass with voices. |
 | ./stdlib/hymn.mma | HymnRootPlus | Root chords with voices. |
-| ./stdlib/hymn.mma | HymnRootWalkPlus Root chords with walk and voices. |
-| ./stdlib/hymn.mma | HymnIntro A simple sustained intro. |
-| ./stdlib/hymn.mma | HymnEnd A 2 bar ending. |
+| ./stdlib/hymn.mma | HymnRootWalkPlus  | Root chords with walk and voices. |
+| ./stdlib/hymn.mma | HymnIntro  | A simple sustained intro. |
+| ./stdlib/hymn.mma | HymnEnd  | A 2 bar ending. |
 | ./stdlib/bebop.mma | Bebop | A fast BeBop rhythm. |
 | ./stdlib/bebop.mma | BebopPlus | Add a walking piano line. |
 | ./stdlib/bebop.mma | BebopSus | Add some sustained organ chords. |
-| ./stdlib/bebop.mma | BebopSusPlus Organ chords and walking piano. |
+| ./stdlib/bebop.mma | BebopSusPlus  | Organ chords and walking piano. |
 | ./stdlib/bebop.mma | BebopIntro | Our normalized 4 bar intro. |
 | ./stdlib/bebop.mma | BebopEnd | A quick 2 bar ending. |
 | ./stdlib/bolero.mma | Bolero | Latin-style Bolero rhythm. |
 | ./stdlib/bolero.mma | BoleroFill | Add arpeggiating flute. |
 | ./stdlib/bolero.mma | BoleroSus | Bolero with sustained strings. |
-| ./stdlib/bolero.mma | BoleroSusFill Sustained Bolero with flute fill. |
+| ./stdlib/bolero.mma | BoleroSusFill  | Sustained Bolero with flute fill. |
 | ./stdlib/bolero.mma | BoleroAlt | Arpeggiated guitars. |
 | ./stdlib/bolero.mma | BoleroAltSus | Sustain with Arpeggiated guitars. |
 | ./stdlib/bolero.mma | BoleroAltFill | Arpeggiated flutes and guitars. |
@@ -288,19 +288,19 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/bolero.mma | Bolero1 | Spanish-style Bolero rhythm. |
 | ./stdlib/bolero.mma | Bolero1Fill | Add guitar arpeggios to Bolero1. |
 | ./stdlib/bolero.mma | Bolero1Sus | Spanish Bolero with sustained strings. |
-| ./stdlib/bolero.mma | Bolero1SusFill Sustained Bolero1 with guitar fill. |
+| ./stdlib/bolero.mma | Bolero1SusFill | Sustained Bolero1 with guitar fill. |
 | ./stdlib/bolero.mma | Bolero1Intro | 4 bar intro. |
 | ./stdlib/bolero.mma | Bolero1End | Single bar ending for Bolero1. |
 | ./stdlib/folkyjazz.mma | FolkyJazzGuitar | Basic pattern with bass, guitar notes and drum. |
-| ./stdlib/folkyjazz.mma | FolkyJazzGuitarPlus Add in some Clavinet notes. |
-| ./stdlib/folkyjazz.mma | FolkyJazzGuitarSus Basic with sustained voices. |
-| ./stdlib/folkyjazz.mma | FolkyJazzGuitarSusPlus Added Clavinet and sustained voices. |
+| ./stdlib/folkyjazz.mma | FolkyJazzGuitarPlus  | Add in some Clavinet notes. |
+| ./stdlib/folkyjazz.mma | FolkyJazzGuitarSus  | Basic with sustained voices. |
+| ./stdlib/folkyjazz.mma | FolkyJazzGuitarSusPlus |  Added Clavinet and sustained voices. |
 | ./stdlib/folkyjazz.mma | FolkyJazzGuitarIntro | A basic 4 bar introduction. |
 | ./stdlib/folkyjazz.mma | FolkyJazzGuitarEnd | A 2 bar ending. |
-| ./stdlib/folkyjazz.mma | FolkyJazzPiano Piano with guitar bass and drum. |
-| ./stdlib/folkyjazz.mma | FolkyJazzPianoPlus Add in some guitar notes. |
-| ./stdlib/folkyjazz.mma | FolkyJazzPianoSus Our piano groove with sustained voices. |
-| ./stdlib/folkyjazz.mma | FolkyJazzPianoSusPlus Added guitar and sustained voices. |
+| ./stdlib/folkyjazz.mma | FolkyJazzPiano  | Piano with guitar bass and drum. |
+| ./stdlib/folkyjazz.mma | FolkyJazzPianoPlus  | Add in some guitar notes. |
+| ./stdlib/folkyjazz.mma | FolkyJazzPianoSus  | Our piano groove with sustained voices. |
+| ./stdlib/folkyjazz.mma | FolkyJazzPianoSusPlus |  Added guitar and sustained voices. |
 | ./stdlib/folkyjazz.mma | FolkyJazzPianoIntro | A basic 4 bar introduction. |
 | ./stdlib/folkyjazz.mma | FolkyJazzPianoEnd | A 2 bar ending. |
 | ./stdlib/metronome3.mma | Metronome3 | A single bar waltz introduction. |
@@ -308,7 +308,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/beguine.mma | BeguineSus | Adds in a sustained string. |
 | ./stdlib/beguine.mma | Beguine1 | Adds a pizzicato string to standard Beguine. |
 | ./stdlib/beguine.mma | Beguine1Sus | This has the pizzicatos strings and a sustained string. |
-| ./stdlib/beguine.mma | BeguineFill Single bar fill, good for endings. |
+| ./stdlib/beguine.mma | BeguineFill  | Single bar fill, good for endings. |
 | ./stdlib/beguine.mma | BeguineIntro | Simple enough 4 bar introduction. |
 | ./stdlib/beguine.mma | BeguineIntro8 | Expanded, 8 bar, version of our 4 bar introduction. |
 | ./stdlib/beguine.mma | BeguineSusIntro | 4 bar intro with sustained strings |
@@ -318,24 +318,24 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/evansish.mma | EvansishPlus | Add in some random piano notes. |
 | ./stdlib/evansish.mma | EvansishSus | Add strings to the mix. |
 | ./stdlib/evansish.mma | EvansishSusPlus | Solo piano and strings. |
-| ./stdlib/evansish.mma | EvansishFill A one bar fill. |
-| ./stdlib/evansish.mma | Evansish1 Same basic without push chords. |
-| ./stdlib/evansish.mma | Evansish1Plus Random notes added, pushy chords out. |
-| ./stdlib/evansish.mma | Evansish1Sus Basic sustained without push. |
-| ./stdlib/evansish.mma | Evansish1SusPlus Random notes, strings and no push. |
+| ./stdlib/evansish.mma | EvansishFill  | A one bar fill. |
+| ./stdlib/evansish.mma | Evansish1  | Same basic without push chords. |
+| ./stdlib/evansish.mma | Evansish1Plus  | Random notes added, pushy chords out. |
+| ./stdlib/evansish.mma | Evansish1Sus  | Basic sustained without push. |
+| ./stdlib/evansish.mma | Evansish1SusPlus  |  Random notes, strings and no push. |
 | ./stdlib/evansish.mma | EvansishIntro | Simple 4 bar intro. |
-| ./stdlib/evansish.mma | EvansishEnd Simple 2 bar ending. |
+| ./stdlib/evansish.mma | EvansishEnd |  Simple 2 bar ending. |
 | ./stdlib/arpeggiowaltz.mma | ArpeggioWaltz | An quarter note piano. |
-| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltz8 An 8th note piano. |
-| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltz48 3 bars of quarters, 1 bar 8ths. |
-| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzSus Sustained strings with quarters. |
-| ./stdlib/arpeggiowaltz.mma | Arpeggiowaltz8Sus Sustained strings with 8ths. |
-| ./stdlib/arpeggiowaltz.mma | Arpeggiowaltz48Sus Sustained strings with 4,4,4,8 pattern. |
-| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzIntro A basic 4 bar introduction (works for ending as well). |
-| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzSusIntro Same intro with strings. |
-| ./stdlib/desert.mma | Desert Pretty funky beat for the desert. |
-| ./stdlib/desert.mma | DesertSus Add sustained strings. |
-| ./stdlib/desert.mma | DesertFill A bit of a drum torrent over the basic beat. |
+| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltz8  | An 8th note piano. |
+| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltz48  | 3 bars of quarters, 1 bar 8ths. |
+| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzSus  | Sustained strings with quarters. |
+| ./stdlib/arpeggiowaltz.mma | Arpeggiowaltz8Sus |  Sustained strings with 8ths. |
+| ./stdlib/arpeggiowaltz.mma | Arpeggiowaltz48Sus  | Sustained strings with 4,4,4,8 pattern. |
+| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzIntro  | A basic 4 bar introduction (works for ending as well). |
+| ./stdlib/arpeggiowaltz.mma | ArpeggioWaltzSusIntro  | Same intro with strings. |
+| ./stdlib/desert.mma | Desert  | Pretty funky beat for the desert. |
+| ./stdlib/desert.mma | DesertSus |  Add sustained strings. |
+| ./stdlib/desert.mma | DesertFill  | A bit of a drum torrent over the basic beat. |
 | ./stdlib/desert.mma | DesertEnd | Desert Ending. |
 | ./stdlib/charleston.mma | Charleston | Basic Charleston rhythm. |
 | ./stdlib/charleston.mma | Charleston1 | Basic rhythm with snappier guitar. |
@@ -363,38 +363,38 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/charleston.mma | Charleston2WalkSusPlus | Complex walking with saxes and piano. |
 | ./stdlib/charleston.mma | CharlestonIntro | Simple 4 bar introduction. |
 | ./stdlib/charleston.mma | CharlestonIntro8 | Simple 8 bar introduction. |
-| ./stdlib/charleston.mma | CharlestonEnd Simple 2 bar ending. |
+| ./stdlib/charleston.mma | CharlestonEnd | Simple 2 bar ending. |
 | ./stdlib/guitarballad.mma | GuitarBallad | Simple ballad with drums and guitar. |
-| ./stdlib/guitarballad.mma | GuitarBallad1 Add additional guitar chords. |
-| ./stdlib/guitarballad.mma | GuitarBalladSus Guitar arpeggios with a bit of strings. |
+| ./stdlib/guitarballad.mma | GuitarBallad1  | Add additional guitar chords. |
+| ./stdlib/guitarballad.mma | GuitarBalladSus  | Guitar arpeggios with a bit of strings. |
 | ./stdlib/guitarballad.mma | GuitarBallad1Sus | Guitar arpeggios with chords and strings. |
 | ./stdlib/guitarballad.mma | GuitarBalladIntro | A 4 bar introduction. |
-| ./stdlib/guitarballad.mma | GuitarBalladSusIntro The same 4 bar intro with strings. |
+| ./stdlib/guitarballad.mma | GuitarBalladSusIntro  | The same 4 bar intro with strings. |
 | ./stdlib/guitarballad.mma | GuitarBalladEnd | A 2 bar ending. |
 | ./stdlib/rb-ballad.mma | R&B-Ballad | Basic R&B Ballad. |
 | ./stdlib/rb-ballad.mma | R&B-BalladSus | Change rhythmic organ to sustained chords. |
-| ./stdlib/rb-ballad.mma | R&B-BalladPlus Basic with added guitar riffs. |
+| ./stdlib/rb-ballad.mma | R&B-BalladPlus | Basic with added guitar riffs. |
 | ./stdlib/rb-ballad.mma | R&B-BalladSusPlus | Sustained with guitar riffs. |
 | ./stdlib/rb-ballad.mma | R&B-BalladIntro | A bit laid-back, 4 bar intro. |
 | ./stdlib/rb-ballad.mma | R&B-BalladEnd | Two bar ending. |
 | ./stdlib/tango.mma | Tango | Basic tango. |
 | ./stdlib/tango.mma | Tango1 | Our basic Tango with a March feel. |
-| ./stdlib/tango.mma | TangoEnd A nice ending for our dance. |
+| ./stdlib/tango.mma | TangoEnd | A nice ending for our dance. |
 | ./stdlib/chacha.mma | ChaCha | Our basic, non-American, pattern. |
 | ./stdlib/chacha.mma | ChaCha1 | Adds in flute arpeggios. |
 | ./stdlib/chacha.mma | ChaChaSus | Adds sustained string arpeggios. |
 | ./stdlib/chacha.mma | ChaCha1Sus | Combines the flute and string arpeggios. |
 | ./stdlib/chacha.mma | ChaChaFill | A one bar fill. |
-| ./stdlib/chacha.mma | ChaCha1Fill Fill with accending flute run. Makes a good section introduction. |
-| ./stdlib/chacha.mma | ChaChaIntro A plain 4 bar introduction. |
+| ./stdlib/chacha.mma | ChaCha1Fill  | Fill with accending flute run. Makes a good section introduction. |
+| ./stdlib/chacha.mma | ChaChaIntro  | A plain 4 bar introduction. |
 | ./stdlib/chacha.mma | ChaChaIntro8 | Same intro expanded to 8 bars. |
 | ./stdlib/chacha.mma | ChaChaEnd | The End. |
 | ./stdlib/modernjazz.mma | ModernJazz | ModernJazz with just a piano and guitar. |
 | ./stdlib/modernjazz.mma | ModernJazz1 | Adds a muted trumpet on alternate bars. |
 | ./stdlib/modernjazz.mma | ModernJazzSus | ModernJazz with added sustained violins. |
 | ./stdlib/modernjazz.mma | ModernJazz1Sus | The full-meal-deal. |
-| ./stdlib/modernjazz.mma | ModernJazz2 A slower version of alternate-bar trumpet for faster tempos. |
-| ./stdlib/modernjazz.mma | ModernJazz2Sus Slower alternate-bar trumpets with violins for faster tempos. |
+| ./stdlib/modernjazz.mma | ModernJazz2 |  A slower version of alternate-bar trumpet for faster tempos. |
+| ./stdlib/modernjazz.mma | ModernJazz2Sus |  Slower alternate-bar trumpets with violins for faster tempos. |
 | ./stdlib/modernjazz.mma | ModernJazzFill | A 2 bar horn fill good for endings. |
 | ./stdlib/modernjazz.mma | ModernJazzIntro | 4 bar introduction. |
 | ./stdlib/modernjazz.mma | ModernJazzEnd | Nice, 2 bar, ending. First bar is full, \ |
@@ -405,45 +405,45 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/westernswing.mma | WesternSwingIntro | Simple 4 bar introduction. |
 | ./stdlib/westernswing.mma | WesternSwingEnd | Simple ending. Hits on each beat on bar 1, \ |
 | ./stdlib/ballad68.mma | Ballad68 | A rock ballad beat in 6/8. |
-| ./stdlib/ballad68.mma | Ballad68Plus Adds arpeggiated piano. |
+| ./stdlib/ballad68.mma | Ballad68Plus  | Adds arpeggiated piano. |
 | ./stdlib/ballad68.mma | Ballad68Sus | Add in sustained TremoloStrings |
-| ./stdlib/ballad68.mma | Ballad68SusPlus Sustained strings and apreggiating piano. |
+| ./stdlib/ballad68.mma | Ballad68SusPlus | Sustained strings and apreggiating piano. |
 | ./stdlib/ballad68.mma | Ballad68-44 | A 4/4 fill bar. |
-| ./stdlib/ballad68.mma | Ballad68Intro This 4 bar intro with arpeggios. |
+| ./stdlib/ballad68.mma | Ballad68Intro  | This 4 bar intro with arpeggios. |
 | ./stdlib/ballad68.mma | Ballad68End | Simple 2 bar ending. |
 | ./stdlib/latinwaltz.mma | LatinWaltz | Our basic latin-waltz. |
 | ./stdlib/latinwaltz.mma | LatinWaltzSus | Same latin waltz with strings. |
 | ./stdlib/latinwaltz.mma | LatinWaltzPlus | Adds a bit of a background guitar melody. |
-| ./stdlib/latinwaltz.mma | LatinWaltzSusPlus Guitar background and sustained strings. |
-| ./stdlib/latinwaltz.mma | LatinWaltzFill Single bar fill, can be used in endings. |
+| ./stdlib/latinwaltz.mma | LatinWaltzSusPlus G | uitar background and sustained strings. |
+| ./stdlib/latinwaltz.mma | LatinWaltzFill  | Single bar fill, can be used in endings. |
 | ./stdlib/latinwaltz.mma | LatinWaltzIntro | Simple 4 bar introduction. |
 | ./stdlib/latinwaltz.mma | LatinWaltzIntro8 | Simple 8 bar introduction. |
 | ./stdlib/latinwaltz.mma | LatinWaltzEnd | Simple 2 bar ending. |
-| ./stdlib/slowspiritual.mma | SlowSpiritual Basic pattern. |
-| ./stdlib/slowspiritual.mma | SlowSpiritualSus Piano with big sustained organ. |
+| ./stdlib/slowspiritual.mma | SlowSpiritual | Basic pattern. |
+| ./stdlib/slowspiritual.mma | SlowSpiritualSus | Piano with big sustained organ. |
 | ./stdlib/slowspiritual.mma | SlowSpiritualPlus | Let the guitar apreggiate. |
-| ./stdlib/slowspiritual.mma | SlowSpiritualSusPlus Organ and guitar. |
-| ./stdlib/slowspiritual.mma | SlowSpiritualIntro 4 bar introduction |
+| ./stdlib/slowspiritual.mma | SlowSpiritualSusPlus  | Organ and guitar. |
+| ./stdlib/slowspiritual.mma | SlowSpiritualIntro  | 4 bar introduction |
 | ./stdlib/slowspiritual.mma | SlowSpiritualEnd | Simple ending. |
 | ./stdlib/lullaby.mma | Lullaby | Just a solo guitar in 4. |
 | ./stdlib/lullaby.mma | Lullaby1 | Adds in a bit of bass. |
 | ./stdlib/lullaby.mma | LullabyWalk | Adds an 8th note walking bass line. |
 | ./stdlib/lullaby.mma | LullabySus | Add some sustained strings to our guitar. |
 | ./stdlib/lullaby.mma | Lullaby1Sus | A bit of bass with the strings. |
-| ./stdlib/lullaby.mma | LullabyWalkSus Strings and walking bass. |
+| ./stdlib/lullaby.mma | LullabyWalkSus  | Strings and walking bass. |
 | ./stdlib/lullaby.mma | LullabyPlus | Add in arpeggiating guitar. |
 | ./stdlib/lullaby.mma | Lullaby1Plus | Arpeggiating guitar and extra bass. |
 | ./stdlib/lullaby.mma | LullabyWalkPlus | Arpeggiating guitar and walking bass. |
 | ./stdlib/lullaby.mma | LullabySusPlus | Arpeggiating guitar and sustained strings. |
 | ./stdlib/lullaby.mma | Lullaby1SusPlus | Arpeggiating guitar, sustained strings and extra bass. |
-| ./stdlib/lullaby.mma | LullabyWalkSusPlus Arpeggiating guitar, strings and walking bass. |
-| ./stdlib/lullaby.mma | LullabyIntro |
+| ./stdlib/lullaby.mma | LullabyWalkSusPlus | Arpeggiating guitar, strings and walking bass. |
+| ./stdlib/lullaby.mma | LullabyIntro | | 
 | ./stdlib/lullaby.mma | LullabyEnd | Two half notes on the guitar. |
 | ./stdlib/68march.mma | 68March | A basic 6/8 march in 2. |
 | ./stdlib/68march.mma | 68MarchPlus | Our plain march with added piccolos. |
-| ./stdlib/68march.mma | 68MarchSus Our basic march with a sax continuo. |
-| ./stdlib/68march.mma | 68MarchSusPlus Sustained with piccolos. |
-| ./stdlib/68march.mma | 68MarchIntro A 4 bar introduction. |
+| ./stdlib/68march.mma | 68MarchSus  | Our basic march with a sax continuo. |
+| ./stdlib/68march.mma | 68MarchSusPlus  | Sustained with piccolos. |
+| ./stdlib/68march.mma | 68MarchIntro  | A 4 bar introduction. |
 | ./stdlib/68march.mma | 68MarchEnd | A 2 bar ending. Kill Bass-Piccolo track if you don't like it. |
 | ./stdlib/68march.mma | 68MarchMetronome | A military-like intro on snare. |
 | ./stdlib/lighttango.mma | LightTango | A light Tango, more Spanish. |
@@ -452,7 +452,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/lighttango.mma | LightTango1Sus | Add a sustained tone to the piano variant. |
 | ./stdlib/lighttango.mma | LightTangoFill | A one bar fill pattern. |
 | ./stdlib/lighttango.mma | LightTangoIntro | Simple introduction. |
-| ./stdlib/lighttango.mma | LightTangoIntro1 Smoother version of basic introduction. |
+| ./stdlib/lighttango.mma | LightTangoIntro1  | Smoother version of basic introduction. |
 | ./stdlib/lighttango.mma | LightTangoEnd | A fast single bar ending. |
 | ./stdlib/lighttango.mma | LightTango4End | Smoother 4 bar ending. |
 | ./stdlib/march.mma | MilIntro4 | A 4 bar military-style intro. Easy to use \ |
@@ -462,27 +462,27 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/march.mma | March1Slow | This is just March1 with the walking bass \ |
 | ./stdlib/march.mma | March2 | Adds sustained strings to March1. The strings \ |
 | ./stdlib/march.mma | March3 | Adds an apreggiating piccolo to March1. \ |
-| ./stdlib/march.mma | March4 Add sustained strings and apreggiating piccolo to March2. |
+| ./stdlib/march.mma | March4  | Add sustained strings and apreggiating piccolo to March2. |
 | ./stdlib/march.mma | MarchEnd | Four bar ending. |
-| ./stdlib/countrywaltz.mma | CountryWaltz Doris Day would like this! A string \ |
-| ./stdlib/countrywaltz.mma | CountryWaltzSus The CountryWaltz with a sustained string. |
+| ./stdlib/countrywaltz.mma | CountryWaltz  | Doris Day would like this! A string \ |
+| ./stdlib/countrywaltz.mma | CountryWaltzSus  | The CountryWaltz with a sustained string. |
 | ./stdlib/countrywaltz.mma | CountryWaltz1 | Same old waltz with an arpeggiating flute. Nice. |
-| ./stdlib/countrywaltz.mma | CountryWaltz1Sus Arpeggiating flute and sustained strings. |
+| ./stdlib/countrywaltz.mma | CountryWaltz1Sus  | Arpeggiating flute and sustained strings. |
 | ./stdlib/countrywaltz.mma | CountryWaltz2 | Guitar arpeggios. |
-| ./stdlib/countrywaltz.mma | CountryWaltz2Sus Guitar arpeggios and sustained strings. |
-| ./stdlib/countrywaltz.mma | CountryWaltzWalk Countrywaltz with walking bass. |
-| ./stdlib/countrywaltz.mma | CountryWaltzWalkSus CountryWaltz with sustained string and \ |
+| ./stdlib/countrywaltz.mma | CountryWaltz2Sus |  Guitar arpeggios and sustained strings. |
+| ./stdlib/countrywaltz.mma | CountryWaltzWalk |  Countrywaltz with walking bass. |
+| ./stdlib/countrywaltz.mma | CountryWaltzWalkSus  | CountryWaltz with sustained string and \ |
 | ./stdlib/countrywaltz.mma | CountryWaltz1Walk | Walking bass and arpeggiating flute. |
 | ./stdlib/countrywaltz.mma | Countrywaltz2Walk | Walking bass and apreggiating guitar. |
-| ./stdlib/countrywaltz.mma | CountryWaltz1SusWalk Arpeggiating flute, sustained string \ |
-| ./stdlib/countrywaltz.mma | CountryWaltz2SusWalk Apregginating guitar, sustained string \ |
+| ./stdlib/countrywaltz.mma | CountryWaltz1SusWalk | Arpeggiating flute, sustained string \ |
+| ./stdlib/countrywaltz.mma | CountryWaltz2SusWalk | Apregginating guitar, sustained string \ |
 | ./stdlib/countrywaltz.mma | CountryWaltzIntro | Introduction to the waltz. |
-| ./stdlib/countrywaltz.mma | CountryWaltzIntro8 8 Bar intro to the waltz. |
+| ./stdlib/countrywaltz.mma | CountryWaltzIntro8  | 8 Bar intro to the waltz. |
 | ./stdlib/countrywaltz.mma | CountryWaltzEnd | A good ending with a cymbal roll. The \ |
 | ./stdlib/jazz-54.mma | Jazz54 | Basic 5/4 jazz rhythm. |
 | ./stdlib/jazz-54.mma | Jazz54Walk | This replaces the original bass pattern \ |
 | ./stdlib/jazz-54.mma | Jazz54Sus | Add in some sustained strings. Not really all that great. |
-| ./stdlib/jazz-54.mma | Jazz54WalkSus Walking bass and sustained strings. |
+| ./stdlib/jazz-54.mma | Jazz54WalkSus | Walking bass and sustained strings. |
 | ./stdlib/jazz-54.mma | Jazz54DrumIntro | Single bar intro with only funky drum line. |
 | ./stdlib/waltz.mma | Waltz | A very boring waltz with piano chords. |
 | ./stdlib/waltz.mma | WaltzSus | Adds strings to Waltz. |
@@ -495,20 +495,20 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/waltz.mma | WaltzIntro | Waltz intro with piano chords. |
 | ./stdlib/waltz.mma | WaltzSusIntro | Simple intro with strings. |
 | ./stdlib/waltz.mma | Waltz1Intro | Waltz intro with piano arpeggios. |
-| ./stdlib/waltz.mma | Waltz1SusIntro Intro with arepeggios and strings. |
+| ./stdlib/waltz.mma | Waltz1SusIntro | Intro with arepeggios and strings. |
 | ./stdlib/waltz.mma | WaltzIntro8 | 8 bar waltz intro with piano chords. |
 | ./stdlib/waltz.mma | WaltzSusIntro8 | 8 bar Intro with arepeggios and strings. |
 | ./stdlib/waltz.mma | Waltz1Intro8 | 8 bar wWaltz intro with piano arpeggios. |
 | ./stdlib/waltz.mma | Waltz1SusIntro8 | 8 bar intro with arpgeggios and strings. |
 | ./stdlib/waltz.mma | WaltzEnd | Simple ending based on Waltz with piano scales. \ |
 | ./stdlib/arpeggio68.mma | Arpeggio68 | A eighth note piano (6 hits/bar). |
-| ./stdlib/arpeggio68.mma | Arpeggio68-16 A 16th note piano (12 hits/bar). |
-| ./stdlib/arpeggio68.mma | Arpeggio68-816 3 bars of 8ths, 1 bar 16ths. |
-| ./stdlib/arpeggio68.mma | Arpeggio68Sus Sustained strings with eight note piano. |
-| ./stdlib/arpeggio68.mma | Arpeggio68Sus-16 Sustained strings with 16ths. |
-| ./stdlib/arpeggio68.mma | Arpeggio68Sus-816 Sustained strings with 8ths, 8ths, 8ths, 16ths pattern. |
-| ./stdlib/arpeggio68.mma | Arpeggio68Intro A basic 4 bar introduction (works for ending as well). |
-| ./stdlib/arpeggio68.mma | Arpeggio68SusIntro Same intro with strings. |
+| ./stdlib/arpeggio68.mma | Arpeggio68-16  | A 16th note piano (12 hits/bar). |
+| ./stdlib/arpeggio68.mma | Arpeggio68-816  | 3 bars of 8ths, 1 bar 16ths. |
+| ./stdlib/arpeggio68.mma | Arpeggio68Sus  | Sustained strings with eight note piano. |
+| ./stdlib/arpeggio68.mma | Arpeggio68Sus-16  | Sustained strings with 16ths. |
+| ./stdlib/arpeggio68.mma | Arpeggio68Sus-816  | Sustained strings with 8ths, 8ths, 8ths, 16ths pattern. |
+| ./stdlib/arpeggio68.mma | Arpeggio68Intro | A basic 4 bar introduction (works for ending as well). |
+| ./stdlib/arpeggio68.mma | Arpeggio68SusIntro | Same intro with strings. |
 | ./stdlib/samba.mma | SambaFill | Adds a whistle to the standard beat. |
 | ./stdlib/samba.mma | SambaPlus | Adds pizzicato strings |
 | ./stdlib/samba.mma | SambaSus | Add sustained bandoneon. |
@@ -527,31 +527,31 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/boneym.mma | BoneyMEnd | A 2 bar ending. |
 | ./stdlib/slowcountry.mma | SlowCountry | Simple nylon guitar in 2. |
 | ./stdlib/slowcountry.mma | SlowCountrySus | Adds a sustained strings (2 part) to SlowCountry. |
-| ./stdlib/slowcountry.mma | SlowCountryFill Adds guitar apreggio. Quarters on \ |
+| ./stdlib/slowcountry.mma | SlowCountryFill  | Adds guitar apreggio. Quarters on \ |
 | ./stdlib/slowcountry.mma | SlowCountryWalk | The SlowCountry Groove with a full walking \ |
 | ./stdlib/slowcountry.mma | SlowCountryWalkSus | SlowCountry with a walking bass line and \ |
 | ./stdlib/slowcountry.mma | SlowCountryWalkFill | Walking bass fill. |
 | ./stdlib/slowcountry.mma | SlowCountryPlus | Basic slow country with awful fiddling. |
-| ./stdlib/slowcountry.mma | SlowCountrySusPlus Slow country with strings and fiddling. |
-| ./stdlib/slowcountry.mma | SlowCountryWalkPlus Slow country walking bass fiddling. |
-| ./stdlib/slowcountry.mma | SlowCountryWalkSusPlus Slow country with walking bass, strings and fiddling. |
-| ./stdlib/slowcountry.mma | SlowCountryFillPlus Slow country with guitar arpeggios and fiddling. |
-| ./stdlib/slowcountry.mma | SlowCountryWalkFillPlus Slow country with walking bass, guitar arpeggios and fiddling. |
+| ./stdlib/slowcountry.mma | SlowCountrySusPlus |  Slow country with strings and fiddling. |
+| ./stdlib/slowcountry.mma | SlowCountryWalkPlus  | Slow country walking bass fiddling. |
+| ./stdlib/slowcountry.mma | SlowCountryWalkSusPlus |  Slow country with walking bass, strings and fiddling. |
+| ./stdlib/slowcountry.mma | SlowCountryFillPlus |  Slow country with guitar arpeggios and fiddling. |
+| ./stdlib/slowcountry.mma | SlowCountryWalkFillPlus |  Slow country with walking bass, guitar arpeggios and fiddling. |
 | ./stdlib/slowcountry.mma | SlowCountryIntro | 4 bar intro |
 | ./stdlib/slowcountry.mma | SlowCountryEnd | Simple ending. |
 | ./stdlib/countryblues.mma | CountryBlues | Somewhat lamentive blues. |
 | ./stdlib/countryblues.mma | CountryBluesSus | Adds sustained strings. |
 | ./stdlib/countryblues.mma | CountryBluesWalk | Walking bass version. |
-| ./stdlib/countryblues.mma | CountryBluesWalkSus Walking bass and sustained strings. |
-| ./stdlib/countryblues.mma | CountryBlues1 Add piano triplets every 2 bars. |
-| ./stdlib/countryblues.mma | CountryBlues1Sus Sustained version. |
+| ./stdlib/countryblues.mma | CountryBluesWalkSus |  Walking bass and sustained strings. |
+| ./stdlib/countryblues.mma | CountryBlues1  | Add piano triplets every 2 bars. |
+| ./stdlib/countryblues.mma | CountryBlues1Sus  | Sustained version. |
 | ./stdlib/countryblues.mma | CountryBlues1Walk | Triplet version with walking bass. |
-| ./stdlib/countryblues.mma | CountryBlues1WalkSus Triplet version with walking bass and strings. |
+| ./stdlib/countryblues.mma | CountryBlues1WalkSus |  Triplet version with walking bass and strings. |
 | ./stdlib/countryblues.mma | CountryBluesFill | Adds a bad fiddler (use sparingly!). |
 | ./stdlib/countryblues.mma | CountryBluesWalkFill | Walking bass with fiddler. |
 | ./stdlib/countryblues.mma | CountryBlues1Fill | Piano triplets and fiddle. |
 | ./stdlib/countryblues.mma | CountryBlues1WalkFill | Piano triplets, walking bass and fiddle. |
-| ./stdlib/countryblues.mma | CountryBluesIntro A 4 bar introduction. |
+| ./stdlib/countryblues.mma | CountryBluesIntro |  A 4 bar introduction. |
 | ./stdlib/basicrock.mma | BasicRock | A very basic rock beat in 4. |
 | ./stdlib/basicrock.mma | BasicRockSus | Even rockers like strings! |
 | ./stdlib/basicrock.mma | BasicRock4 | Same rock with more of a 4/4 emphasis. Good for \ |
@@ -561,11 +561,11 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/basicrock.mma | BasicRockEnd | A 2 bar ending. |
 | ./stdlib/metronome6.mma | Metronome6 | A two bar 6/8 ballad introduction. |
 | ./stdlib/ballad128.mma | Ballad128 | A very simple, relaxed 12/8 ballad pattern. |
-| ./stdlib/ballad128.mma | Ballad128Plus Adds arpeggiated piano. |
+| ./stdlib/ballad128.mma | Ballad128Plus  | Adds arpeggiated piano. |
 | ./stdlib/ballad128.mma | Ballad128Sus | Add in sustained TremoloStrings |
-| ./stdlib/ballad128.mma | Ballad128SusPlus Sustained strings and apreggiating piano. |
-| ./stdlib/ballad128.mma | Ballad128Intro This 4 bar intro plays bass notes and harp arpeggios. \ |
-| ./stdlib/ballad128.mma | Ballad128Intro1 Alternative, straighter, intro. |
+| ./stdlib/ballad128.mma | Ballad128SusPlus |  Sustained strings and apreggiating piano. |
+| ./stdlib/ballad128.mma | Ballad128Intro  | This 4 bar intro plays bass notes and harp arpeggios. \ |
+| ./stdlib/ballad128.mma | Ballad128Intro1 |  Alternative, straighter, intro. |
 | ./stdlib/ballad128.mma | Ballad128End | A 2 bar ending. |
 | ./stdlib/68swing.mma | 68Swing | Basic 6/8 swing time, 2 to the bar chording. |
 | ./stdlib/68swing.mma | 68Swing1 | Chord just sounds once per bar. |
@@ -602,39 +602,39 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/bossanova.mma | BossaNovaSus | Adds sustained choir voices. |
 | ./stdlib/bossanova.mma | BossaNova1Sus | Adds sustained strings. |
 | ./stdlib/bossanova.mma | BossaNova2Sus | Basic Bossa with decending string pattern. |
-| ./stdlib/bossanova.mma | BossaNova3Sus A combination of BossaNova1Sus and BossaNova2Sus. Alternating \ |
+| ./stdlib/bossanova.mma | BossaNova3Sus | A combination of BossaNova1Sus and BossaNova2Sus. Alternating \ |
 | ./stdlib/bossanova.mma | BossaNovaPlus | Basic rhythm with apreggiating guitar. |
 | ./stdlib/bossanova.mma | BossaNovaSusPlus | Sustained choir and arpeggios. |
 | ./stdlib/bossanova.mma | BossaNova1SusPlus | Sustained strings and arpeggios. |
 | ./stdlib/bossanova.mma | BossaNova2SusPlus | Descending strings and arpeggios. |
 | ./stdlib/bossanova.mma | BossaNova3SusPlus | Alternating 1Sus/2Sus and arpeggios. |
-| ./stdlib/bossanova.mma | BossaNovaFill Adds a bell to the BossaNova groove and \ |
+| ./stdlib/bossanova.mma | BossaNovaFill  | Adds a bell to the BossaNova groove and \ |
 | ./stdlib/bossanova.mma | BossaNovaIntro | Dull introduction. |
-| ./stdlib/bossanova.mma | BossaNovaIntro1 Same intro with straighter chording. |
+| ./stdlib/bossanova.mma | BossaNovaIntro1 | Same intro with straighter chording. |
 | ./stdlib/bossanova.mma | BossaNovaIntro8 | Another dull intro, but this is for 8 bars. |
-| ./stdlib/bossanova.mma | BossaNovaEnd The strings do a scale. First bar is eights, \ |
-| ./stdlib/bossanova.mma | BossaNova1End Same ending, but with sustained strings added. |
-| ./stdlib/bossanova.mma | BossaNova2End Ending with sustained strings, but no scale. |
-| ./stdlib/folk.mma | Folk A very simple pattern to set against old songs. Uses a \ |
+| ./stdlib/bossanova.mma | BossaNovaEnd  | The strings do a scale. First bar is eights, \ |
+| ./stdlib/bossanova.mma | BossaNova1End  | Same ending, but with sustained strings added. |
+| ./stdlib/bossanova.mma | BossaNova2End  | Ending with sustained strings, but no scale. |
+| ./stdlib/folk.mma | Folk |  A very simple  | pattern to set against old songs. Uses a \ |
 | ./stdlib/folk.mma | FolkWalk | Plain folk rhythm with walking bass. |
-| ./stdlib/folk.mma | FolkArticulated Fingered picked guitar and a bit of bass. |
-| ./stdlib/folk.mma | FolkSus Some nice harmonica chords with the guitar. |
-| ./stdlib/folk.mma | FolkArticulatedSus Articulated version with harmonica. |
+| ./stdlib/folk.mma | FolkArticulated  | Fingered picked guitar and a bit of bass. |
+| ./stdlib/folk.mma | FolkSus  |  Some nice harmonica chords with the guitar. |
+| ./stdlib/folk.mma | FolkArticulatedSus  | Articulated version with harmonica. |
 | ./stdlib/folk.mma | FolkIntro | Pretty boring 4 bar intro. |
-| ./stdlib/folk.mma | FolkEnd Easy, 2 bar ending. First bar has 4 strums, second \ |
-| ./stdlib/slowbolero.mma | SlowBolero Easy going Bolero for ballads. |
+| ./stdlib/folk.mma | FolkEnd  | Easy, 2 bar ending. First bar has 4 strums, second \ |
+| ./stdlib/slowbolero.mma | SlowBolero  | Easy going Bolero for ballads. |
 | ./stdlib/slowbolero.mma | SlowBoleroSus | Add sustained voices. |
-| ./stdlib/slowbolero.mma | SlowBoleroPlus Add in some nylon guitar apreggios |
-| ./stdlib/slowbolero.mma | SlowBoleroSusPlus Arpeggios and sustained voices. |
+| ./stdlib/slowbolero.mma | SlowBoleroPlus  | Add in some nylon guitar apreggios |
+| ./stdlib/slowbolero.mma | SlowBoleroSusPlus  | Arpeggios and sustained voices. |
 | ./stdlib/slowbolero.mma | SlowBolero1 | Basic slow Bolero with alternate backing melody. |
-| ./stdlib/slowbolero.mma | SlowBolero1Sus Backing melody and sustained voices. |
+| ./stdlib/slowbolero.mma | SlowBolero1Sus  | Backing melody and sustained voices. |
 | ./stdlib/slowbolero.mma | SlowBoleroIntro | A simple introduction. |
-| ./stdlib/slowbolero.mma | SlowBoleroIntroSus Intro with sustained voices. |
+| ./stdlib/slowbolero.mma | SlowBoleroIntroSus  | Intro with sustained voices. |
 | ./stdlib/slowbolero.mma | SlowBoleroEnd | 2 bar ending. |
 | ./stdlib/50srock.mma | 50sRock | Your basic rock beat from the 50s. |
 | ./stdlib/50srock.mma | 50sRockSus | Sustained strings added. |
-| ./stdlib/50srock.mma | 50sRockPlus Basic with extra guitar arpeggios. |
-| ./stdlib/50srock.mma | 50sRockSusPlus Basic sustained with arpeggions. |
+| ./stdlib/50srock.mma | 50sRockPlus  | Basic with extra guitar arpeggios. |
+| ./stdlib/50srock.mma | 50sRockSusPlus |  Basic sustained with arpeggions. |
 | ./stdlib/50srock.mma | 50sRock1 | Cut out most of the shuffle. Good for short \ |
 | ./stdlib/50srock.mma | 50sRock1Sus | Unshuffled 50s with sustained strings. |
 | ./stdlib/50srock.mma | 50sRock1Plus | Unshuffled with arpeggios. |
@@ -652,14 +652,14 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/blues.mma | BluesTriple | Change the piano chords to triplets. Nice for \ |
 | ./stdlib/blues.mma | BluesSus | Add a sustained harmonica. Annoying. |
 | ./stdlib/blues.mma | BluesTripleSus | Sustained 'arp and chord triplets. |
-| ./stdlib/blues.mma | BluesTripleL Same as BluesTriple with triplets on beats 1 and 2. |
-| ./stdlib/blues.mma | BluesTripleLSus Same as BluesTripleSus with triplets on beats 1 and 2. |
-| ./stdlib/blues.mma | BluesTripleR Same as BluesTriple with triplets on beats 3 and 4. |
-| ./stdlib/blues.mma | BluesTripleRSus Same as BluesTripleSus with triplets on beats 3 and 4. |
+| ./stdlib/blues.mma | BluesTripleL  | Same as BluesTriple with triplets on beats 1 and 2. |
+| ./stdlib/blues.mma | BluesTripleLSus |  Same as BluesTripleSus with triplets on beats 1 and 2. |
+| ./stdlib/blues.mma | BluesTripleR  | Same as BluesTriple with triplets on beats 3 and 4. |
+| ./stdlib/blues.mma | BluesTripleRSus |  Same as BluesTripleSus with triplets on beats 3 and 4. |
 | ./stdlib/blues.mma | Blues1 | Add honky-piano. |
-| ./stdlib/blues.mma | Blues1Sus The honky-piano meets the mouth-arp. |
+| ./stdlib/blues.mma | Blues1Sus  | The honky-piano meets the mouth-arp. |
 | ./stdlib/blues.mma | BluesIntro | Simple, 4 bar, introduction. |
-| ./stdlib/blues.mma | BluesEnd A 4 bar ending. First 2 bars have 4 "hits", \ |
+| ./stdlib/blues.mma | BluesEnd  | A 4 bar ending. First 2 bars have 4 "hits", \ |
 | ./stdlib/softrock.mma | SoftRock | Basic Soft-rock for 60's tunes. |
 | ./stdlib/softrock.mma | SoftRockSus | Strings with the rock. |
 | ./stdlib/softrock.mma | SoftRock1 | Adds a latin-pop touch by using flute arpeggios. |
@@ -670,19 +670,19 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/softrock.mma | SoftRockIntro | Basic introduction. |
 | ./stdlib/softrock.mma | SoftRockSusIntro | Basic introduction with added strings. |
 | ./stdlib/softrock.mma | SoftRockEnd | Simple 4 beats to the bar ending. |
-| ./stdlib/boggiewoggie.mma | BoggieWoggie Basic BG with four-to-the-bar bass line. |
+| ./stdlib/boggiewoggie.mma | BoggieWoggie  | Basic BG with four-to-the-bar bass line. |
 | ./stdlib/boggiewoggie.mma | BoggieWoggie1 | Basic BG with stronger chord line. |
-| ./stdlib/boggiewoggie.mma | BoggieWoggie2 BG with 8/16s bass line. |
-| ./stdlib/boggiewoggie.mma | BoggieWoggie3 BG with 8/16s bass line and strong chords. |
+| ./stdlib/boggiewoggie.mma | BoggieWoggie2 |  BG with 8/16s bass line. |
+| ./stdlib/boggiewoggie.mma | BoggieWoggie3 |  BG with 8/16s bass line and strong chords. |
 | ./stdlib/boggiewoggie.mma | BoggieWoggieSus | Basic pattern with sustained Clarinet. |
 | ./stdlib/boggiewoggie.mma | BoggieWoggie1Sus | Alternate 1 with Clarinet |
 | ./stdlib/boggiewoggie.mma | BoggieWoggie2Sus | Alternate 2 with Clarinet |
 | ./stdlib/boggiewoggie.mma | BoggieWoggie3Sus | Alternate 3 with Clarinet |
-| ./stdlib/boggiewoggie.mma | BoggieWoggieEnd Same bass line but bar 1 has chords on 1/3 and \ |
-| ./stdlib/boggiewoggie.mma | BoggieWoggieIntro Simple 4 bar introduction. |
+| ./stdlib/boggiewoggie.mma | BoggieWoggieEnd  | Same bass line but bar 1 has chords on 1/3 and \ |
+| ./stdlib/boggiewoggie.mma | BoggieWoggieIntro  | Simple 4 bar introduction. |
 | ./stdlib/pianoballad.mma | PianoBallad | Simple ballad with drums and piano. |
-| ./stdlib/pianoballad.mma | PianoBallad1 Add additional piano chords. |
-| ./stdlib/pianoballad.mma | PianoBalladSus Piano arpeggios with a bit of strings. |
+| ./stdlib/pianoballad.mma | PianoBallad1  | Add additional piano chords. |
+| ./stdlib/pianoballad.mma | PianoBalladSus  | Piano arpeggios with a bit of strings. |
 | ./stdlib/pianoballad.mma | PianoBallad1Sus | Piano arpeggios with chords and strings. |
 | ./stdlib/pianoballad.mma | PianoBallad2 | PianoBallad with added block chords, no arpeggios. |
 | ./stdlib/pianoballad.mma | PianoBallad2Sus | Block chords and strings. |
@@ -693,22 +693,22 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/arpeggio44.mma | Arpeggio4 | A quarter note piano arpeggio. |
 | ./stdlib/arpeggio44.mma | Arpeggio8 | An 8th note piano. |
 | ./stdlib/arpeggio44.mma | Arpeggio48 | 3 bars of quarters, 1 bar 8ths. |
-| ./stdlib/arpeggio44.mma | Arpeggio4Sus Sustained strings with quarters. |
-| ./stdlib/arpeggio44.mma | Arpeggio8Sus Sustained strings with 8ths. |
-| ./stdlib/arpeggio44.mma | Arpeggio48Sus Sustained strings with 4,4,4,8 pattern. |
-| ./stdlib/arpeggio44.mma | Arpeggio4Intro A basic 4 bar introduction (works for ending as well). |
-| ./stdlib/arpeggio44.mma | Arpeggio4SusIntro Same intro with strings. |
+| ./stdlib/arpeggio44.mma | Arpeggio4Sus  | Sustained strings with quarters. |
+| ./stdlib/arpeggio44.mma | Arpeggio8Sus  | Sustained strings with 8ths. |
+| ./stdlib/arpeggio44.mma | Arpeggio48Sus  | Sustained strings with 4,4,4,8 pattern. |
+| ./stdlib/arpeggio44.mma | Arpeggio4Intro | A basic 4 bar introduction (works for ending as well). |
+| ./stdlib/arpeggio44.mma | Arpeggio4SusIntro  | Same intro with strings. |
 | ./stdlib/blues128.mma | Blues128 | A very simple, relaxed 12/8 blues pattern. |
-| ./stdlib/blues128.mma | Blues128Plus Adds arpeggiated piano. |
+| ./stdlib/blues128.mma | Blues128Plus  | Adds arpeggiated piano. |
 | ./stdlib/blues128.mma | Blues128Sus | Add in sustained Organ |
-| ./stdlib/blues128.mma | Blues128SusPlus Sustained strings and apreggiating piano. |
-| ./stdlib/blues128.mma | Blues128Intro Straight chord/bass intro. |
+| ./stdlib/blues128.mma | Blues128SusPlus  | Sustained strings and apreggiating piano. |
+| ./stdlib/blues128.mma | Blues128Intro  | Straight chord/bass intro. |
 | ./stdlib/blues128.mma | Blues128End | A 2 bar ending. |
 | ./stdlib/folkballad.mma | FolkBallad | A soothing guitar |
 | ./stdlib/folkballad.mma | FolkBallad1 | Alternating chord and arpeggio work. |
 | ./stdlib/folkballad.mma | FolkBalladSus | Arpeggios with harmonica |
 | ./stdlib/folkballad.mma | FolkBallad1Sus | Chord and apreggios with harmonica |
-| ./stdlib/folkballad.mma | FolkBalladIntro Simple introduction. |
+| ./stdlib/folkballad.mma | FolkBalladIntro | Simple introduction. |
 | ./stdlib/folkballad.mma | FolkBalladEnd | Simple ending. |
 | ./stdlib/calypso.mma | Calypso | A nice, simple Calypos beat with lots of tom-drums. |
 | ./stdlib/calypso.mma | CalypsoSus | A synth voice sustained under the beat. |
@@ -717,13 +717,13 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/calypso.mma | CalypsoPlus | Add solo-sounding guitar. |
 | ./stdlib/calypso.mma | CalypsoSusPlus | Guitar and synth voice. |
 | ./stdlib/calypso.mma | Calypso1Plus | 4 to the bar bass and guitar. |
-| ./stdlib/calypso.mma | Calypso1SusPlus 4 to the bar bass, guitar and voice. |
+| ./stdlib/calypso.mma | Calypso1SusPlus  | 4 to the bar bass, guitar and voice. |
 | ./stdlib/calypso.mma | CalypsoIntro | Simple 4 bar intro. |
 | ./stdlib/calypso.mma | CalypsoEnd | A very simple, finalized ending. All \ |
-| ./stdlib/bluegrass.mma | BlueGrass A simple BlueGrass sound with a banjo and guitar doing \ |
+| ./stdlib/bluegrass.mma | BlueGrass  | A simple BlueGrass sound with a banjo and guitar doing \ |
 | ./stdlib/bluegrass.mma | BlueGrassClap | Bluegrass with added handclaps. |
-| ./stdlib/bluegrass.mma | BlueGrassBottle Adds in a blow-bottle which no blue grass group \ |
-| ./stdlib/bluegrass.mma | BlueGrassBottleClap Bottles and handclaps...where will it stop! |
+| ./stdlib/bluegrass.mma | BlueGrassBottle |  Adds in a blow-bottle which no blue grass group \ |
+| ./stdlib/bluegrass.mma | BlueGrassBottleClap  | Bottles and handclaps...where will it stop! |
 | ./stdlib/bluegrass.mma | BlueGrassSus | Add sustained accordion. |
 | ./stdlib/bluegrass.mma | BlueGrassSusClap | Accordion and clapping. |
 | ./stdlib/bluegrass.mma | BlueGrassIntro | 4 bar introduction. |
@@ -732,7 +732,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/ballad.mma | Ballad | Simple Rock ballad in 4. |
 | ./stdlib/ballad.mma | BalladSus | Our simple ballad with sustained strings. |
 | ./stdlib/ballad.mma | Ballad1 | Arpeggios replaced with block chords. |
-| ./stdlib/ballad.mma | Ballad1Sus Add sustained strings to Ballad1. |
+| ./stdlib/ballad.mma | Ballad1Sus | Add sustained strings to Ballad1. |
 | ./stdlib/ballad.mma | BalladFill | 1 bar fill, good for endings. |
 | ./stdlib/ballad.mma | BalladPlus | Ballad with a bit of solo guitar. |
 | ./stdlib/ballad.mma | BalladSusPlus | Ballad with strings and guitar solo. |
@@ -741,14 +741,14 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/ballad.mma | BalladIntro | 4 bar introduction. |
 | ./stdlib/ballad.mma | BalladIntro1 | Intro without arpeggios and straight chords. |
 | ./stdlib/ballad.mma | BalladIntro2 | Add in some sustained strings to BalladIntro1. |
-| ./stdlib/ballad.mma | BalladEnd A 4 bar ending with a scale played on a harp. \ |
-| ./stdlib/ballad.mma | Ballad1End A simpler 4 bar ending. We still have a harp, but it's \ |
+| ./stdlib/ballad.mma | BalladEnd  | A 4 bar ending with a scale played on a harp. \ |
+| ./stdlib/ballad.mma | Ballad1End  |  A simpler 4 bar ending. We still have a harp, but it's \ |
 | ./stdlib/dixiemarch.mma | DixieMarch | A basic Dixieland March. |
 | ./stdlib/dixiemarch.mma | DixieMarchPlus | Add in a wild clarinet. |
 | ./stdlib/dixiemarch.mma | DixieMarchSus | A little change with the arpeggios gone. |
-| ./stdlib/dixiemarch.mma | DixieMarchSusPlus Apreggios and sustain. |
+| ./stdlib/dixiemarch.mma | DixieMarchSusPlus | Apreggios and sustain. |
 | ./stdlib/dixiemarch.mma | DixieMarchIntro | A 4 bar introduction. |
-| ./stdlib/dixiemarch.mma | DixieMarchEnd Finis! |
+| ./stdlib/dixiemarch.mma | DixieMarchEnd  | Finis! |
 | ./stdlib/mambo.mma | Mambo | Basic rhythm. |
 | ./stdlib/mambo.mma | Mambo1 | Adds pizzicato arpeggios. |
 | ./stdlib/mambo.mma | Mambo2 | Add articulated Marimbas. |
@@ -759,11 +759,11 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/mambo.mma | Mambo3Sus | Sustain and guitar chords. |
 | ./stdlib/mambo.mma | MamboIntro | 4 bar intro with a bit of a cha-cha on 4. |
 | ./stdlib/mambo.mma | MamboEnd | That's the end! |
-| ./stdlib/shuffleboggie.mma | ShuffleBoggie Blues with a shuffle style. |
-| ./stdlib/shuffleboggie.mma | ShuffleBoggie1 Adds an articulated guitar riff to the basic beat. |
-| ./stdlib/shuffleboggie.mma | ShuffleBoggieSus Blues with violins. Sort of odd, but we can call them fiddles! |
+| ./stdlib/shuffleboggie.mma | ShuffleBoggie  | Blues with a shuffle style. |
+| ./stdlib/shuffleboggie.mma | ShuffleBoggie1  | Adds an articulated guitar riff to the basic beat. |
+| ./stdlib/shuffleboggie.mma | ShuffleBoggieSus  | Blues with violins. Sort of odd, but we can call them fiddles! |
 | ./stdlib/shuffleboggie.mma | ShuffleBoggieIntro | A two bar intro. Short, loud and sweet. |
-| ./stdlib/shuffleboggie.mma | ShuffleBoggieIntro4 A four bar intro. |
+| ./stdlib/shuffleboggie.mma | ShuffleBoggieIntro4  | A four bar intro. |
 | ./stdlib/shuffleboggie.mma | ShuffleBoggieEnd | Very simple ending, hits on 1, 2 and 3 of last bar. |
 | ./stdlib/shuffleboggie.mma | ShuffleBoggieFill | Single bar fill. |
 | ./stdlib/broadwaywaltz.mma | BroadwayWaltz | A happy waltz for the stage. |
@@ -784,26 +784,26 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/bwmarch.mma | BWMarchIntro | Simple 4 bar intro. |
 | ./stdlib/bwmarch.mma | BWMarchIntro8 | Simple 8 bar intro. |
 | ./stdlib/twist.mma | Twist | A basic 50s twist. |
-| ./stdlib/twist.mma | Twist4 Same twist, leaving out a lot of eight notes. |
+| ./stdlib/twist.mma | Twist4  | Same twist, leaving out a lot of eight notes. |
 | ./stdlib/twist.mma | TwistSus | Basic twist with sustained organ |
 | ./stdlib/twist.mma | Twist4Sus | Four-to-the-bar twist with organ. |
-| ./stdlib/twist.mma | TwistIntro Pretty boring, but safe, 4 bar intro. |
-| ./stdlib/twist.mma | TwistEnd A short and sweet 2 bar ending. |
+| ./stdlib/twist.mma | TwistIntro  | Pretty boring, but safe, 4 bar intro. |
+| ./stdlib/twist.mma | TwistEnd  | A short and sweet 2 bar ending. |
 | ./stdlib/bvfunk.mma | BVFunk | A basic Funk groove. |
-| ./stdlib/bvfunk.mma | BVFunkSus The funk groove with strings |
+| ./stdlib/bvfunk.mma | BVFunkSus  | The funk groove with strings |
 | ./stdlib/bvfunk.mma | BVFunkHorns | Horns added in with 1/4 5/4 pattern |
-| ./stdlib/bvfunk.mma | BVFunkIntro 4 bar introduction |
-| ./stdlib/bvfunk.mma | BVFunkIntro8 8 bar introduction |
-| ./stdlib/bvfunk.mma | BVFunkEnd 2 bar ending |
+| ./stdlib/bvfunk.mma | BVFunkIntro  | 4 bar introduction |
+| ./stdlib/bvfunk.mma | BVFunkIntro8 |  8 bar introduction |
+| ./stdlib/bvfunk.mma | BVFunkEnd  | 2 bar ending |
 | ./stdlib/lfusion.mma | LFusion | Basic Latin Fusion. |
-| ./stdlib/lfusion.mma | LFusionSus Add sustained atmosphere. |
-| ./stdlib/lfusion.mma | LFusion1 Same rhythm but with an accordion for that zydeco feeling. |
-| ./stdlib/lfusion.mma | LFusion1Sus The zydeco with strings. |
+| ./stdlib/lfusion.mma | LFusionSus  | Add sustained atmosphere. |
+| ./stdlib/lfusion.mma | LFusion1  | Same rhythm but with an accordion for that zydeco feeling. |
+| ./stdlib/lfusion.mma | LFusion1Sus  | The zydeco with strings. |
 | ./stdlib/lfusion.mma | LFusionEnd | A one bar ending. |
 | ./stdlib/lfusion.mma | Lfusion1End | Same as LFusionEnd, but uses accordion instead \ |
 | ./stdlib/easyswing.mma | EasySwing | Nice/simple jazz guitar in 4. |
 | ./stdlib/easyswing.mma | EasySwingSus | Adds a sustained strings (2 part) to EasySwing. |
-| ./stdlib/easyswing.mma | EasySwingFill Adds guitar apreggio. Quarters on \ |
+| ./stdlib/easyswing.mma | EasySwingFill |  Adds guitar apreggio. Quarters on \ |
 | ./stdlib/easyswing.mma | EasySwingWalk | The EasySwing Groove with a full walking \ |
 | ./stdlib/easyswing.mma | EasySwingWalkSus | The EasySwing with a walking bass line and \ |
 | ./stdlib/easyswing.mma | EasySwingWalkFill | Walking bass fill. |
@@ -817,7 +817,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/easyswing.mma | EasySwing42Sus | Add sustained strings to the 4-2 pattern. |
 | ./stdlib/easyswing.mma | EasySwing42Fill | Add arpeggios to 4-2 pattern. |
 | ./stdlib/easyswing.mma | EasySwing42Walk | A 4-2 pattern with a walking bass. |
-| ./stdlib/easyswing.mma | EasySwing42WalkSus The 4-2 pattern with walking bass and \ |
+| ./stdlib/easyswing.mma | EasySwing42WalkSus |  The 4-2 pattern with walking bass and \ |
 | ./stdlib/easyswing.mma | EasySwing42WalkFill | Add arpeggios and walking bass with 4-2 pattern. |
 | ./stdlib/easyswing.mma | EasySwingIntro | 4 bar intro |
 | ./stdlib/easyswing.mma | EasySwingIntro1 | 4 bar intro with 1 long chord per bar. |
@@ -832,30 +832,30 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/fastwaltz.mma | FastWaltzWalkSus | Walking bass and sustained strings. |
 | ./stdlib/fastwaltz.mma | FastWaltzWalkPlus | Walking bass and arpeggios. |
 | ./stdlib/fastwaltz.mma | FastWaltzWalkSusPlus | Walking bass, arpeggios and sustained strings. |
-| ./stdlib/fastwaltz.mma | FastWaltzIntro 4 bar intro. |
-| ./stdlib/fastwaltz.mma | FastWaltzIntro8 8 bar intro. |
+| ./stdlib/fastwaltz.mma | FastWaltzIntro  | 4 bar intro. |
+| ./stdlib/fastwaltz.mma | FastWaltzIntro8 |  8 bar intro. |
 | ./stdlib/fastwaltz.mma | FastWaltzEnd | Simple ending based on Waltz with piano scales. \ |
 | ./stdlib/dixie.mma | Dixie | Complete with arpeggiating banjo. |
 | ./stdlib/dixie.mma | Dixie1 | Bass/walk variation. |
 | ./stdlib/dixie.mma | Dixie2 | The arpeggio has been slowed down and a \ |
 | ./stdlib/dixie.mma | Dixie3 | A more gentle attempt. |
-| ./stdlib/dixie.mma | Dixie4 Same voicing, but less strumming. |
-| ./stdlib/dixie.mma | DixieStrum Strumming tenor banjo and piano. No apreggiating. |
-| ./stdlib/dixie.mma | Dixie4Strum Less strumming version of DixieStrum |
+| ./stdlib/dixie.mma | Dixie4  | Same voicing, but less strumming. |
+| ./stdlib/dixie.mma | DixieStrum  | Strumming tenor banjo and piano. No apreggiating. |
+| ./stdlib/dixie.mma | Dixie4Strum  | Less strumming version of DixieStrum |
 | ./stdlib/dixie.mma | DixieSus | Basic groove with added sustain. |
 | ./stdlib/dixie.mma | Dixie1Sus | Bass/Walk variation with sustain. |
 | ./stdlib/dixie.mma | Dixie2Sus | Strumming banjo and sustain. |
 | ./stdlib/dixie.mma | Dixie3Sus | Gentle dixie with sustain. |
 | ./stdlib/dixie.mma | Dixie4Sus | Less strumming and sustain. |
-| ./stdlib/dixie.mma | DixieStrumSus Strumming banjo and piano with sustain. |
+| ./stdlib/dixie.mma | DixieStrumSus  | Strumming banjo and piano with sustain. |
 | ./stdlib/dixie.mma | DixieIntro | A 4 bar intro. |
-| ./stdlib/dixie.mma | DixieIntro8 An 8 bar introduction which gets less and less busy. |
+| ./stdlib/dixie.mma | DixieIntro8 |  An 8 bar introduction which gets less and less busy. |
 | ./stdlib/dixie.mma | DixieEnd | Straight ending. |
-| ./stdlib/popspiritual.mma | PopSpiritual Basic pattern. |
-| ./stdlib/popspiritual.mma | PopSpiritualSus Piano with big sustained organ. |
+| ./stdlib/popspiritual.mma | PopSpiritual | Basic pattern. |
+| ./stdlib/popspiritual.mma | PopSpiritualSus | Piano with big sustained organ. |
 | ./stdlib/popspiritual.mma | PopSpiritualPlus | Let the guitar apreggiate. |
-| ./stdlib/popspiritual.mma | PopSpiritualSusPlus Organ and guitar. |
-| ./stdlib/popspiritual.mma | PopSpiritualIntro 4 bar introduction |
+| ./stdlib/popspiritual.mma | PopSpiritualSusPlus | Organ and guitar. |
+| ./stdlib/popspiritual.mma | PopSpiritualIntro | 4 bar introduction |
 | ./stdlib/popspiritual.mma | PopSpiritualEnd | Simple ending. |
 | ./stdlib/merengue.mma | Merengue | Driving dance rhythm. |
 | ./stdlib/merengue.mma | Merengue1 | Substitute bandoneon for first piano. |
@@ -867,34 +867,34 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/merengue.mma | MerengueEnd | 4 bar ending. |
 | ./stdlib/bigband.mma | BigBand | Basic big band beat. |
 | ./stdlib/bigband.mma | BigBandSus | Tremolo strings added to BigBand. |
-| ./stdlib/bigband.mma | BigBandPlus Additional piano notes. |
+| ./stdlib/bigband.mma | BigBandPlus  | Additional piano notes. |
 | ./stdlib/bigband.mma | BigBandSusPlus | Sustained strings and piano. |
 | ./stdlib/bigband.mma | BigBand1 | Basic big band with 1,3 bass, no walking. |
-| ./stdlib/bigband.mma | BigBand1Sus Bigband1 with sustained strings. |
-| ./stdlib/bigband.mma | BigBand1Plus Bigband1 with additional guitar arpeggios. |
+| ./stdlib/bigband.mma | BigBand1Sus  | Bigband1 with sustained strings. |
+| ./stdlib/bigband.mma | BigBand1Plus  | Bigband1 with additional guitar arpeggios. |
 | ./stdlib/bigband.mma | BigBand1SusPlus | Bigband1 with sustained strings and guitar. |
 | ./stdlib/bigband.mma | BigBand8 | BigBand with 8 bar variation. |
 | ./stdlib/bigband.mma | BigBand8Sus | BigBand8 with sustained strings. |
 | ./stdlib/bigband.mma | BigBandFill | Simple fill bar, good in an ending. |
 | ./stdlib/bigband.mma | BigBand1Fill | Louder, 4 in the bar fill. |
-| ./stdlib/bigband.mma | BigBandIntro 4 bar introduction. |
-| ./stdlib/bigband.mma | BigBandIntro2 Alternate 4 bar introduction. |
-| ./stdlib/bigband.mma | BigBandIntro8 8 bar introduction. |
+| ./stdlib/bigband.mma | BigBandIntro  | 4 bar introduction. |
+| ./stdlib/bigband.mma | BigBandIntro2  | Alternate 4 bar introduction. |
+| ./stdlib/bigband.mma | BigBandIntro8  | 8 bar introduction. |
 | ./stdlib/bigband.mma | BigBandEnd | Straight ending for BigBand. |
 | ./stdlib/bigband.mma | BigBand1End | Ending for BigBand1. |
 | ./stdlib/bigband.mma | BigBand2End | Straight, 4 bar ending for BigBand. |
-| ./stdlib/bigband.mma | BigBand4End A 4 bar ending. Good ending for BigBand8. |
-| ./stdlib/salsa.mma | Salsa Basic Salsa pattern. |
+| ./stdlib/bigband.mma | BigBand4End  | A 4 bar ending. Good ending for BigBand8. |
+| ./stdlib/salsa.mma | Salsa  | Basic Salsa pattern. |
 | ./stdlib/salsa.mma | SalsaPlus | Basic pattern with apreggiating flute. |
 | ./stdlib/salsa.mma | SalsaSus | Basic pattern with added strings. |
-| ./stdlib/salsa.mma | SalsaSusPlus Sustained pattern with added flute. |
+| ./stdlib/salsa.mma | SalsaSusPlus  | Sustained pattern with added flute. |
 | ./stdlib/salsa.mma | SalsaIntro | A 4 bar introduction. |
 | ./stdlib/salsa.mma | SalsaFill | Straight, 1 bar fill. |
 | ./stdlib/salsa.mma | SalsaEnd | Fast, 2 bar ending |
 | ./stdlib/spiritual.mma | Spiritual | A basic spiritual beat in 4. |
-| ./stdlib/spiritual.mma | SpiritualPlus Add in a jazz guitar plucking notes. |
+| ./stdlib/spiritual.mma | SpiritualPlus |  Add in a jazz guitar plucking notes. |
 | ./stdlib/spiritual.mma | SpiritualSus | Our basic beat with added organ. |
-| ./stdlib/spiritual.mma | SpiritualSusPlus Organ and crazy guitar. |
+| ./stdlib/spiritual.mma | SpiritualSusPlus |  Organ and crazy guitar. |
 | ./stdlib/spiritual.mma | SpiritualIntro | Our basic 4 bar introduction. |
 | ./stdlib/spiritual.mma | SpiritualSusIntro | A 4 bar intro with organ. |
 | ./stdlib/rockwaltz.mma | RockWaltz | Hold tight for this dance. |
@@ -909,33 +909,33 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/rockwaltz.mma | RockWaltz1Intro | RockWaltz intro with arpeggios. |
 | ./stdlib/rockwaltz.mma | RockWaltzIntro8 | 8 bar RockWaltz intro with guitar chords. |
 | ./stdlib/rockwaltz.mma | RockWaltz1intro8 | 8 bar RockWaltz intro with arpeggios. |
-| ./stdlib/rockwaltz.mma | RockWaltzEnd Simple 4 bar ending. |
+| ./stdlib/rockwaltz.mma | RockWaltzEnd  | Simple 4 bar ending. |
 | ./stdlib/fastswing.mma | FastSwing | Basic fast swing rhythm. |
 | ./stdlib/fastswing.mma | FastSwingWalk | Fast swing with walking bass. |
 | ./stdlib/fastswing.mma | FastSwingSus | Fast swing with sustaining sax section. |
-| ./stdlib/fastswing.mma | FastSwingWalkSus Fast swing with walking bass and sustained saxes. |
+| ./stdlib/fastswing.mma | FastSwingWalkSus  | Fast swing with walking bass and sustained saxes. |
 | ./stdlib/fastswing.mma | FastSwingIntro | Simple 4 bar introduction. |
 | ./stdlib/fastswing.mma | FastSwingIntro8 | Simple 8 bar introduction. |
 | ./stdlib/fastswing.mma | FastSwingEnd | Quick, 2 bar ending. |
 | ./stdlib/swing.mma | Swing | Basic swing beat. |
 | ./stdlib/swing.mma | SwingWalk | Change the 1/3 syncapated bass to the same \ |
-| ./stdlib/swing.mma | SwingTriple Modified Swing with quarter note triplets. Good \ |
+| ./stdlib/swing.mma | SwingTriple |  Modified Swing with quarter note triplets. Good \ |
 | ./stdlib/swing.mma | SwingFill | Simple 2 bar fill. Good for endings. |
 | ./stdlib/swing.mma | SwingPlus | Adds clarinet arpeggios to Swing. |
-| ./stdlib/swing.mma | SwingWalkPlus Swing with walking bass and arpeggios. |
+| ./stdlib/swing.mma | SwingWalkPlus  | Swing with walking bass and arpeggios. |
 | ./stdlib/swing.mma | SwingSus | Add sustained strings to Swing. |
 | ./stdlib/swing.mma | SwingPlusSus | Add sustained strings to SwingPlus. This is\ |
 | ./stdlib/swing.mma | SwingWalkSus | Swing with walking bass and sustained strings. |
 | ./stdlib/swing.mma | SwingWalkPlusSus | Swing with walking bass, arpeggio \ |
 | ./stdlib/swing.mma | Swing1 | A more syncopated version of Swing. This sounds \ |
-| ./stdlib/swing.mma | Swing1Walk Walking bass version of Swing1. |
+| ./stdlib/swing.mma | Swing1Walk  | Walking bass version of Swing1. |
 | ./stdlib/swing.mma | Swing1Triple | Modified Swing1 with quarter note triplets. |
 | ./stdlib/swing.mma | Swing1Sus | Swing1 with sustained strings. |
 | ./stdlib/swing.mma | Swing1WalkSus | Swing1Walk with sustained strings. |
 | ./stdlib/swing.mma | Swing1Plus | Swing1 with arpeggiating clarinets. |
 | ./stdlib/swing.mma | Swing1PlusSus | Swing1 with clarinet and sustained strings. |
 | ./stdlib/swing.mma | Swing1WalkPlus | Swing1Walk with the clarinet. |
-| ./stdlib/swing.mma | Swing1WalkPlusSus Swing1Walk with clarinet and sustained strings. |
+| ./stdlib/swing.mma | Swing1WalkPlusSus | Swing1Walk with clarinet and sustained strings. |
 | ./stdlib/swing.mma | Swing2 | This version is much better with slower tempos \ |
 | ./stdlib/swing.mma | Swing2Triple | Modified Swing2 with quarter note triplets. |
 | ./stdlib/swing.mma | Swing2Plus | Swing2 with clarinet |
@@ -948,13 +948,13 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/swing.mma | Swing2End | Swing2 ending with alto sax run. Use _seq_ so \ |
 | ./stdlib/stringballad.mma | StringBallad | Slow ballad with strings and bass. |
 | ./stdlib/stringballad.mma | StringBalladVoice | Add a sustained voice to the strings. |
-| ./stdlib/stringballad.mma | StringBalladStrum Gentle guitar adds some interest. |
+| ./stdlib/stringballad.mma | StringBalladStrum  | Gentle guitar adds some interest. |
 | ./stdlib/stringballad.mma | StringBalladVoiceStrum | Add the guitar and soothing voices. |
 | ./stdlib/stringballad.mma | StringBalladPlus | Add a bit of piano to the strings. |
-| ./stdlib/stringballad.mma | StringBalladStrumPlus Piano and strumming. |
+| ./stdlib/stringballad.mma | StringBalladStrumPlus  | Piano and strumming. |
 | ./stdlib/stringballad.mma | StringBalladVoicePlus | Add the piano and soothing voices. |
-| ./stdlib/stringballad.mma | StringBalladIntro A 4 bar introduction |
-| ./stdlib/stringballad.mma | StringBalladEnd A 2 bar ending |
+| ./stdlib/stringballad.mma | StringBalladIntro  | A 4 bar introduction |
+| ./stdlib/stringballad.mma | StringBalladEnd  | A 2 bar ending |
 | ./stdlib/showtune.mma | ShowTune | Basic track with strings. |
 | ./stdlib/showtune.mma | ShowTune1 | Add in pizzicato strings. |
 | ./stdlib/showtune.mma | ShowTune2 | Basic version with extra _stuff_. Set voice with _ExtraVoice_. |
@@ -967,19 +967,19 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/metronome.mma | Metronome4 | Single bar sequence with hits on beats \ |
 | ./stdlib/metronome.mma | Metronome2-4 | A very useful introduction. On bar one we have \ |
 | ./stdlib/rhumba.mma | Rhumba | Nice, smooth easy listening. |
-| ./stdlib/rhumba.mma | RhumbaSus Sustained strings make it smoother. |
+| ./stdlib/rhumba.mma | RhumbaSus  | Sustained strings make it smoother. |
 | ./stdlib/rhumba.mma | RhumbaTriple | Rhumba with quarter note triplet chords. \ |
 | ./stdlib/rhumba.mma | RhumbaTripleSus | Triplets and sustained strings. |
 | ./stdlib/rhumba.mma | RhumbaTriple12 | Variation of RhumbaTriple with triplets on \ |
-| ./stdlib/rhumba.mma | RhumbaTriple12Sus Triplet on 1/2 and strings. |
+| ./stdlib/rhumba.mma | RhumbaTriple12Sus  | Triplet on 1/2 and strings. |
 | ./stdlib/rhumba.mma | RhumbaTriple34 | Variation of RhumbaTriple with triplets on \ |
-| ./stdlib/rhumba.mma | RhumbaTriple34Sus Triplet on 3/4 and strings. |
+| ./stdlib/rhumba.mma | RhumbaTriple34Sus  | Triplet on 3/4 and strings. |
 | ./stdlib/rhumba.mma | Rhumba1 | Adds pizzicato arpeggios. |
-| ./stdlib/rhumba.mma | Rhumba1Sus Apreggios and sustained strings. |
+| ./stdlib/rhumba.mma | Rhumba1Sus  | Apreggios and sustained strings. |
 | ./stdlib/rhumba.mma | Rhumba2 | Add articulated Marimbas. |
-| ./stdlib/rhumba.mma | Rhumba2Sus Marimbas and sustained strings. |
+| ./stdlib/rhumba.mma | Rhumba2Sus | Marimbas and sustained strings. |
 | ./stdlib/rhumba.mma | Rhumba3 | Add jazz guitar chords. |
-| ./stdlib/rhumba.mma | Rhumba3Sus Guitar chords and sustained strings. |
+| ./stdlib/rhumba.mma | Rhumba3Sus  | Guitar chords and sustained strings. |
 | ./stdlib/rhumba.mma | RhumbaIntro | 4 bar intro to go with standard Rhumba. |
 | ./stdlib/rhumba.mma | RhumbaEnd | Ending with string scales. The scales use \ |
 | ./stdlib/rhumba.mma | RhumbaEnd1 | Simpler, 2 bar, ending. |
@@ -997,7 +997,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/son.mma | SonPlus | Son with flute arpeggios |
 | ./stdlib/son.mma | SonSusPlus | Sustained with flute apreggios. |
 | ./stdlib/son.mma | SonIntro | Boring, four bar introduction. |
-| ./stdlib/son.mma | SonEnd Simple ending. |
+| ./stdlib/son.mma | SonEnd  | Simple ending. |
 | ./stdlib/ska.mma | Ska | Good if you're from Trinidad. |
 | ./stdlib/ska.mma | Ska1 | Change Piano to SteelDrums and add \ |
 | ./stdlib/ska.mma | SkaSus | Adds sustained voices to Ska. |
@@ -1007,7 +1007,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/rock-128.mma | Rock128 | Basic 12/8 beat with the piano \ |
 | ./stdlib/rock-128.mma | Rock128Plain | Piano changes from triplets to 4 in the bar. |
 | ./stdlib/rock-128.mma | Rock128Sus | Add in sustained strings and voices. |
-| ./stdlib/rock-128.mma | Rock128PlainSus Piano 4-to-the bar with strings. |
+| ./stdlib/rock-128.mma | Rock128PlainSus | Piano 4-to-the bar with strings. |
 | ./stdlib/rock-128.mma | Rock128Plus | Add some piano notes for interest. |
 | ./stdlib/rock-128.mma | Rock128SusPlus | Strings and piano. |
 | ./stdlib/rock-128.mma | Rock128PlainPlus | Straight version with piano. |
@@ -1023,8 +1023,8 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/strut.mma | StrutSusIntro | |
 | ./stdlib/strut.mma | StrutEnd | A 2 bar ending. |
 | ./stdlib/trance.mma | Trance | A smooth techno beat. |
-| ./stdlib/trance.mma | Trance1 Adds an annoying repetition to the beat. |
-| ./stdlib/trance.mma | Trance2 Changes repeating brass to 8ths and kills space sounds. |
+| ./stdlib/trance.mma | Trance1  | Adds an annoying repetition to the beat. |
+| ./stdlib/trance.mma | Trance2  | Changes repeating brass to 8ths and kills space sounds. |
 | ./stdlib/trance.mma | TranceBass1 | Same as Trance, with long bass on 1,3. |
 | ./stdlib/trance.mma | Trance1Bass1 | Same as Trance1, with long bass on 1,3. |
 | ./stdlib/trance.mma | Trance2Bass1 | Same as Trance2, with long bass on 1,3. |
@@ -1040,7 +1040,7 @@ should be usable by MMA, with something like the following MMA directives:
 
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./yamaha/jazzswing.mma | JazzSwingMainA | 12 bar main A |
 | ./yamaha/jazzswing.mma | JazzSwingFillAA | 1 bar fill AA |
 | ./yamaha/jazzswing.mma | JazzSwingIntroA | 2 bar intro A |
@@ -1176,7 +1176,7 @@ files ... for much more [Kara-Moon style files](http://www.kara-moon.com/index.p
 please visit [their website](http://www.kara-moon.com).
 
 | file | groove | description |
-| ---- | ---- |
+| ---- | ---- | ---- |
 | ./kara/happyshuffle.mma | HappyshuffleA | Main A - piano, organ, drums, bass |
 | ./kara/happyshuffle.mma | HappyshuffleB | Main B add a accordion |
 | ./kara/happyshuffle.mma | HappyshuffleC | Main C more busy then Main B |
@@ -1298,16 +1298,18 @@ please visit [their website](http://www.kara-moon.com).
 # Other grooves
 See the README files in each directory for informations on authors and usage.
 
+| file | groove | description |
+| ---- | ---- | ---- |
 | ./alexis/hiphop.mma | HipHop | Rythmic line and off-beat pads |
 | ./alexis/hiphop.mma | HipHopSus | HipHop groove + basic strings |
 | ./alexis/hiphop.mma | HipHopPlus1 | Adds piano arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlus1 Piano arpeggios and strings |
-| ./alexis/hiphop.mma | HipHopPlus2 Adds sawtooth arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlus2 Sawtooth arpeggios and strings |
-| ./alexis/hiphop.mma | HipHopPlusPlus Sawtooth and piano arpeggios |
-| ./alexis/hiphop.mma | HipHopSusPlusPlus Sawtooth and piano arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopSusPlus1 |  Piano arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopPlus2 |  Adds sawtooth arpeggios |
+| ./alexis/hiphop.mma | HipHopSusPlus2  |  | Sawtooth arpeggios and strings |
+| ./alexis/hiphop.mma | HipHopPlusPlus |  Sawtooth and piano arpeggios |
+| ./alexis/hiphop.mma | HipHopSusPlusPlus  | Sawtooth and piano arpeggios and strings |
 | ./alexis/hiphop.mma | HipHopIntro | Only drums and bass |
-| ./alexis/hiphop.mma | HipHopEnd Removes basses |
+| ./alexis/hiphop.mma | HipHopEnd  | Removes basses |
 | ./alexis/teamtechno.mma | TeamTechno A basic Techno groove. |
 | ./alexis/teamtechno.mma | TeamTechnoSus Add sustained strings. |
 | ./alexis/teamtechno.mma | TeamTechnoIntro Simple 1 bar intro. |
@@ -1358,8 +1360,8 @@ See the README files in each directory for informations on authors and usage.
 | ./pflib/16beat2.mma | 16beat2FA | 16 Beat 2, Section A Fill-in |
 | ./pflib/16beat2.mma | 16beat2FB | 16 Beat 2, Section B Fill-in |
 | ./pflib/16beat2.mma | 16beat2E | 16 Beat 2, Ending |
-| ./casio/oldieballad.mma | OldieBallad Main pattern, a 2 bar sequence. |
-| ./casio/oldieballad.mma | OldieBalladIntro A 4 bar introduction |
+| ./casio/oldieballad.mma | OldieBallad  | Main pattern, a 2 bar sequence. |
+| ./casio/oldieballad.mma | OldieBalladIntro  | A 4 bar introduction |
 | ./casio/oldieballad.mma | OldieBalladEnd | A 2 bar ending. |
 | ./casio/mellowrb.mma | MellowRB | Interesting rhythm. |
 | ./casio/mellowrb.mma | MellowRBIntro | A 4 bar intro |
@@ -1374,7 +1376,7 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/funk2.mma | Funk2Intro | A funky 4 bar introdution |
 | ./casio/funk2.mma | Funk2End | A funky 4 bar introdution |
 | ./casio/80spop.mma | 80sPop | Remember the 80s? |
-| ./casio/80spop.mma | 80sPopIntro A 4 bar intro |
+| ./casio/80spop.mma | 80sPopIntro  | A 4 bar intro |
 | ./casio/80spop.mma | 80sPopEnd | A 2 bar ending |
 | ./casio/16beatballad1.mma | 16BeatBallad1 | Our basic 2 bar pattern |
 | ./casio/16beatballad1.mma | 16BeatBallad1Intro A 4 bar intro |
@@ -1385,136 +1387,136 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/68ballad.mma | 68Ballad | A 4 bar pattern. |
 | ./casio/68ballad.mma | 68BalladIntro | A 4 bar introduction |
 | ./casio/68ballad.mma | 68BalladEnd | A 2 bar ending. |
-| ./casio/trance2.mma | Trance2 |
-| ./casio/trance2.mma | Trance2Intro |
-| ./casio/trance2.mma | Trance2End |
-| ./casio/quickstep.mma | QuickStep Basic 4 bar pattern |
-| ./casio/quickstep.mma | QuickStepIntro |
-| ./casio/quickstep.mma | QuickStepEnd |
+| ./casio/trance2.mma | Trance2 | | 
+| ./casio/trance2.mma | Trance2Intro | |  | 
+| ./casio/trance2.mma | Trance2End | | 
+| ./casio/quickstep.mma | QuickStep  | Basic 4 bar pattern |
+| ./casio/quickstep.mma | QuickStepIntro | | 
+| ./casio/quickstep.mma | QuickStepEnd | | 
 | ./casio/60spop.mma | 60sPop | A decent pop/rock rhythm. |
 | ./casio/60spop.mma | 60sPopIntro | A 4 bar intro |
 | ./casio/60spop.mma | 60sPopEnd | 2 bar ending |
-| ./casio/digitalrock.mma | DigitalRock Main pattern. |
-| ./casio/digitalrock.mma | DigitalRockIntro 4 bar introduction. |
+| ./casio/digitalrock.mma | DigitalRock  | Main pattern. |
+| ./casio/digitalrock.mma | DigitalRockIntro  | 4 bar introduction. |
 | ./casio/digitalrock.mma | DigitalRockEnd | 2 bar ending. |
-| ./casio/slowbigband.mma | SlowBigBand 4 bar pattern |
-| ./casio/slowbigband.mma | SlowBigBandIntro 4 bar introduction |
+| ./casio/slowbigband.mma | SlowBigBand  | 4 bar pattern |
+| ./casio/slowbigband.mma | SlowBigBandIntro  | 4 bar introduction |
 | ./casio/slowbigband.mma | SlowBigBandEnd | 2 bar endingxd |
-| ./casio/jazzcombo.mma | JazzCombo Basic 4 bar pattern |
-| ./casio/jazzcombo.mma | JazzComboIntro 4 bar introduction |
+| ./casio/jazzcombo.mma | JazzCombo Basic  | 4 bar pattern |
+| ./casio/jazzcombo.mma | JazzComboIntro  | 4 bar introduction |
 | ./casio/jazzcombo.mma | JazzComboEnd | 2 bar ending |
 | ./casio/heavymetal.mma | HeavyMetal | Basic pattern in 4. |
 | ./casio/heavymetal.mma | HeavyMetalIntro | A 4 bar intro. |
-| ./casio/heavymetal.mma | HeavyMetalEnd 2 bar ending. |
+| ./casio/heavymetal.mma | HeavyMetalEnd  | 2 bar ending. |
 | ./casio/popshuffle2.mma | PopShuffle2 | The main mover |
 | ./casio/popshuffle2.mma | PopShuffle2Intro | A 4 bar introduction |
-| ./casio/popshuffle2.mma | PopShuffle2End 2 bar ending |
+| ./casio/popshuffle2.mma | PopShuffle2End  | 2 bar ending |
 | ./casio/rave.mma | Rave | A repetitive beat to keep you dancing |
 | ./casio/rave.mma | RaveIntro | 4 bar intro. |
 | ./casio/rave.mma | RaveEnd | 2 bar ending |
-| ./casio/jazzwaltz.mma | JazzWaltz Basic 4 bar pattern |
-| ./casio/jazzwaltz.mma | JazzWaltzIntro 4 bar introduction |
-| ./casio/jazzwaltz.mma | JazzWaltzEnd 2 bar ending |
-| ./casio/poprock1.mma | PopRock1 A 70s style pop rock. |
+| ./casio/jazzwaltz.mma | JazzWaltz  |  | Basic 4 bar pattern |
+| ./casio/jazzwaltz.mma | JazzWaltzIntro  | 4 bar introduction |
+| ./casio/jazzwaltz.mma | JazzWaltzEnd  | 2 bar ending |
+| ./casio/poprock1.mma | PopRock1  | A 70s style pop rock. |
 | ./casio/poprock1.mma | PopRock1Intro | A 4 bar intro. |
 | ./casio/poprock1.mma | PopRock1End | A 2 bar ending. |
-| ./casio/foxtrot.mma | Foxtrot Basic 4 bar pattern |
-| ./casio/foxtrot.mma | FoxtrotIntro 4 bar introduction |
-| ./casio/foxtrot.mma | FoxtrotEnd |
-| ./casio/shuffleboogie.mma | ShuffleBoogie Main pattern |
-| ./casio/shuffleboogie.mma | ShuffleBoogieIntro 4 bar intro |
-| ./casio/shuffleboogie.mma | ShuffleBoogieEnd 2 bar ending |
-| ./casio/triphop.mma | TripHop Electronic dance beat. |
-| ./casio/triphop.mma | TripHopEnd A 2 bar ending. |
-| ./casio/triphop.mma | TripHopIntro A 4 bar intro |
+| ./casio/foxtrot.mma | Foxtrot Basic  |  | 4 bar pattern |
+| ./casio/foxtrot.mma | FoxtrotIntro  | 4 bar introduction |
+| ./casio/foxtrot.mma | FoxtrotEnd | | 
+| ./casio/shuffleboogie.mma | ShuffleBoogie  | Main pattern |
+| ./casio/shuffleboogie.mma | ShuffleBoogieIntro |  4 bar intro |
+| ./casio/shuffleboogie.mma | ShuffleBoogieEnd |  2 bar ending |
+| ./casio/triphop.mma | TripHop |  Electronic dance beat. |
+| ./casio/triphop.mma | TripHopEnd |  A 2 bar ending. |
+| ./casio/triphop.mma | TripHopIntro  | A 4 bar intro |
 | ./casio/16beatballad2.mma | 16BeatBallad2 | Basic 4 bar pattern. |
 | ./casio/16beatballad2.mma | 16BeatBallad2Intro | 4 bar introduction. |
-| ./casio/16beatballad2.mma | 16BeatBallad2End 2 bar ending |
+| ./casio/16beatballad2.mma | 16BeatBallad2End  | 2 bar ending |
 | ./casio/8beatpop2.mma | 8BeatPop2 | A latin-ish sounding pop rock. |
-| ./casio/8beatpop2.mma | 8BeatPop2End A 2 bar ending. |
+| ./casio/8beatpop2.mma | 8BeatPop2End |  A 2 bar ending. |
 | ./casio/8beatpop2.mma | 8BeatPop2Intro | It's a 4 bar intro, but not too great. |
-| ./casio/16beat1.mma | 16Beat1 Simple dance beat. |
-| ./casio/16beat1.mma | 16beat1End A 2 bar ending. |
-| ./casio/16beat1.mma | 16beat1Intro A 4 bar intro. |
+| ./casio/16beat1.mma | 16Beat1 |  Simple dance beat. |
+| ./casio/16beat1.mma | 16beat1End  | A 2 bar ending. |
+| ./casio/16beat1.mma | 16beat1Intro  | A 4 bar intro. |
 | ./casio/techno.mma | Techno | Main pattern |
-| ./casio/techno.mma | TechnoIntro 4 bar introduction |
+| ./casio/techno.mma | TechnoIntro  | 4 bar introduction |
 | ./casio/techno.mma | TechnoEnd | 2 bar ending |
 | ./casio/latinhouse.mma | LatinHouse | Basic rhythm. |
-| ./casio/latinhouse.mma | LatinHouseIntro 4 bar introduction |
-| ./casio/latinhouse.mma | LatinHouseEnd 2 bar ending |
+| ./casio/latinhouse.mma | LatinHouseIntro  |  | 4 bar introduction |
+| ./casio/latinhouse.mma | LatinHouseEnd  | 2 bar ending |
 | ./casio/fusion.mma | Fusion | Main fusion rhythm with horns. |
 | ./casio/fusion.mma | FusionIntro | A 4 bar intro with lots of horns |
 | ./casio/fusion.mma | FusionEnd | A 2 bar ending |
 | ./casio/dancepop2.mma | DancePop2 | Electronic dance beat |
-| ./casio/dancepop2.mma | DancePop2Intro 4 bar introduction |
-| ./casio/dancepop2.mma | DancePop2End 2 bar ending |
+| ./casio/dancepop2.mma | DancePop2Intro |  4 bar introduction |
+| ./casio/dancepop2.mma | DancePop2End  | 2 bar ending |
 | ./casio/8beatpop3.mma | 8BeatPop3 | A more driving 8 beat rhythm. |
 | ./casio/8beatpop3.mma | 8BeatPop3Intro | 4 bar intro. |
 | ./casio/8beatpop3.mma | 8BeatPop3End | 2 bar ending. |
-| ./casio/poprock2.mma | PopRock2 A cheery version. |
+| ./casio/poprock2.mma | PopRock2  | A cheery version. |
 | ./casio/poprock2.mma | PopRock2Intro | A 4 bar intro. |
 | ./casio/poprock2.mma | PopRock2End | A 2 bar ending. |
 | ./casio/pop.mma | Pop | A basic pop beat |
 | ./casio/pop.mma | PopEnd | A 2 bar ending |
 | ./casio/pop.mma | PopIntro | A 4 bar intro. |
-| ./casio/popwaltz.mma | PopWaltz |
-| ./casio/popwaltz.mma | PopWaltzIntro |
+| ./casio/popwaltz.mma | PopWaltz | | 
+| ./casio/popwaltz.mma | PopWaltzIntro | | 
 | ./casio/popwaltz.mma | PopWaltzEnd | A 2 bar ending |
 | ./casio/discosoul.mma | DiscoSoulIntro | 4 bar introduction |
 | ./casio/discosoul.mma | DiscoSoulEnd | 2 bar ending |
-| ./casio/modernjazz.mma | ModernJazz |
-| ./casio/modernjazz.mma | ModernJazzIntro |
-| ./casio/modernjazz.mma | ModernJazzEnd |
-| ./casio/ambient3.mma | Ambient3 |
-| ./casio/ambient3.mma | Ambient3Intro |
-| ./casio/ambient3.mma | Ambient3End |
+| ./casio/modernjazz.mma | ModernJazz | | 
+| ./casio/modernjazz.mma | ModernJazzIntro | | 
+| ./casio/modernjazz.mma | ModernJazzEnd | | 
+| ./casio/ambient3.mma | Ambient3 | | 
+| ./casio/ambient3.mma | Ambient3Intro | | 
+| ./casio/ambient3.mma | Ambient3End | | 
 | ./casio/slowswing.mma | SlowSwing | Basic 4 bar pattern |
 | ./casio/slowswing.mma | SlowSwingIntro 4 bar introduction |
-| ./casio/slowswing.mma | SlowSwingEnd |
+| ./casio/slowswing.mma | SlowSwingEnd | | 
 | ./casio/16shuffle2.mma | 16Shuffle2 | A goofy 16 beat shuffle. |
 | ./casio/16shuffle2.mma | 16Shuffle2Intro | A 4 bar introduction |
 | ./casio/16shuffle2.mma | 16Shuffle2End | A 2 bar ending |
 | ./casio/modernrb.mma | ModernR&B | Basic pattern |
-| ./casio/modernrb.mma | ModernR&BIntro 4 bar intro |
-| ./casio/modernrb.mma | ModernR&BEnd 2 bar ending |
-| ./casio/8beatballad3.mma | 8BeatBallad3 Basic track. |
+| ./casio/modernrb.mma | ModernR&BIntro  |  | 4 bar intro |
+| ./casio/modernrb.mma | ModernR&BEnd  | 2 bar ending |
+| ./casio/8beatballad3.mma | 8BeatBallad3  | Basic track. |
 | ./casio/8beatballad3.mma | 8BeatBallad3Intro | 4 bar intro |
-| ./casio/8beatballad3.mma | 8BeatBallad3End 2 bar end |
+| ./casio/8beatballad3.mma | 8BeatBallad3End  | 2 bar end |
 | ./casio/worldpop.mma | WorldPop | A percusion heavy beat |
 | ./casio/worldpop.mma | WorldPopIntro | 4 bar intro |
 | ./casio/worldpop.mma | WorldPopEnd | 2 bar ending |
-| ./casio/ambient1.mma | Ambient1 Basic 4 bar pattern |
-| ./casio/ambient1.mma | Ambient1Intro A 4 bar intro |
-| ./casio/ambient1.mma | Ambient1End A 2 bar ending |
+| ./casio/ambient1.mma | Ambient1  | Basic 4 bar pattern |
+| ./casio/ambient1.mma | Ambient1Intro  | A 4 bar intro |
+| ./casio/ambient1.mma | Ambient1End  | A 2 bar ending |
 | ./casio/soul.mma | Soul | A busy soul-like beat |
 | ./casio/soul.mma | SoulIntro | A busy 4 bar intro |
 | ./casio/soul.mma | SoulEnd | 2 bar ending |
 | ./casio/slow16beat.mma | Slow16Beat | For techno huggers. |
-| ./casio/slow16beat.mma | Slow16BeatIntro 4 bar introduction |
+| ./casio/slow16beat.mma | Slow16BeatIntro  | 4 bar introduction |
 | ./casio/slow16beat.mma | Slow16BeatEnd | 2 bar ending |
 | ./casio/serenade.mma | Serenade | Basic 1 bar pattern |
 | ./casio/serenade.mma | SerenadeIntro | 4 bar introduction |
 | ./casio/serenade.mma | SerenadeEnd | 2 bar ending. |
-| ./casio/8beat2.mma | 8Beat2 Harder version of the 8beat1 rhythm. |
+| ./casio/8beat2.mma | 8Beat2  | Harder version of the 8beat1 rhythm. |
 | ./casio/8beat2.mma | 8Beat2End | 2 bar ending. |
 | ./casio/8beat2.mma | 8Beat2Intro | 4 bar introduction. |
 | ./casio/fastbigband.mma | FastBigBand | Basic pattern |
-| ./casio/fastbigband.mma | FastBigBandIntro 4 bar introduction |
+| ./casio/fastbigband.mma | FastBigBandIntro  | 4 bar introduction |
 | ./casio/fastbigband.mma | FastBigBandEnd | 2 bar ending |
-| ./casio/60srock.mma | 60sRock Nice 4 bar main pattern |
+| ./casio/60srock.mma | 60sRock |  Nice 4 bar main pattern |
 | ./casio/60srock.mma | 60sRockIntro | 4 bar intro |
 | ./casio/60srock.mma | 60sRockEnd A 2 bar ending. |
-| ./casio/popballad.mma | PopBallad A basic rhythm |
-| ./casio/popballad.mma | PopBalladIntro A 4 bar introduction. |
+| ./casio/popballad.mma | PopBallad  | A basic rhythm |
+| ./casio/popballad.mma | PopBalladIntro  | A 4 bar introduction. |
 | ./casio/popballad.mma | PopBalladEnd | A 2 bar ending |
 | ./casio/rock2.mma | Rock2 | Main pattern |
-| ./casio/rock2.mma | Rock2Intro 4 bar introduction |
+| ./casio/rock2.mma | Rock2Intro  | 4 bar introduction |
 | ./casio/rock2.mma | Rock2End | 2 bar ending |
-| ./casio/blues.mma | Blues Main 4 bar pattern |
+| ./casio/blues.mma | Blues Main  | 4 bar pattern |
 | ./casio/blues.mma | BluesIntro | 4 bar intro |
 | ./casio/blues.mma | BluesEnd | 2 bar ending |
 | ./casio/r+b.mma | R&B | Main rhythm & blues groove |
-| ./casio/r+b.mma | R&BIntro 4 bar introduction |
+| ./casio/r+b.mma | R&BIntro  | 4 bar introduction |
 | ./casio/r+b.mma | R&BEnd | 2 bar ending |
 | ./casio/8beat1.mma | 8Beat1 | Basic 8beat pop-rock. |
 | ./casio/8beat1.mma | 8Beat1End | 2 bar ending. |
@@ -1525,66 +1527,66 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/60ssoul.mma | 60sSoul | A Supreme ryhthm. |
 | ./casio/60ssoul.mma | 60sSoulIntro | A 4 bar intro. |
 | ./casio/60ssoul.mma | 60sSoulEnd | A 2 bar ending. |
-| ./casio/slowrock.mma | SlowRock A boring 4 bar sequence |
+| ./casio/slowrock.mma | SlowRock  | A boring 4 bar sequence |
 | ./casio/slowrock.mma | SlowRockIntro | A 4 bar introduction |
-| ./casio/slowrock.mma | SlowRockEnd A 2 bar ending. |
+| ./casio/slowrock.mma | SlowRockEnd  | A 2 bar ending. |
 | ./casio/8beatpop1.mma | 8BeatPop1 | Good for old time rock and roll. |
-| ./casio/8beatpop1.mma | 8BeatPop1End A nice little 2 bar ending. |
-| ./casio/8beatpop1.mma | 8BeatPop1Intro A 4 bar introduction. |
+| ./casio/8beatpop1.mma | 8BeatPop1End  | A nice little 2 bar ending. |
+| ./casio/8beatpop1.mma | 8BeatPop1Intro | A 4 bar introduction. |
 | ./casio/trance1.mma | Trance1 | The basic pattern |
-| ./casio/trance1.mma | Trance1Intro |
-| ./casio/trance1.mma | Trance1End |
-| ./casio/dancepop3.mma | DancePop3 Basic electronic pop beat |
+| ./casio/trance1.mma | Trance1Intro | | 
+| ./casio/trance1.mma | Trance1End | | 
+| ./casio/dancepop3.mma | DancePop3  | Basic electronic pop beat |
 | ./casio/dancepop3.mma | DancePop3Intro | 4 bar introduction |
 | ./casio/dancepop3.mma | DancePop3End | 2 bar ending |
-| ./casio/rock1.mma | Rock1 |
+| ./casio/rock1.mma | Rock1 | | 
 | ./casio/rock1.mma | Rock1Intro | 4 bar introduction |
-| ./casio/rock1.mma | Rock1End 2 bar ending |
+| ./casio/rock1.mma | Rock1End  | 2 bar ending |
 | ./casio/16shuffle1.mma | 16Shuffle1 | 16 beat with shuffle |
 | ./casio/16shuffle1.mma | 16Shuffle1Intro | 4 bar introduction |
 | ./casio/16shuffle1.mma | 16Shuffle1End | 4 bar ending |
 | ./casio/house.mma | House | Main beat |
-| ./casio/house.mma | HouseIntro 4 bar introduction |
-| ./casio/house.mma | HouseEnd 2 bar ending |
+| ./casio/house.mma | HouseIntro |  4 bar introduction |
+| ./casio/house.mma | HouseEnd  | 2 bar ending |
 | ./casio/twist.mma | Twist | Basic pattern |
-| ./casio/twist.mma | TwistIntro A 4 bar introduction |
+| ./casio/twist.mma | TwistIntro  | A 4 bar introduction |
 | ./casio/twist.mma | TwistEnd | A 2 bar ending |
 | ./casio/16beatballad3.mma | 16BeatBallad3 | Basic pattern |
 | ./casio/16beatballad3.mma | 16BeatBallad3Intro | 4 bar introduction |
-| ./casio/16beatballad3.mma | 16BeatBallad3End 2 bar ending |
+| ./casio/16beatballad3.mma | 16BeatBallad3End  | 2 bar ending |
 | ./casio/hip-hop.mma | Hip-Hop | Our main pattern |
-| ./casio/hip-hop.mma | Hip-HopIntro A 4 bar introduction |
+| ./casio/hip-hop.mma | Hip-HopIntro  | A 4 bar introduction |
 | ./casio/hip-hop.mma | Hip-HopEnd | A 2 bar ending |
-| ./casio/dance1.mma | Dance1 Basic pattern |
-| ./casio/dance1.mma | Dance1Intro 4 bar introduction |
+| ./casio/dance1.mma | Dance1  | Basic pattern |
+| ./casio/dance1.mma | Dance1Intro  | 4 bar introduction |
 | ./casio/dance1.mma | Dance1End | 2 bar ending |
-| ./casio/8beatballad1.mma | 8BeatBallad1 A strumming minstrel. |
+| ./casio/8beatballad1.mma | 8BeatBallad1  | A strumming minstrel. |
 | ./casio/8beatballad1.mma | 8BeatBallad1Intro | 4 bar intro. |
-| ./casio/8beatballad1.mma | 8BeatBallad1End |
+| ./casio/8beatballad1.mma | 8BeatBallad1End | | 
 | ./casio/dance2.mma | Dance2 | Main pattern |
-| ./casio/dance2.mma | Dance2Intro 4 bar intro |
-| ./casio/dance2.mma | Dance2End 2 bar ending |
+| ./casio/dance2.mma | Dance2Intro  | 4 bar intro |
+| ./casio/dance2.mma | Dance2End  | 2 bar ending |
 | ./casio/8beatballad2.mma | 8BeatBallad2 | A 2 bar ballad. |
 | ./casio/8beatballad2.mma | 8BeatBallad2Intro | A 4 bar introduction |
 | ./casio/8beatballad2.mma | 8BeatBallad2End | A 2 bar ballad. |
 | ./casio/latinfusion.mma | LatinFusion | Busy latin rhythm. |
-| ./casio/latinfusion.mma | LatinFusionIntro 4 bar introduction |
-| ./casio/latinfusion.mma | LatinFusionEnd |
-| ./casio/ambient2.mma | Ambient2 Main pattern |
-| ./casio/ambient2.mma | Ambient2Intro A 4 bar introduction |
+| ./casio/latinfusion.mma | LatinFusionIntro  | 4 bar introduction |
+| ./casio/latinfusion.mma | LatinFusionEnd | | 
+| ./casio/ambient2.mma | Ambient2  | Main pattern |
+| ./casio/ambient2.mma | Ambient2Intro  | A 4 bar introduction |
 | ./casio/ambient2.mma | Ambient2End | A 2 bar ending |
 | ./casio/electricpop.mma | ElectricPop | Electronic Pop Dance Beat |
-| ./casio/electricpop.mma | ElectricPopIntro Electronic Pop |
-| ./casio/electricpop.mma | ElectricPopEnd Electronic Pop Ending |
+| ./casio/electricpop.mma | ElectricPopIntro  | Electronic Pop |
+| ./casio/electricpop.mma | ElectricPopEnd  | Electronic Pop Ending |
 | ./casio/16beat3.mma | 16Beat3 | A techno-sounding dance beat. |
 | ./casio/16beat3.mma | 16Beat3End | 2 Bar ending |
 | ./casio/16beat3.mma | 16Beat3Intro | 4 bar introduction |
 | ./casio/soulpop.mma | SoulPop | A basic pop, not too soulfull. |
-| ./casio/soulpop.mma | SoulPopIntro 4 bar intro |
-| ./casio/soulpop.mma | SoulPopEnd 2 bar ending |
-| ./casio/swing.mma | Swing Basic 4 bar pattern |
-| ./casio/swing.mma | SwingIntro |
-| ./casio/swing.mma | SwingEnd |
+| ./casio/soulpop.mma | SoulPopIntro  | 4 bar intro |
+| ./casio/soulpop.mma | SoulPopEnd  | 2 bar ending |
+| ./casio/swing.mma | Swing Basic  | 4 bar pattern |
+| ./casio/swing.mma | SwingIntro | | 
+| ./casio/swing.mma | SwingEnd | | 
 | ./casio/8beatdance.mma | 8BeatDance | Good if you are young. |
 | ./casio/8beatdance.mma | 8BeatDanceIntro | A 4 bar intro to the dance. |
 | ./casio/8beatdance.mma | 8BeatDanceEnd | A 2 bar end of dancing. |
@@ -1594,7 +1596,7 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/dancepop1.mma | DancePop1 | Electronic Dance beat. |
 | ./casio/dancepop1.mma | DancePop1Intro | Electronic Dance beat 4 bar intro. |
 | ./casio/dancepop1.mma | DancePop1End | Electronic Dance beat 2 bar ending. |
-| ./casio/16beat2.mma | 16Beat2 A light, arpeggiated dance. |
-| ./casio/16beat2.mma | 16Beat2Intro A 4 bar introduction. |
-| ./casio/16beat2.mma | 16Beat2End A 4 bar introduction. |
+| ./casio/16beat2.mma | 16Beat2  | A light, arpeggiated dance. |
+| ./casio/16beat2.mma | 16Beat2Intro  | A 4 bar introduction. |
+| ./casio/16beat2.mma | 16Beat2End  | A 4 bar introduction. |
 
