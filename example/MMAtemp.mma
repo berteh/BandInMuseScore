@@ -1,0 +1,14 @@
+//MMA Midi Accompaniment generated from MuseScore
+//BandInMuseScore, berteh
+
+TEMPO 120
+Groove Folk
+
+TimeSig 4 4
+Repeat
+TEMPO 180
+1  Em E5
+2  Am7 Cm
+RepeatEnd
+3  Em
+cut 
