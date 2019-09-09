@@ -6,10 +6,10 @@ Hear for yourself how the plain few measures of the sample BandInMuseScore track
 
 ![Illustration: Simple Score exampe](example/BandInMuseScore.png)
 
-This plugin has been tested on Linux (Ubuntu) with MuseScore 2.3.2. It should work fine on Windows and Mac and will eventually be ported to MuseScore 3. It's work in progress, usable and perfectible, suggestions and help are welcome (see [Roadmap](#roadmap--contribute)).
+This plugin has been tested on Linux (Ubuntu) with MuseScore 2.3.2, and on Windows8 with MuseScore 3.2.3. It should work fine on Mac as well. It's work in progress, usable and perfectible, suggestions and help are welcome (see [Roadmap](#roadmap--contribute)).
 
 ## HowTo
-- Install [MMA MIDI Accompaniment](https://www.mellowood.ca/mma/index.html) for your OS (it's Free).
+- Install [MMA MIDI Accompaniment](https://www.mellowood.ca/mma/index.html) for your OS (it's Free). Additional info (esp. for Windows) see [INSTALL.md](INSTALL.md)
 - [Download BandInMuseScore](https://github.com/berteh/BandInMuseScore/archive/master.zip) plugin
 - Open your score with chords symbols in MuseScore
 - Launch plugin creator, open BandInMuseScore plugin from there, click `run`, it will create MMA file automatically.
