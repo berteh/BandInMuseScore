@@ -3,7 +3,6 @@ import FileIO 3.0
 import QtQuick 2.2
 import QtQuick.Dialogs 1.1
 
-
 MuseScore {
   menuPath: "Plugins.BandInMuseScore3"
   description: "Generate a band-like accompaniment on the basis of Chords and Grooves, using MMA Midi Accompaniment."
@@ -18,24 +17,28 @@ MuseScore {
   property bool discardRepeats: false; //set to true for enabling copy-paste of generated midi into leadsheet despite repeat bars.
 
   //for Linux and MacOS users
-  //property string mmaPath : "~/MMAtemp.mma";
-  //property string midPath : "~/MMAtemp.mid";
-  //property string mmaCommand : "mma "; //add -r, or more, for debug infos
+  property string nixMMAPath : "/tmp/MMAtemp.mma"; // absolute and writeable,  no '~'
+  property string nixMIDPath : "/tmp/MMAtemp.mid"; // absolute and writeable,  no '~'
+  property string nixMMACommand : "mma "; //add -r, or more, for debug infos
 
   //for  Windows users
-  property string mmaPath : "C:/temp/MMAtemp.mma";
-  property string midPath : "C:/temp/MMAtemp.mid";
-  property string mmaCommand : "cmd.exe /c C:/WPython64/mma-bin-19.08/mma.bat "; //add -r, or more, for debug infos
+  property string winMMAPath : "C:/temp/MMAtemp.mma"; // absolute and writeable
+  property string winMIDPath : "C:/temp/MMAtemp.mid"; // absolute and writeable
+  property string winMMACommand : "C:/WPython64/mma-bin-19.08/mma.bat "; //add -r, or more, for debug infos
 
   // *
   // ********* thank you, that's all for the settings ***********
 
-  // TODO detect OS with QSysInfo::productType(), since compile-time #ifndef Q_OS_WIN doesn't seem to work. 
-     
+      
   property int measureIndex: 1;
   property var measureChords : [];
   property int currentTick: 0;
   //property int measureTick: 0; // provision for handling chords position in the measure
+    
+  property string mmaPath : Qt.platform.os == "windows" ?winMMAPath:nixMMAPath;  // values for Qt.platform.os are at https://doc.qt.io/qt-5/qml-qtqml-qt.html#platform-prop
+  property string midPath : Qt.platform.os == "windows" ?winMIDPath:nixMIDPath;
+  property string mmaCommand : Qt.platform.os == "windows" ?"cmd.exe /c "+winMMACommand:nixMMACommand;
+  
   
   QProcess {
     id: proc
@@ -65,7 +68,7 @@ MuseScore {
     id: midFailureDialog
     title: "Generation incomplete"
     text: "MMA accompaniment is ready for you, but we could not generate the MIDI file from it.\n\n"+
-           "Please check path settings in script, or run the mma command manually:\n  "+
+           "Please check path settings in script, or run the 'mma' command manually:\n  "+
            mmaCommand+" -f "+midPath+" "+mmaPath+"\n\n"+
            "The source MMA file is available at "+mmaPath;
     onAccepted: {
@@ -177,7 +180,7 @@ MuseScore {
       if (typeof curScore === 'undefined')
          Qt.quit();
       //TODO quit if no Harmony in score... or not to allow generation from only Staff Texts ?
-      
+          
       //generate MMA
       console.log("Generating MMA for "+curScore.scoreName);
       measureIndex = 1;
