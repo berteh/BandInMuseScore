@@ -1,36 +1,89 @@
-import QtQuick 2.0
-import MuseScore 1.0
+import MuseScore 3.0
+import FileIO 3.0
+import QtQuick 2.2
+import QtQuick.Dialogs 1.1
+
 
 MuseScore {
-  menuPath: "Plugins.BandInMuseScore"
+  menuPath: "Plugins.BandInMuseScore3"
   description: "Generate a band-like accompaniment on the basis of Chords and Grooves, using MMA Midi Accompaniment."
-  version: "1.0"
-  
-  //change default settings to your liking here.
-  //************************************************************
-  
+  version: "3.0"
+  requiresScore: true
+   
+  // change default settings to your liking here.
+  // ************************************************************
+  // *
   property string defaultGroove : "Folk";
   property int defaultTempo : 120;
   property bool discardRepeats: false; //set to true for enabling copy-paste of generated midi into leadsheet despite repeat bars.
-  property string tempMMAfile : "./MMAtemp.mma";
-  // ********* thank you that's all for the settings ***********
-  
+
+  //for Linux and MacOS users
+  //property string mmaPath : "~/MMAtemp.mma";
+  //property string midPath : "~/MMAtemp.mid";
+  //property string mmaCommand : "mma "; //add -r, or more, for debug infos
+
+  //for  Windows users
+  property string mmaPath : "C:/temp/MMAtemp.mma";
+  property string midPath : "C:/temp/MMAtemp.mid";
+  property string mmaCommand : "cmd.exe /c C:/WPython64/mma-bin-19.08/mma.bat "; //add -r, or more, for debug infos
+
+  // *
+  // ********* thank you, that's all for the settings ***********
+
+  // TODO detect OS with QSysInfo::productType(), since compile-time #ifndef Q_OS_WIN doesn't seem to work. 
+     
   property int measureIndex: 1;
   property var measureChords : [];
+  property int currentTick: 0;
   //property int measureTick: 0; // provision for handling chords position in the measure
   
   QProcess {
     id: proc
   }
 
+  FileIO {
+    id: mmaFile
+    source: mmaPath
+  }
   
-    
+  FileIO {
+    id: midFile
+    source: midPath
+  }
+  
+  MessageDialog {
+    id: generationCompleteDialog
+    title: "Success"
+    text: "MMA accompaniment is ready for you in MuseScore.\nThe source MMA file is available at "+mmaPath;
+    onAccepted: {
+        Qt.quit();
+    }
+    Component.onCompleted: visible = false
+  }
+  
+  MessageDialog {
+    id: midFailureDialog
+    title: "Generation incomplete"
+    text: "MMA accompaniment is ready for you, but we could not generate the MIDI file from it.\n\n"+
+           "Please check path settings in script, or run the mma command manually:\n  "+
+           mmaCommand+" -f "+midPath+" "+mmaPath+"\n\n"+
+           "The source MMA file is available at "+mmaPath;
+    onAccepted: {
+        Qt.quit();
+    }
+    Component.onCompleted: visible = false
+  }
+
+  
+      
   function chordsToMMA() {
-    //TODO handle measure lenghts and chords position (via chord["tick"])
+    //turns sequence of chords buffered into measureChords into MMA code, and empties measureChords.
+    
     var res = "";
     var chord = measureChords.shift();
     while (chord) {
            res += ' '+chord["txt"];              
+           //TODO handle measure lenghts and chords position (via chord["tick"])
            chord = measureChords.shift();
     }
     console.log("MMA chords buffer is: "+res);
@@ -39,6 +92,7 @@ MuseScore {
   
   function isMMAdirective(text) {
     //TODO detect the text elements that should not be fed to MMA
+    
     return(true);
   }
   
@@ -55,12 +109,12 @@ MuseScore {
               cmd("transpose-up");
               cmd("transpose-down");
             }
-            console.log('buffering Harmony '+elt.text+" at " + elt.parent.tick);
-            measureChords.push({ txt : elt.text, tick: elt.parent.tick })
+            console.log('buffering Harmony '+elt.text+" at " + currentTick);
+            measureChords.push({ txt : elt.text, tick: currentTick })
             break;
           case Element.BAR_LINE:
           case Element.BARLINE: //saw this alternative syntax elsewhere, seems useless.
-            if (elt.parent.tick > 0) //skip printing chords buffer when the Bar line is the first symbol of the track.
+            if (currentTick > 0) //skip printing chords buffer when the Bar line is the first symbol of the track.
                   result = '\n'+ measureIndex++ +' '+ chordsToMMA() ;            
             if (elt.subtypeName() === "end") {
                   result += '\ncut ';
@@ -80,7 +134,7 @@ MuseScore {
             break;
 */
           case Element.TIMESIG:
-            result = '\nTimeSig '+elt.numerator+' '+elt.denominator;
+            result = '\nTimeSig '+elt.timesig.numerator+' '+elt.timesig.denominator;;//2.0 was numerator+' '+elt.denominator;
             break;
           case Element.STAFF_TEXT:
             if(isMMAdirective(elt.text))
@@ -99,24 +153,24 @@ MuseScore {
   
   
   
-  function writeMMA(fileUrl, text){
-
-    var request = new XMLHttpRequest();
-    request.open("DELETE", fileUrl, false);
-    request.open("PUT", fileUrl, false);
-    request.send(text);
-    console.log("MMA file written to "+fileUrl);
+  function writeMMA(text){
+    var test = mmaFile.write(text);
+    //console.log("writing: "+text); // 
     //TODO give users feedback if failure to write
-    return request.status;
   }
   
-  function runMMA(file){
-      //TODO fix error: "No data created. Did you remember to set a groove/sequence?"
-      console.log("running MMA is not automatic yet. Groove and styles likely not found. Kindly run the following command directly:\n  $ mma "+tempMMAfile+"  & musescore ./MMAtemp.mid");
-      proc.start("mma "+file);
+  function runMMA(){
+      var cmd = mmaCommand+" -f "+midPath+" "+mmaPath;
+      console.log("generating MIDI file with command: "+cmd);
+      proc.start(cmd);
       var val = proc.waitForFinished(30000);
-      if (val)
+      if (val) {
            console.log(proc.readAllStandardOutput());
+           return(true);
+      } else {
+          console.log("Generation of MIDI file failed, please check paths in script, or run MMA manually on file "+mmaPath);
+          return(false);
+      }
   }
     
   onRun: {
@@ -124,52 +178,22 @@ MuseScore {
          Qt.quit();
       //TODO quit if no Harmony in score... or not to allow generation from only Staff Texts ?
       
-      //init
+      //generate MMA
+      console.log("Generating MMA for "+curScore.scoreName);
       measureIndex = 1;
-      var mmaTxt = "//MMA Midi Accompaniment generated from MuseScore\n"+
-                   "//"+curScore.title+", "+curScore.composer+"\n"+
-                   "\nTempo "+defaultTempo+"\nGroove "+defaultGroove+"\n"; //default values for mandatory, likely overriden later in Score.
-                      
-           
-/*
-      //work on active selection or full score
-      var cursor = curScore.newCursor();
-      var startStaff;
-      var endStaff;
-      var endTick = curScore.lastSegment.tick + 1;
-      var fullScore = false;
-      
-      cursor.rewind(1); // beginning of selection
-      if (!cursor.segment) { // no selection
-         fullScore = true;
-         startStaff = 0; // start with 1st staff
-         endStaff  = curScore.nstaves - 1; // and end with last
-      } else {
-         startStaff = cursor.staffIdx;
-         cursor.rewind(2); // end of selection
-         if (cursor.tick != 0) // selection does not include last measure 
-            endTick = cursor.tick;
-         endStaff = cursor.staffIdx;
-      }
-      console.log("range is staves " + startStaff + " to " + endStaff + " - end tick: " + endTick)
-
-      for (var staff = startStaff; staff <= endStaff; staff++) {
-            cursor.rewind(1); // beginning of selection
-            cursor.staffIdx = staff;
-
-            if (fullScore)  // no selection
-               cursor.rewind(0); // beginning of score
-
-            while (cursor.segment && (fullScore || cursor.tick < endTick)) {
-                   var elt = cursor.element;
-             
-  */
+      var mmaTxt = "// "+curScore.title+", "+curScore.composer+"\n"+
+                   "// MMA Midi Accompaniment generated from MuseScore\n"+
+                   "// github.com/berteh/BandInMuseScore  -  www.mellowood.ca/mma/\n"+
+                   "\nTempo "+defaultTempo+
+                   "\nGroove "+defaultGroove+"\n"; //default values for mandatory directives, likely overriden later in Score.
+        
         //for (var track = 0; track < curScore.ntracks; ++track) {
         var track = 0;
            console.log("exporting track "+track);
            var segment = curScore.firstSegment();            
            
            while (segment) {
+             currentTick = segment.tick;
               //Harmony, Tempo and other dynamics are annotations on the segment.
               var anns = segment.annotations;
               if (anns && (anns.length > 0)) {
@@ -177,9 +201,8 @@ MuseScore {
                 for (var annc = 0; (annc < anns.length); annc++) {
                   mmaTxt += exportElement(anns[annc]);
                 }
-              }
-              
-              //current segment content
+              }              
+              //save MMA text for current segment
               mmaTxt += exportElement(segment.elementAt(track));
                             
               segment = segment.next;
@@ -188,9 +211,22 @@ MuseScore {
       
       console.log("\nMMA:\n\n" + mmaTxt);
       
-      writeMMA(tempMMAfile,mmaTxt);
-      runMMA(tempMMAfile);
-      //TODO generate mid, import mid in musescore and add original tracks to imported score. set its title, composer and more.
+      mmaFile.remove();
+      midFile.remove();
+      writeMMA(mmaTxt);
+      //generate MIDI
+      runMMA();
+      //open MIDI
+      if(midFile.exists()) {
+        var leadScore = curScore;
+      //TODO merge lead and accompaniment, set title, composer and more.
+        var acc = readScore(midPath);
+        acc.setMetaTag("title", leadScore.title+" - MMA"); //todo how to display title on score ?
+        acc.setMetaTag("composer", leadScore.composer+" with MMA");
+        generationCompleteDialog.open();
+      }
+      else
+        midFailureDialog.open();        
       
       Qt.quit();
    } // end onRun
