@@ -9,7 +9,7 @@ For other distributions install fromyour usual repository or package provided at
 
 __2.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
 
-__3.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore.qml``to match your preferences: default groove name, tempo, and various files locations.
+__3.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore3.qml``to match your preferences: default groove name, tempo, and various files locations.
 
 
 ## Windows
@@ -32,7 +32,7 @@ __4.__ Initialize the database of all available grooves and sequences by running
 
 __5.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
 
-__6.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore.qml``to match your preferences: default groove name, tempo, and various files locations.
+__6.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore3.qml``to match your preferences: default groove name, tempo, and various files locations.
 
 ## Mac OS/X
 Likely very similar to the Linux install, at the beginning of this document. Please provide feedback & guidance if you have any experience.
