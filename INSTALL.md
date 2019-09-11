@@ -1,11 +1,11 @@
-# How To install MMA and BandInMuseScore plugin ?
+# How To install BandInMuseScore
 
 ## Ubuntu and other Linux
-__1.__ Install MMA from Ubuntu repository:
+__1.__ Install [MMA Musical Midi Accompaniment]( [https://www.mellowood.ca/mma/) from Ubuntu repository:
 
     sudo apt-get install mma
 	
-For other distributions install fromyour usual repository or package provided at https://www.mellowood.ca/mma/packages.html
+For other distributions install fromyour usual repository or package provided at [https://www.mellowood.ca/mma/packages.html](https://www.mellowood.ca/mma/packages.html).
 
 __2.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably in your ``Documents/MuseScore3/Plugins`` directory.
 
@@ -21,14 +21,14 @@ The 'Zero' version (without most external librairies and IDE) is about 40Mb down
 
 Install WinPython, recommended in ``C:\WPython64``. Since it's portable you can freely move/rename/delete the whole directory as needed.
 
-__2.__ Download and uncompress the MMA package from its [download page](https://www.mellowood.ca/mma/downloads.html). This plugin has been tested with [MMA v19.08](https://www.mellowood.ca/mma/mma-bin-19.08.tar.gz), other versions should work just fine. Uncompress (un-gzip AND un-tar) it anywhere you like, recommended in ``C:\WPython64\mma-bin-19.08``.
+__2.__ Download and uncompress the MMA Musical Midi Accompaniment package from its [download page](https://www.mellowood.ca/mma/downloads.html). This plugin has been tested with [MMA v19.08](https://www.mellowood.ca/mma/mma-bin-19.08.tar.gz), other versions should work just fine. Uncompress (un-gzip AND un-tar) it anywhere you like, recommended in ``C:\WPython64\mma-bin-19.08``.
 
-__3.__ Create a new file named ``mma.bat`` in this last directory, with the following content, where the first command makes the script change its working directory to the MMA directory, and the second line runs the mma.py file with WinPython. You need to update the Python version to the flavour you downloaded.
+__3.__ Create a new file named ``mma.bat`` in this last directory, with the following content, where the first command makes the script change its working directory to the MMA directory, and the second line runs the ``mma.py`` file with WinPython. You need to update the Python version to the flavour you downloaded.
 
     cd %~dp0
     ..\python-3.7.4.amd64\python.exe mma.py %1 %2 %3 %5 %6
 
-__4.__ Initialize the database of all available grooves and sequences by running the following command in the MMA directory (via file explorer > go to MMA diretory (C:\WPython64\mma-bin-19.08) > File > Open Command Prompt:
+__4.__ Initialize the database of all available grooves and sequences by running the following command in the MMA directory (via _file explorer > go to MMA diretory (C:\WPython64\mma-bin-19.08) > File > Open Command Prompt_ :
 
     mma -G
 
