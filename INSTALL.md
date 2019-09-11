@@ -7,7 +7,7 @@ __1.__ Install MMA from Ubuntu repository:
 	
 For other distributions install fromyour usual repository or package provided at https://www.mellowood.ca/mma/packages.html
 
-__2.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
+__2.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably in your ``Documents/MuseScore3/Plugins`` directory.
 
 __3.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore3.qml``to match your preferences: default groove name, tempo, and various files locations.
 
@@ -30,7 +30,7 @@ __4.__ Initialize the database of all available grooves and sequences by running
 
     mma -G
 
-__5.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably ``MuseScore/Plugins`` directory.
+__5.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably in your ``MuseScore3/Plugins`` directory.
 
 __6.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore3.qml``to match your preferences: default groove name, tempo, and various files locations.
 
