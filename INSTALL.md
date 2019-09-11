@@ -13,7 +13,7 @@ __3.__ Optionnaly edit the properties at the beginning of file ``BandInMuseScore
 
 
 ## Windows
-__0.__ If you don't already have Python installed you could download a [single zip with Python3.7.2 and MMA19.08 for windows 64bits](https://app.box.com/s/uefkjq7bcgcv40774bo3m0hdwkoscf97) platforms, unzip it in C:\WPython64 (make sure it's not a subfolder) and be done. Since it's portable you can simply delete the whole directory to uninstall. Or do the whole install yourself (takes less than 10 minutes) with the following instructions:
+__0.__ If you don't already have Python installed you could download a [single zip with Python3.7.2 and MMA19.08 for windows 64bits](https://app.box.com/s/uefkjq7bcgcv40774bo3m0hdwkoscf97) platforms, unzip it in C:\WPython64 (make sure it's not a subfolder) and skip to step 5. Since it's portable you can simply delete the whole directory to uninstall. Or do the whole install yourself (takes less than 10 minutes) with the following instructions:
 
 __1.__ Install a ligthweight portable Python such as [WinPython](https://winpython.github.io/).
 
