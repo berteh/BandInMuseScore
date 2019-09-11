@@ -224,8 +224,10 @@ MuseScore {
         var leadScore = curScore;
       //TODO merge lead and accompaniment, set title, composer and more.
         var acc = readScore(midPath);
-        acc.setMetaTag("title", leadScore.title+" - MMA"); //todo how to display title on score ?
+        acc.setMetaTag("title", leadScore.title+" - MMA");
         acc.setMetaTag("composer", leadScore.composer+" with MMA");
+        acc.addText("title", leadScore.title+" - MMA");
+        acc.addText("composer", leadScore.composer+" with MMA");
         generationCompleteDialog.open();
       }
       else
