@@ -1,4 +1,7 @@
-# Grooves from standard librairy
+# Styles available in MMA
+Below are the stock styles in MMA. To use one for a portion of a score in BandInMuseScore simply create a Staff Text (``CTRL+T``) on any note or rest, and write ``groove <groovename>`` in it.
+
+## Grooves from standard librairy
 By [Bob van der Poel](https://www.mellowood.ca/mma/). These library files are presented as a proof-of-concept. A number
 are sounding quite good, but many still need much more work to make
 them "musical".
@@ -6,7 +9,7 @@ them "musical".
 Many of them were developed by listening carefully to the auto-accomp
 on his Casio keyboard and then manually re-creating.
 
-| file | groove | description |
+| File | Groove name | Description |
 | ---- | ---- | ---- |
 | ./stdlib/mellowjazz.mma | MellowJazz | A slow, steady beat. |
 | ./stdlib/mellowjazz.mma | MellowJazzPlus | Add in some random piano notes. |
@@ -183,7 +186,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/slowjazz.mma | SlowJazz2Sus | Straight guitar with sustained Hammond-like organ. |
 | ./stdlib/slowjazz.mma | SlowJazzFill | One bar fill with a decending bass walk. |
 | ./stdlib/slowjazz.mma | SlowJazzIntro  | A 4 bar introduction. |
-| ./stdlib/slowjazz.mma | SlowJazz1Intro  |  | 4 bar intro without push chords. |
+| ./stdlib/slowjazz.mma | SlowJazz1Intro  |  4 bar intro without push chords. |
 | ./stdlib/slowjazz.mma | SlowJazz2Intro  | A 4 bar intro with organ |
 | ./stdlib/slowjazz.mma | SlowJazzEnd | An easy, 2 bar ending. |
 | ./stdlib/slowjazz.mma | SlowJazz2End | Substitute organ for Piano. |
@@ -615,7 +618,7 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/bossanova.mma | BossaNovaEnd  | The strings do a scale. First bar is eights, \ |
 | ./stdlib/bossanova.mma | BossaNova1End  | Same ending, but with sustained strings added. |
 | ./stdlib/bossanova.mma | BossaNova2End  | Ending with sustained strings, but no scale. |
-| ./stdlib/folk.mma | Folk |  A very simple  | pattern to set against old songs. Uses a \ |
+| ./stdlib/folk.mma | Folk |  A very simple pattern to set against old songs. Uses a \ |
 | ./stdlib/folk.mma | FolkWalk | Plain folk rhythm with walking bass. |
 | ./stdlib/folk.mma | FolkArticulated  | Fingered picked guitar and a bit of bass. |
 | ./stdlib/folk.mma | FolkSus  |  Some nice harmonica chords with the guitar. |
@@ -1031,15 +1034,15 @@ on his Casio keyboard and then manually re-creating.
 | ./stdlib/trance.mma | TranceIntro | Hypnotic intro? |
 | ./stdlib/trance.mma | TranceEnd | Fading ending, nothing on beats 3/4 of final bar. |
 
-# Yahama STYles
-Yamaha sty to MMA conversion by ys2mma.py. These are machine translation of a binary style file and
-should be usable by MMA, with something like the following MMA directives:
+
+## Yahama STYles
+Yamaha sty to MMA conversion by ys2mma.py (see [MMMA Converters](https://www.mellowood.ca/mma/helpers.html#convert)). These are machine translation of a binary style file and should be usable by MMA, with something like the following MMA directives:
 
     use yamaha/jazzswing.mma
     groove JazzSwingMainB
 
 
-| file | groove | description |
+| File | Groove name | Description |
 | ---- | ---- | ---- |
 | ./yamaha/jazzswing.mma | JazzSwingMainA | 12 bar main A |
 | ./yamaha/jazzswing.mma | JazzSwingFillAA | 1 bar fill AA |
@@ -1060,8 +1063,8 @@ should be usable by MMA, with something like the following MMA directives:
 | ./yamaha/jazzbasie.mma | JazzBasieFillCC | 1 bar fill CC |
 | ./yamaha/jazzbasie.mma | JazzBasieIntroC | 4 bar intro C |
 | ./yamaha/jazzbasie.mma | JazzBasieEndingC | 5 bar ending C |
-| ./yamaha/jazzbasie.mma | JazzBasieMainD 4 bar main D |
-| ./yamaha/jazzbasie.mma | JazzBasieFillDD 2 bar Fill DD |
+| ./yamaha/jazzbasie.mma | JazzBasieMainD | 4 bar main D |
+| ./yamaha/jazzbasie.mma | JazzBasieFillDD | 2 bar Fill DD |
 | ./yamaha/jazzwaltz.mma | JazzWaltzMainA | 12 bar main A |
 | ./yamaha/jazzwaltz.mma | JazzWaltzFillAA | 1 bar fill AA |
 | ./yamaha/jazzwaltz.mma | JazzWaltzIntroA | 2 bar intro A |
@@ -1106,10 +1109,10 @@ should be usable by MMA, with something like the following MMA directives:
 | ./yamaha/w-rock.mma | W-RockFillBA | A cymbal crash on beat 1 creates a fill. |
 | ./yamaha/w-rock.mma | W-RockFillBB | No drums, just bass and piano. |
 | ./yamaha/western.mma | WesternMainA | A bit like a train taking off. |
-| ./yamaha/western.mma | WesternFillAA A fill which sounds better than the main pattern. |
+| ./yamaha/western.mma | WesternFillAA | A fill which sounds better than the main pattern. |
 | ./yamaha/western.mma | WesternFillAB | Goes well with the train. |
 | ./yamaha/western.mma | WesternIntroA | A pluck on 1,2,3 with added snare. |
-| ./yamaha/western.mma | WesternEndingA A banjo run with a final chord. |
+| ./yamaha/western.mma | WesternEndingA | A banjo run with a final chord. |
 | ./yamaha/western.mma | WesternMainB | Very blue-grassy with picked banjo. |
 | ./yamaha/western.mma | WesternFillBA | Somehow the train is running over the banjo. |
 | ./yamaha/western.mma | WesternFillBB | And I thought the banjo had been run over. |
@@ -1132,24 +1135,24 @@ should be usable by MMA, with something like the following MMA directives:
 | ./yamaha/quando-g.s280.mma | QuandoGSMainB | Adds horn section to Main-A. |
 | ./yamaha/quando-g.s280.mma | QuandoGSFillBB | Fill for Main-B. |
 | ./yamaha/quando-g.s280.mma | QuandoGSFillBA | Simple fill with horns. |
-| ./yamaha/quando-g.s280.mma | QuandoGSIntroB This is an 8 bar introduction. The first 6 bars are a just \ |
-| ./yamaha/quando-g.s280.mma | QuandoGSEndingB This 8 bar ending duplicates Main-B with a single bar "ending". |
+| ./yamaha/quando-g.s280.mma | QuandoGSIntroB | This is an 8 bar introduction. The first 6 bars are a just \ |
+| ./yamaha/quando-g.s280.mma | QuandoGSEndingB | This 8 bar ending duplicates Main-B with a single bar "ending". |
 | ./yamaha/quando-g.s280.mma | QuandoGSMainC | Pretty much like Main-B, but the horns are softer. |
 | ./yamaha/quando-g.s280.mma | QuandoGSFillCC | Abrupt fill with hit on 1. |
 | ./yamaha/quando-g.s280.mma | QuandoGSIntroC | Pretty much like Intro-B. |
 | ./yamaha/quando-g.s280.mma | QuandoGSEndingC | This 8 bar ending duplicates Main-C with an "end" on the last bar. |
-| ./yamaha/quando-g.s280.mma | QuandoGSMainD Much like Main-A, but a bit brighter percussion. |
+| ./yamaha/quando-g.s280.mma | QuandoGSMainD | Much like Main-A, but a bit brighter percussion. |
 | ./yamaha/quando-g.s280.mma | QuandoGSFillDD | Loud fill with a brass hit on beat 1. |
 | ./yamaha/mambo.mma | MamboMainA | Good, basic beat. |
-| ./yamaha/mambo.mma | MamboFillAA An okay single bar fill |
+| ./yamaha/mambo.mma | MamboFillAA | An okay single bar fill |
 | ./yamaha/mambo.mma | MamboFillAB | Single bar horn fill. |
 | ./yamaha/mambo.mma | MamboIntroA | Good horns, but odd sounding piano/bass. |
 | ./yamaha/mambo.mma | MamboEndingA | Rolling drums and final horns. |
 | ./yamaha/mambo.mma | MamboBreakAA | A nice transition section. |
-| ./yamaha/mambo.mma | MamboMainB Nice variation of main pattern with horn section. |
+| ./yamaha/mambo.mma | MamboMainB | Nice variation of main pattern with horn section. |
 | ./yamaha/mambo.mma | MamboFillBA | Abrupt horns. Good for ending loop-back. |
 | ./yamaha/mambo.mma | MamboFillBB | Sharp horns make this a possible intro. |
-| ./yamaha/mambo.mma | MamboIntroB Decent enough introduction. |
+| ./yamaha/mambo.mma | MamboIntroB | Decent enough introduction. |
 | ./yamaha/mambo.mma | MamboEndingB | Pretty busy, but might be okay with a slower tempo. |
 | ./yamaha/mambo.mma | MamboBreakBB | Good fill with drums on bar 1 and horns on 2. |
 | ./yamaha/salsa2.mma | Salsa2MainA | Auto-generated 'Main A' salsa2.sty |
@@ -1169,13 +1172,15 @@ should be usable by MMA, with something like the following MMA directives:
 | ./yamaha/jazzbossa.mma | JazzBossaB | 12 bars main B |
 | ./yamaha/jazzbossa.mma | JazzBossaFillBB | 1 bar fill BB |
 
+
 # Kara-Moon grooves
-These files were donated for the betterment of humanity by
-Kara Music Production. MMA only distributes a few of kara's
+
+These files were donated for the betterment of humanity by Kara Music Production. MMA only distributes a few of kara's
 files ... for much more [Kara-Moon style files](http://www.kara-moon.com/index.php?modid=mod02&l_submenu_id=m001_02_07),
 please visit [their website](http://www.kara-moon.com).
 
-| file | groove | description |
+
+| File | Groove name | Description |
 | ---- | ---- | ---- |
 | ./kara/happyshuffle.mma | HappyshuffleA | Main A - piano, organ, drums, bass |
 | ./kara/happyshuffle.mma | HappyshuffleB | Main B add a accordion |
@@ -1295,10 +1300,12 @@ please visit [their website](http://www.kara-moon.com).
 | ./kara/8beatmotown.mma | 8beatmotownEndingC | Ending C 3 bars |
 | ./kara/8beatmotown.mma | 8beatmotownFillBA | Fill In BA 1 bar |
 
+
 # Other grooves
+
 See the README files in each directory for informations on authors and usage.
 
-| file | groove | description |
+| File | Groove name | Description |
 | ---- | ---- | ---- |
 | ./alexis/hiphop.mma | HipHop | Rythmic line and off-beat pads |
 | ./alexis/hiphop.mma | HipHopSus | HipHop groove + basic strings |
@@ -1310,11 +1317,11 @@ See the README files in each directory for informations on authors and usage.
 | ./alexis/hiphop.mma | HipHopSusPlusPlus  | Sawtooth and piano arpeggios and strings |
 | ./alexis/hiphop.mma | HipHopIntro | Only drums and bass |
 | ./alexis/hiphop.mma | HipHopEnd  | Removes basses |
-| ./alexis/teamtechno.mma | TeamTechno A basic Techno groove. |
-| ./alexis/teamtechno.mma | TeamTechnoSus Add sustained strings. |
-| ./alexis/teamtechno.mma | TeamTechnoIntro Simple 1 bar intro. |
+| ./alexis/teamtechno.mma | TeamTechno  | A basic Techno groove. |
+| ./alexis/teamtechno.mma | TeamTechnoSus  | Add sustained strings. |
+| ./alexis/teamtechno.mma | TeamTechnoIntro  | Simple 1 bar intro. |
 | ./alexis/teamtechno.mma | TeamTechnoIntroPlus | Adds in rhythmic bass line. |
-| ./alexis/teamtechno.mma | TeamTechnoEnd A 1 bar ending. |
+| ./alexis/teamtechno.mma | TeamTechnoEnd  | A 1 bar ending. |
 | ./pflib/metal2.mma | metal2A | Metal 2, Section A |
 | ./pflib/metal2.mma | metal2B | Metal 2, Section B |
 | ./pflib/metal2.mma | metal2FA | Metal 2, Section A Fill-in |
@@ -1379,16 +1386,16 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/80spop.mma | 80sPopIntro  | A 4 bar intro |
 | ./casio/80spop.mma | 80sPopEnd | A 2 bar ending |
 | ./casio/16beatballad1.mma | 16BeatBallad1 | Our basic 2 bar pattern |
-| ./casio/16beatballad1.mma | 16BeatBallad1Intro A 4 bar intro |
+| ./casio/16beatballad1.mma | 16BeatBallad1Intro  | A 4 bar intro |
 | ./casio/16beatballad1.mma | 16BeatBallad1End | A 2 bar ending. |
 | ./casio/middlebigband.mma | MiddleBigBand | Basic pattern |
-| ./casio/middlebigband.mma | MiddleBigBandIntro 4 bar intro |
+| ./casio/middlebigband.mma | MiddleBigBandIntro  | 4 bar intro |
 | ./casio/middlebigband.mma | MiddleBigBandEnd | 2 bar ending |
 | ./casio/68ballad.mma | 68Ballad | A 4 bar pattern. |
 | ./casio/68ballad.mma | 68BalladIntro | A 4 bar introduction |
 | ./casio/68ballad.mma | 68BalladEnd | A 2 bar ending. |
 | ./casio/trance2.mma | Trance2 | | 
-| ./casio/trance2.mma | Trance2Intro | |  | 
+| ./casio/trance2.mma | Trance2Intro | | 
 | ./casio/trance2.mma | Trance2End | | 
 | ./casio/quickstep.mma | QuickStep  | Basic 4 bar pattern |
 | ./casio/quickstep.mma | QuickStepIntro | | 
@@ -1414,13 +1421,13 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/rave.mma | Rave | A repetitive beat to keep you dancing |
 | ./casio/rave.mma | RaveIntro | 4 bar intro. |
 | ./casio/rave.mma | RaveEnd | 2 bar ending |
-| ./casio/jazzwaltz.mma | JazzWaltz  |  | Basic 4 bar pattern |
+| ./casio/jazzwaltz.mma | JazzWaltz  |  Basic 4 bar pattern |
 | ./casio/jazzwaltz.mma | JazzWaltzIntro  | 4 bar introduction |
 | ./casio/jazzwaltz.mma | JazzWaltzEnd  | 2 bar ending |
 | ./casio/poprock1.mma | PopRock1  | A 70s style pop rock. |
 | ./casio/poprock1.mma | PopRock1Intro | A 4 bar intro. |
 | ./casio/poprock1.mma | PopRock1End | A 2 bar ending. |
-| ./casio/foxtrot.mma | Foxtrot Basic  |  | 4 bar pattern |
+| ./casio/foxtrot.mma | Foxtrot Basic  |  4 bar pattern |
 | ./casio/foxtrot.mma | FoxtrotIntro  | 4 bar introduction |
 | ./casio/foxtrot.mma | FoxtrotEnd | | 
 | ./casio/shuffleboogie.mma | ShuffleBoogie  | Main pattern |
@@ -1471,7 +1478,7 @@ See the README files in each directory for informations on authors and usage.
 | ./casio/ambient3.mma | Ambient3Intro | | 
 | ./casio/ambient3.mma | Ambient3End | | 
 | ./casio/slowswing.mma | SlowSwing | Basic 4 bar pattern |
-| ./casio/slowswing.mma | SlowSwingIntro 4 bar introduction |
+| ./casio/slowswing.mma | SlowSwingIntro  | 4 bar introduction |
 | ./casio/slowswing.mma | SlowSwingEnd | | 
 | ./casio/16shuffle2.mma | 16Shuffle2 | A goofy 16 beat shuffle. |
 | ./casio/16shuffle2.mma | 16Shuffle2Intro | A 4 bar introduction |
