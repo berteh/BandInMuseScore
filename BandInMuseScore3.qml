@@ -15,15 +15,12 @@ MuseScore {
   property string defaultGroove : "Folk";
   property int defaultTempo : 120;
   property bool discardRepeats: false; //set to true for enabling copy-paste of generated midi into leadsheet despite repeat bars.
-
+  property string outputFilesSuffix : "_MMA";
+  
   //for Linux and MacOS users
-  property string nixMMAPath : "/tmp/MMAtemp.mma"; // absolute and writeable,  no '~'
-  property string nixMIDPath : "/tmp/MMAtemp.mid"; // absolute and writeable,  no '~'
   property string nixMMACommand : "mma "; //add -r, or more, for debug infos
 
   //for  Windows users
-  property string winMMAPath : "C:/temp/MMAtemp.mma"; // absolute and writeable
-  property string winMIDPath : "C:/temp/MMAtemp.mid"; // absolute and writeable
   property string winMMACommand : "C:/WPython64/mma-bin-19.08/mma.bat "; //add -r, or more, for debug infos
 
   // *
@@ -35,24 +32,22 @@ MuseScore {
   property int currentTick: 0;
   //property int measureTick: 0; // provision for handling chords position in the measure
     
-  property string mmaPath : Qt.platform.os == "windows" ?winMMAPath:nixMMAPath;  // values for Qt.platform.os are at https://doc.qt.io/qt-5/qml-qtqml-qt.html#platform-prop
-  property string midPath : Qt.platform.os == "windows" ?winMIDPath:nixMIDPath;
-  property string mmaCommand : Qt.platform.os == "windows" ?"cmd.exe /c "+winMMACommand:nixMMACommand;
-  
-  
   QProcess {
     id: proc
   }
-
+ 
   FileIO {
     id: mmaFile
-    source: mmaPath
   }
   
   FileIO {
     id: midFile
-    source: midPath
   }
+  
+  property string mmaPath : "";
+  property string midPath : "";
+  property string mmaCommand : Qt.platform.os == "windows" ?"cmd.exe /c "+winMMACommand:nixMMACommand;  // values for Qt.platform.os are at https://doc.qt.io/qt-5/qml-qtqml-qt.html#platform-prop
+
   
   MessageDialog {
     id: generationCompleteDialog
@@ -67,10 +62,22 @@ MuseScore {
   MessageDialog {
     id: midFailureDialog
     title: "Generation incomplete"
-    text: "MMA accompaniment is ready for you, but we could not generate the MIDI file from it.\n\n"+
-           "Please check path settings in script, or run the 'mma' command manually:\n  "+
-           mmaCommand+" -f "+midPath+" "+mmaPath+"\n\n"+
-           "The source MMA file is available at "+mmaPath;
+    text: "";   /* text is set dynamically later, when error is known.
+           "MMA accompaniment is ready for you, but we could not generate the MIDI file from it.\n"+
+           "Please fix the following error: \n\n"+err+"\n\n"+
+           "The generated MMA file is nevertheless available at "+mmaPath;*/
+    onAccepted: {
+        Qt.quit();
+    }
+    Component.onCompleted: visible = false
+  }
+  
+  MessageDialog {
+    id: mmaFailureDialog
+    title: "Generation failed"
+    text: "Could not generate MMA file ("+mmaPath+")\n\n"+
+           "Please make sure the following directory exists and is writeable:\n  "+
+           mmaFile.tempPath();
     onAccepted: {
         Qt.quit();
     }
@@ -157,22 +164,23 @@ MuseScore {
   
   
   function writeMMA(text){
-    var test = mmaFile.write(text);
-    //console.log("writing: "+text); // 
-    //TODO give users feedback if failure to write
+    return mmaFile.write(text);
+    //console.log("writing is : "+test); // 
   }
   
   function runMMA(){
+  //return is text of process standard output, no error status, need to check midi file existence to be sure it worked.
       var cmd = mmaCommand+" -f "+midPath+" "+mmaPath;
       console.log("generating MIDI file with command: "+cmd);
       proc.start(cmd);
       var val = proc.waitForFinished(30000);
       if (val) {
-           console.log(proc.readAllStandardOutput());
-           return(true);
+         var res = proc.readAllStandardOutput();
+         console.log(res);
+         return(res);
       } else {
-          console.log("Generation of MIDI file failed, please check paths in script, or run MMA manually on file "+mmaPath);
-          return(false);
+         console.log("Generation of MIDI file failed, please check paths in script, or run MMA manually on file "+mmaPath);
+         return;
       }
   }
     
@@ -181,8 +189,15 @@ MuseScore {
          Qt.quit();
       //TODO quit if no Harmony in score... or not to allow generation from only Staff Texts ?
           
+      
+      //init paths
+      mmaFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+".mma";
+      mmaPath = mmaFile.source;
+      midFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+".mid";
+      midPath = midFile.source;
+      
       //generate MMA
-      console.log("Generating MMA for "+curScore.scoreName);
+      console.log("Generating MMA for "+curScore.title+" from file "+curScore.scoreName+" in file "+mmaFile.source);
       measureIndex = 1;
       var mmaTxt = "// "+curScore.title+", "+curScore.composer+"\n"+
                    "// MMA Midi Accompaniment generated from MuseScore\n"+
@@ -216,10 +231,13 @@ MuseScore {
       
       mmaFile.remove();
       midFile.remove();
-      writeMMA(mmaTxt);
-      //generate MIDI
-      runMMA();
-      //open MIDI
+      
+      //write MMA file
+      if(! writeMMA(mmaTxt))
+         mmaFailureDialog.open();     
+         
+      //generate & open MIDI file
+      var txt = runMMA();
       if(midFile.exists()) {
         var leadScore = curScore;
       //TODO merge lead and accompaniment, set title, composer and more.
@@ -230,8 +248,13 @@ MuseScore {
         acc.addText("composer", leadScore.composer+" with MMA");
         generationCompleteDialog.open();
       }
-      else
-        midFailureDialog.open();        
+      else {
+        midFailureDialog.text = "MMA accompaniment is ready for you, but we could not generate the MIDI file from it.\n"+
+        "Please fix the following error: \n"+txt+"\n\n"+
+        "The generated MMA file is nevertheless available at "+mmaPath;
+        console.log("MIDI generation error: "+txt);
+        midFailureDialog.open();
+      }
       
       Qt.quit();
    } // end onRun
