@@ -8,8 +8,7 @@ Hear for yourself how the plain few measures of the sample BandInMuseScore track
 
 ![Illustration: Simple Score exampe](example/BandInMuseScore.png)
 
-This plugin has been tested on Linux (Ubuntu) and Windows8 with MuseScore 3.2.3. It should work fine on MacOSX as well. 
-It is work in progress, usable and perfectible, suggestions and help are welcome (see [Roadmap](#roadmap--contribute)).
+This plugin has been tested on Linux (Ubuntu) and Windows with MuseScore 3.2.3. It should work fine on MacOSX as well, or any other OS with Python 3. It is work in progress, usable and perfectible, suggestions and help are welcome (see [Roadmap](#roadmap--contribute)).
 
 ## HowTo
 - Install [MMA MIDI Accompaniment](https://www.mellowood.ca/mma/index.html) for your OS (it's Free). Additional info see [INSTALL.md](INSTALL.md), esp. for Windows.
