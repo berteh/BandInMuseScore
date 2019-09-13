@@ -42,3 +42,7 @@ Please help us for the following (mostly in priority order)... some of which I m
 - find a way to merge lead and accompaniment in a new score.
 - improve the quality / features of the generated MMA accompaniment.
 - add interesting MMA styles and grooves to MMA, and thus BandInMuseScore.
+
+## Support
+- General discussions on the plugin happen in the [MuseScore forum](https://musescore.org/en/node/3714).
+- Kindly report more technical issues in the [github issues tracker](https://github.com/berteh/BandInMuseScore/issues) for easing follow-up.
