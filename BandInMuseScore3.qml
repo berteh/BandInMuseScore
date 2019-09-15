@@ -3,9 +3,11 @@ import FileIO 3.0
 import QtQuick 2.2
 import QtQuick.Dialogs 1.1
 
+
 MuseScore {
   menuPath: "Plugins.BandInMuseScore3"
-  description: "Generate a band-like accompaniment on the basis of Chords and Grooves, using MMA Midi Accompaniment."
+  description: "Generate a band-like accompaniment on the basis of Chords.\n\n"+
+               "Requires to install MMA Musical Midi Accompaniment (Free and OpenSource).\nMoreover at https://berteh.github.io/BandInMuseScore/"  
   version: "3.0"
   requiresScore: true
    
@@ -177,6 +179,7 @@ MuseScore {
       if (val) {
          var res = proc.readAllStandardOutput();
          console.log(res);
+//         console.log("last line of process result is: "+res.lastIndexOf("\n"));  //doesn£t work, how can I parse res ?
          return(res);
       } else {
          console.log("Generation of MIDI file failed, please check paths in script, or run MMA manually on file "+mmaPath);
@@ -191,10 +194,10 @@ MuseScore {
           
       
       //init paths
-      mmaFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+".mma";
-      mmaPath = mmaFile.source;
-      midFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+".mid";
-      midPath = midFile.source;
+      mmaFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+'.mma';
+      mmaPath = '"'+mmaFile.source+'"';
+      midFile.source = mmaFile.tempPath()+"/"+curScore.scoreName+outputFilesSuffix+'.mid';
+      midPath = '"'+midFile.source+'"';
       
       //generate MMA
       console.log("Generating MMA for "+curScore.title+" from file "+curScore.scoreName+" in file "+mmaFile.source);
@@ -241,7 +244,7 @@ MuseScore {
       if(midFile.exists()) {
         var leadScore = curScore;
       //TODO merge lead and accompaniment, set title, composer and more.
-        var acc = readScore(midPath);
+        var acc = readScore(midFile.source);
         acc.setMetaTag("title", leadScore.title+" - MMA");
         acc.setMetaTag("composer", leadScore.composer+" with MMA");
         acc.addText("title", leadScore.title+" - MMA");
