@@ -5,7 +5,7 @@ __1.__ Install [MMA Musical Midi Accompaniment]( [https://www.mellowood.ca/mma/)
 
     sudo apt-get install mma
 	
-For other distributions install fromyour usual repository or package provided at [https://www.mellowood.ca/mma/packages.html](https://www.mellowood.ca/mma/packages.html).
+For other distributions install from your usual repository or package provided at [https://www.mellowood.ca/mma/packages.html](https://www.mellowood.ca/mma/packages.html).
 
 __2.__ [Download](https://github.com/berteh/BandInMuseScore/archive/master.zip) BandInMuseScore plugin, and uncompress it anywhere you like, preferably in your ``Documents/MuseScore3/Plugins`` directory.
 
